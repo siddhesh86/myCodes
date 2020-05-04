@@ -8,6 +8,7 @@ void PlotHistos1D() {
   std::string sMarkerColor = "sMarkerColor";
   std::string sMarkerStyle = "sMarkerStyle";
 
+  // ------- Settings --------------------------------------------------------
   std::vector<std::map<std::string, std::string>> vHistoDetails;
   vHistoDetails.push_back({			  
       {sipFile,      "analyze_signal_ggf_spin0_250_hh_4v_Tight_OS_central_1.root"},
@@ -45,10 +46,9 @@ void PlotHistos1D() {
       {sMarkerStyle, ""}
     });
 
-  
-
-  std::string sXaxisName = "pT (Gen Jet) [GeV]";
+  std::string sXaxisName = "pT (Jet_{gen}) [GeV]";
   std::string sYaxisName = "a.u.";
+  std::string sSaveAs = "ptGenJet_HHTo4W_1l_3qq";
   double      rangeXaxis[3] = {0, -1.0, -1.0}; // rangeXaxis[0]: set axis range flag
   int         rebin = 2;
   double      normalizeHistos[2] = {1, 100}; // normalizeHistos[0]: mode, normalizeHistos[1]: norm. value
@@ -56,7 +56,16 @@ void PlotHistos1D() {
                                              // mode 1: normalize w.r.t. area under histo
                                              // mode 2: normalize w.r.t. height of the histo
   int         setLogY = 0;
+  
 
+
+
+  // ------- Settings - xxxxxxxx ------------------------------------------------
+
+
+
+
+  
   
   double yMax = -99999.0;
   double yMin =  99999.0;
@@ -161,5 +170,8 @@ void PlotHistos1D() {
   }
 
   leg->Draw();
+
+  
+  c1->SaveAs(Form("%s.png",sSaveAs.data()));
   
 }
