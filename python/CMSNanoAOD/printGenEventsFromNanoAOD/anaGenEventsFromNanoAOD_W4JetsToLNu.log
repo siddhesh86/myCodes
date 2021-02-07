@@ -1,0 +1,2225 @@
+
+anaHHTo4W_3l_1qq.py: datetime: 2021-02-07 22:32:56.028636 start_time 1612733576.03, 
+anaHHTo4W_3l_1qq.py:  commandline arguments:  ['anaGenEventsFromNanoAOD.py', 'anaGenEventsFromNanoAOD_inputs_cfg.json']
+NanoAOD_PostProc_Files: nTrees 9: [u'root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer16NanoAODv7/W4JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/270000/C55BAED5-28EB-8749-9835-0FB6D8858EC6.root', u'root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer16NanoAODv7/W4JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/70000/01E5AB94-A9D4-214E-8BE7-03BE75E43986.root', u'root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer16NanoAODv7/W4JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/70000/14A380E9-DEBA-7B40-91CC-C36FF2395459.root', u'root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer16NanoAODv7/W4JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/70000/5595476A-1D42-304C-BB99-D4A7FD26A0EF.root', u'root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer16NanoAODv7/W4JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/70000/B0B776BF-1CC8-5E4B-A223-563201ABFE51.root', u'root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer16NanoAODv7/W4JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/70000/B6279900-F858-A24F-A903-C53E6D35D2CE.root', u'root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer16NanoAODv7/W4JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/70000/D49BC128-FA77-5C4F-B39F-BEB99D761F4E.root', u'root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer16NanoAODv7/W4JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/70000/E9282D94-FF18-064B-AC23-2225B48F29D0.root', u'root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer16NanoAODv7/W4JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/70000/F14D56F3-727C-1640-AFFB-2B2E7F1D693E.root']
+output_dir: ./, output_histFileName: .//hist_stage1_W4JetsToLNu.root, output_histDirName: W
+runOnSelectedEventsList: rle_W4JetsToLNu_Tight_SS_central_1.txt
+listOfSelectedEvent:  ['1:16613:68694118\n', '1:26808:110849511\n', '1:3376:13955998\n', '1:16358:67639176\n', '1:1484:6132591\n', '1:6011:24852659\n', '1:22132:91511873\n', '1:50248:207775443\n', '1:5804:23997850\n', '1:10585:43768568\n', '1:31186:128950551\n', '1:10794:44629918\n', '1:27291:112846693\n', '1:45794:189355260\n', '1:13961:57726552\n', '1:39112:161725641\n', '1:37980:157045890\n', '1:44726:184939870\n', '1:32905:136059315\n', '1:43066:178075550\n', '1:48490:200505064\n', '1:34040:140753330\n', '1:31748:131275187\n', '1:45971:190087113\n', '1:10496:43399427\n', '1:638:2634937\n', '1:14074:58191861\n', '1:988:4081481\n', '1:30823:127451298\n', '1:41443:171362834\n', '1:24307:100505410\n', '1:32790:135584178\n', '1:6091:25183530\n', '1:38793:160408886\n', '1:48147:199085837\n', '1:7054:29166285\n', '1:16591:68602954\n', '1:37993:157098569\n', '1:8430:34855108\n', '1:32070:132607082\n', '1:51706:213800673\n', '1:21798:90132761\n', '1:2619:10825707\n', '1:45274:187205119\n', '1:47158:194997881\n', '1:37043:153169075\n', '1:36424:150610447\n', '1:14052:58103371\n', '1:6754:27924628\n', '1:17796:73585092\n', '1:21694:89702560\n', '1:51558:213192088\n', '1:12599:52093016\n', '1:15332:63396261\n', '1:34933:144446416\n', '1:30688:126893847\n', '1:49136:203175342\n', '1:34618:143141358\n', '1:47479:196322691\n', '1:43263:178891565\n', '1:41175:170256962\n', '1:50528:208930922\n']
+Pre-select 111789 entries out of 111789 (100.00%)
+Processed    10000/  111789 entries,  8.95% (elapsed time     2.3s, curr speed    4.403 kHz, avg speed    4.403 kHz), accepted    10001/   10001 events (100.00%)
+Processed    20000/  111789 entries, 17.89% (elapsed time     3.5s, curr speed    8.149 kHz, avg speed    5.717 kHz), accepted    20001/   20001 events (100.00%)
+Processed    30000/  111789 entries, 26.84% (elapsed time     4.7s, curr speed    8.049 kHz, avg speed    6.328 kHz), accepted    30001/   30001 events (100.00%)
+Processed    40000/  111789 entries, 35.78% (elapsed time     6.0s, curr speed    8.049 kHz, avg speed    6.686 kHz), accepted    40001/   40001 events (100.00%)
+Processed    50000/  111789 entries, 44.73% (elapsed time     7.2s, curr speed    8.188 kHz, avg speed    6.940 kHz), accepted    50001/   50001 events (100.00%)
+
+
+
+1:10585:43768568
+ event  found in listOfSelectedEvent. Analyze this event
+genPart 0: pt   0.0, 	 eta 23424.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 2433
+genPart 1: pt   0.0, 	 eta -23808.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 10625
+genPart 2: pt 206.5, 	 eta -2.062, 	 phi -0.771, 	 m 79.75, 	 pdgId 24, 	 genPartIdxMother 0, 	 status 22, 	 statusFlags 4481
+genPart 3: pt  54.2, 	 eta 2.203, 	 phi -1.117, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 4: pt  39.2, 	 eta 2.578, 	 phi -1.344, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 5: pt  25.2, 	 eta -1.531, 	 phi 0.746, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 6: pt 292.0, 	 eta -0.007, 	 phi 2.320, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 4481
+genPart 7: pt 229.0, 	 eta -1.965, 	 phi -0.891, 	 m 79.75, 	 pdgId 24, 	 genPartIdxMother 2, 	 status 44, 	 statusFlags 257
+genPart 8: pt 248.5, 	 eta -1.887, 	 phi -0.938, 	 m 79.75, 	 pdgId 24, 	 genPartIdxMother 7, 	 status 44, 	 statusFlags 257
+genPart 9: pt 248.5, 	 eta -1.883, 	 phi -0.934, 	 m 79.75, 	 pdgId 24, 	 genPartIdxMother 8, 	 status 44, 	 statusFlags 257
+genPart 10: pt 248.0, 	 eta -1.887, 	 phi -0.910, 	 m 79.75, 	 pdgId 24, 	 genPartIdxMother 9, 	 status 44, 	 statusFlags 257
+genPart 11: pt 244.5, 	 eta -1.902, 	 phi -0.914, 	 m 79.75, 	 pdgId 24, 	 genPartIdxMother 10, 	 status 44, 	 statusFlags 257
+genPart 12: pt 245.5, 	 eta -1.898, 	 phi -0.912, 	 m 79.75, 	 pdgId 24, 	 genPartIdxMother 11, 	 status 44, 	 statusFlags 257
+genPart 13: pt  22.4, 	 eta 2.570, 	 phi -1.324, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 44, 	 statusFlags 8449
+genPart 14: pt 245.5, 	 eta -1.898, 	 phi -0.912, 	 m 79.75, 	 pdgId 24, 	 genPartIdxMother 12, 	 status 44, 	 statusFlags 257
+genPart 15: pt 245.5, 	 eta -1.898, 	 phi -0.912, 	 m 79.75, 	 pdgId 24, 	 genPartIdxMother 14, 	 status 52, 	 statusFlags 257
+genPart 16: pt 245.5, 	 eta -1.898, 	 phi -0.910, 	 m 79.75, 	 pdgId 24, 	 genPartIdxMother 15, 	 status 62, 	 statusFlags 10497
+genPart 17: pt  26.4, 	 eta -1.246, 	 phi 1.715, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother -1, 	 status 1, 	 statusFlags 8193
+genPart 18: pt   0.6, 	 eta -1.793, 	 phi 1.195, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 62, 	 statusFlags 8449
+genPart 19: pt   5.4, 	 eta -1.246, 	 phi 1.715, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother -1, 	 status 1, 	 statusFlags 8193
+genPart 20: pt  42.8, 	 eta -2.156, 	 phi -0.266, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 16, 	 status 23, 	 statusFlags 22913
+genPart 21: pt 212.5, 	 eta -1.785, 	 phi -1.031, 	 m  0.00, 	 pdgId 12, 	 genPartIdxMother 16, 	 status 23, 	 statusFlags 4481
+genPart 22: pt  42.8, 	 eta -2.156, 	 phi -0.266, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 20, 	 status 1, 	 statusFlags 8449
+genPart 23: pt   0.0, 	 eta -2.148, 	 phi -0.340, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 20, 	 status 1, 	 statusFlags 12289
+genPart 24: pt 212.5, 	 eta -1.785, 	 phi -1.031, 	 m  0.00, 	 pdgId 12, 	 genPartIdxMother 21, 	 status 1, 	 statusFlags 8449
+genPart 25: pt 116.5, 	 eta -0.031, 	 phi 2.320, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8449
+genPart 26: pt  62.8, 	 eta -0.070, 	 phi 2.328, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 27: pt  42.8, 	 eta -0.062, 	 phi 2.359, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 28: pt  17.1, 	 eta -0.026, 	 phi 2.383, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 29: pt  19.9, 	 eta 0.045, 	 phi 2.250, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 30: pt  19.8, 	 eta -0.025, 	 phi 2.367, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 6, 	 status 2, 	 statusFlags 28675
+genPart 31: pt   0.5, 	 eta 0.619, 	 phi 1.012, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 32: pt   1.1, 	 eta 2.273, 	 phi 1.691, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 33: pt   0.2, 	 eta -0.771, 	 phi -0.046, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 34: pt   2.9, 	 eta 1.621, 	 phi -0.631, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 35: pt   0.6, 	 eta 2.492, 	 phi 0.160, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 36: pt   7.2, 	 eta 2.352, 	 phi -0.734, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 37: pt   5.5, 	 eta 1.895, 	 phi -0.807, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 38: pt   6.1, 	 eta 2.227, 	 phi -0.816, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 39: pt  35.8, 	 eta 2.398, 	 phi -1.223, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 40: pt   7.9, 	 eta 2.008, 	 phi -1.133, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 41: pt   1.2, 	 eta 1.355, 	 phi -1.129, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 42: pt   1.8, 	 eta 2.125, 	 phi -0.750, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 43: pt   1.3, 	 eta 2.367, 	 phi -0.339, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 44: pt   1.5, 	 eta -1.934, 	 phi 0.491, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 45: pt  18.1, 	 eta -1.672, 	 phi 0.725, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 46: pt   3.9, 	 eta -1.352, 	 phi 0.600, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 47: pt   0.2, 	 eta -2.484, 	 phi -0.592, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 48: pt   4.6, 	 eta -1.797, 	 phi 1.145, 	 m  2.01, 	 pdgId -413, 	 genPartIdxMother 18, 	 status 2, 	 statusFlags 12291
+genPart 49: pt  34.2, 	 eta -1.707, 	 phi 1.426, 	 m  0.00, 	 pdgId 4, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 50: pt  25.0, 	 eta -1.723, 	 phi 1.434, 	 m  0.00, 	 pdgId 421, 	 genPartIdxMother 49, 	 status 2, 	 statusFlags 12291
+genPart 51: pt  26.4, 	 eta -0.046, 	 phi 2.344, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 6, 	 status 2, 	 statusFlags 28738
+genPart 52: pt  11.2, 	 eta -0.020, 	 phi 2.367, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 30, 	 status 1, 	 statusFlags 12352
+genPart 53: pt   4.3, 	 eta -1.789, 	 phi 1.148, 	 m  0.00, 	 pdgId -421, 	 genPartIdxMother 48, 	 status 2, 	 statusFlags 12354
+genPart 54: pt  22.9, 	 eta -0.047, 	 phi 2.344, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 51, 	 status 1, 	 statusFlags 12352
+
+
+ printFamilyTree: 
+
+ 0 (21) [0, 23424.00, 0.000]
+	 2 (24) [206, -2.06, -0.771]
+		 7 (24) [229, -1.96, -0.891]
+			 8 (24) [248, -1.89, -0.938]
+				 9 (24) [248, -1.88, -0.934]
+					 10 (24) [248, -1.89, -0.910]
+						 11 (24) [244, -1.90, -0.914]
+							 12 (24) [246, -1.90, -0.912]
+								 14 (24) [246, -1.90, -0.912]
+									 15 (24) [246, -1.90, -0.912]
+										 16 (24) [246, -1.90, -0.910]
+											 20 (-11) [43, -2.16, -0.266]
+												 22 (-11) [43, -2.16, -0.266]
+												 23 (22) [0, -2.15, -0.340]
+											 21 (12) [212, -1.79, -1.031]
+												 24 (12) [212, -1.79, -1.031]
+	 3 (21) [54, 2.20, -1.117]
+		 31 (21) [1, 0.62, 1.012]
+		 32 (21) [1, 2.27, 1.691]
+		 33 (21) [0, -0.77, -0.046]
+		 34 (21) [3, 1.62, -0.631]
+		 35 (21) [1, 2.49, 0.160]
+		 36 (21) [7, 2.35, -0.734]
+		 37 (21) [6, 1.89, -0.807]
+		 38 (21) [6, 2.23, -0.816]
+		 39 (21) [36, 2.40, -1.223]
+		 40 (21) [8, 2.01, -1.133]
+		 41 (21) [1, 1.36, -1.129]
+		 42 (21) [2, 2.12, -0.750]
+	 4 (21) [39, 2.58, -1.344]
+		 13 (21) [22, 2.57, -1.324]
+		 43 (21) [1, 2.37, -0.339]
+	 5 (21) [25, -1.53, 0.746]
+		 18 (21) [1, -1.79, 1.195]
+			 48 (-413) [5, -1.80, 1.145]
+				 53 (-421) [4, -1.79, 1.148]
+		 44 (21) [2, -1.93, 0.491]
+		 45 (21) [18, -1.67, 0.725]
+		 46 (21) [4, -1.35, 0.600]
+		 47 (21) [0, -2.48, -0.592]
+	 6 (1) [292, -0.01, 2.320]
+		 25 (1) [116, -0.03, 2.320]
+		 26 (21) [63, -0.07, 2.328]
+		 27 (21) [43, -0.06, 2.359]
+		 28 (21) [17, -0.03, 2.383]
+		 29 (21) [20, 0.04, 2.250]
+		 30 (111) [20, -0.03, 2.367]
+			 52 (22) [11, -0.02, 2.367]
+		 51 (111) [26, -0.05, 2.344]
+			 54 (22) [23, -0.05, 2.344]
+Processed    60000/  111789 entries, 53.67% (elapsed time    10.0s, curr speed    3.520 kHz, avg speed    5.973 kHz), accepted    60001/   60001 events (100.00%)
+Processed    70000/  111789 entries, 62.62% (elapsed time    11.2s, curr speed    8.306 kHz, avg speed    6.222 kHz), accepted    70001/   70001 events (100.00%)
+Processed    80000/  111789 entries, 71.56% (elapsed time    12.5s, curr speed    8.068 kHz, avg speed    6.406 kHz), accepted    80001/   80001 events (100.00%)
+Processed    90000/  111789 entries, 80.51% (elapsed time    13.7s, curr speed    8.131 kHz, avg speed    6.560 kHz), accepted    90001/   90001 events (100.00%)
+Processed   100000/  111789 entries, 89.45% (elapsed time    15.0s, curr speed    8.084 kHz, avg speed    6.686 kHz), accepted   100001/  100001 events (100.00%)
+Processed   110000/  111789 entries, 98.40% (elapsed time    16.2s, curr speed    7.967 kHz, avg speed    6.786 kHz), accepted   110001/  110001 events (100.00%)
+Processed 111789 preselected entries from root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer16NanoAODv7/W4JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/270000/C55BAED5-28EB-8749-9835-0FB6D8858EC6.root (111789 entries). Finally selected 111789 entries
+Pre-select 1294728 entries out of 1294728 (100.00%)
+
+
+
+1:27291:112846693
+ event  found in listOfSelectedEvent. Analyze this event
+genPart 0: pt   0.0, 	 eta 23168.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 2433
+genPart 1: pt   0.0, 	 eta -23232.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 4, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 10625
+genPart 2: pt  46.8, 	 eta -2.695, 	 phi -2.672, 	 m 82.75, 	 pdgId 24, 	 genPartIdxMother 0, 	 status 22, 	 statusFlags 4481
+genPart 3: pt 141.5, 	 eta 1.602, 	 phi -0.427, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 4: pt  61.8, 	 eta -0.234, 	 phi -2.859, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 5: pt  18.6, 	 eta 1.160, 	 phi 2.328, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 6: pt  85.0, 	 eta -0.317, 	 phi 1.754, 	 m  0.00, 	 pdgId 3, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 4481
+genPart 7: pt  55.6, 	 eta -2.539, 	 phi -3.109, 	 m 82.75, 	 pdgId 24, 	 genPartIdxMother 2, 	 status 44, 	 statusFlags 257
+genPart 8: pt  55.2, 	 eta -2.531, 	 phi -3.102, 	 m 82.75, 	 pdgId 24, 	 genPartIdxMother 7, 	 status 44, 	 statusFlags 257
+genPart 9: pt 161.5, 	 eta 1.445, 	 phi -0.446, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 44, 	 statusFlags 8449
+genPart 10: pt  55.2, 	 eta -2.531, 	 phi -3.102, 	 m 82.75, 	 pdgId 24, 	 genPartIdxMother 8, 	 status 44, 	 statusFlags 257
+genPart 11: pt  55.2, 	 eta -2.531, 	 phi -3.102, 	 m 82.75, 	 pdgId 24, 	 genPartIdxMother 10, 	 status 44, 	 statusFlags 257
+genPart 12: pt  55.4, 	 eta -2.531, 	 phi -3.109, 	 m 82.75, 	 pdgId 24, 	 genPartIdxMother 11, 	 status 44, 	 statusFlags 257
+genPart 13: pt  55.6, 	 eta -2.531, 	 phi -3.109, 	 m 82.75, 	 pdgId 24, 	 genPartIdxMother 12, 	 status 44, 	 statusFlags 257
+genPart 14: pt  13.7, 	 eta 1.340, 	 phi 2.344, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 44, 	 statusFlags 8449
+genPart 15: pt  55.6, 	 eta -2.523, 	 phi -3.102, 	 m 82.75, 	 pdgId 24, 	 genPartIdxMother 13, 	 status 62, 	 statusFlags 10497
+genPart 16: pt   0.2, 	 eta -0.254, 	 phi -0.547, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 62, 	 statusFlags 8449
+genPart 17: pt  31.8, 	 eta -1.715, 	 phi 1.523, 	 m  0.00, 	 pdgId -13, 	 genPartIdxMother 15, 	 status 1, 	 statusFlags 12673
+genPart 18: pt  66.5, 	 eta -2.078, 	 phi -2.602, 	 m  0.00, 	 pdgId 14, 	 genPartIdxMother 15, 	 status 1, 	 statusFlags 12673
+genPart 19: pt 131.0, 	 eta 1.496, 	 phi -0.578, 	 m  0.00, 	 pdgId -5, 	 genPartIdxMother 9, 	 status 71, 	 statusFlags 8193
+genPart 20: pt 121.0, 	 eta 1.496, 	 phi -0.578, 	 m  5.28, 	 pdgId 511, 	 genPartIdxMother 9, 	 status 2, 	 statusFlags 12291
+genPart 21: pt   2.0, 	 eta -6.734, 	 phi -1.375, 	 m  2.01, 	 pdgId -413, 	 genPartIdxMother -1, 	 status 2, 	 statusFlags 12291
+genPart 22: pt  17.5, 	 eta 0.832, 	 phi 0.264, 	 m  0.00, 	 pdgId 5, 	 genPartIdxMother 9, 	 status 71, 	 statusFlags 8193
+genPart 23: pt  16.6, 	 eta 0.867, 	 phi 0.242, 	 m  5.42, 	 pdgId -533, 	 genPartIdxMother 9, 	 status 2, 	 statusFlags 28675
+genPart 24: pt  40.0, 	 eta -0.241, 	 phi 1.707, 	 m  0.00, 	 pdgId 3, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8449
+genPart 25: pt  17.0, 	 eta -0.196, 	 phi 1.715, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 26: pt   1.8, 	 eta 0.252, 	 phi 1.996, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 27: pt   1.3, 	 eta -0.789, 	 phi -2.703, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 28: pt   4.7, 	 eta -0.304, 	 phi -2.930, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 29: pt   1.2, 	 eta -0.149, 	 phi 2.898, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 30: pt  14.7, 	 eta -0.169, 	 phi -2.805, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 31: pt  29.8, 	 eta -0.134, 	 phi -2.844, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 32: pt   5.5, 	 eta -0.192, 	 phi -2.984, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 33: pt   3.5, 	 eta -0.768, 	 phi -2.797, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 34: pt  21.9, 	 eta -0.674, 	 phi -0.977, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 35: pt  24.6, 	 eta 1.496, 	 phi -0.551, 	 m  0.00, 	 pdgId 14, 	 genPartIdxMother 20, 	 status 1, 	 statusFlags 12352
+genPart 36: pt  72.2, 	 eta 1.504, 	 phi -0.576, 	 m  0.00, 	 pdgId -13, 	 genPartIdxMother 20, 	 status 1, 	 statusFlags 12352
+genPart 37: pt  24.3, 	 eta 1.461, 	 phi -0.613, 	 m  0.00, 	 pdgId -411, 	 genPartIdxMother 20, 	 status 2, 	 statusFlags 12354
+genPart 38: pt   1.9, 	 eta -6.750, 	 phi -1.359, 	 m  0.00, 	 pdgId -421, 	 genPartIdxMother 21, 	 status 2, 	 statusFlags 12354
+genPart 39: pt  16.5, 	 eta 0.863, 	 phi 0.243, 	 m  5.36, 	 pdgId -531, 	 genPartIdxMother 23, 	 status 2, 	 statusFlags 12354
+genPart 40: pt   0.0, 	 eta 0.871, 	 phi -2.961, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 37, 	 status 1, 	 statusFlags 12352
+genPart 41: pt   2.4, 	 eta 1.414, 	 phi -0.531, 	 m  0.00, 	 pdgId -12, 	 genPartIdxMother 37, 	 status 1, 	 statusFlags 12352
+genPart 42: pt   0.2, 	 eta -5.656, 	 phi -0.854, 	 m  0.00, 	 pdgId 13, 	 genPartIdxMother 38, 	 status 1, 	 statusFlags 12352
+genPart 43: pt   0.4, 	 eta -7.016, 	 phi -1.113, 	 m  0.00, 	 pdgId -14, 	 genPartIdxMother 38, 	 status 1, 	 statusFlags 12352
+genPart 44: pt  10.9, 	 eta 0.840, 	 phi 0.093, 	 m  1.97, 	 pdgId -431, 	 genPartIdxMother 39, 	 status 2, 	 statusFlags 12354
+
+
+ printFamilyTree: 
+
+ 0 (21) [0, 23168.00, 0.000]
+	 2 (24) [47, -2.70, -2.672]
+		 7 (24) [56, -2.54, -3.109]
+			 8 (24) [55, -2.53, -3.102]
+				 10 (24) [55, -2.53, -3.102]
+					 11 (24) [55, -2.53, -3.102]
+						 12 (24) [55, -2.53, -3.109]
+							 13 (24) [56, -2.53, -3.109]
+								 15 (24) [56, -2.52, -3.102]
+									 17 (-13) [32, -1.71, 1.523]
+									 18 (14) [66, -2.08, -2.602]
+	 3 (21) [142, 1.60, -0.427]
+		 9 (21) [162, 1.45, -0.446]
+			 19 (-5) [131, 1.50, -0.578]
+			 20 (511) [121, 1.50, -0.578]
+				 35 (14) [25, 1.50, -0.551]
+				 36 (-13) [72, 1.50, -0.576]
+				 37 (-411) [24, 1.46, -0.613]
+					 40 (11) [0, 0.87, -2.961]
+					 41 (-12) [2, 1.41, -0.531]
+			 22 (5) [18, 0.83, 0.264]
+			 23 (-533) [17, 0.87, 0.242]
+				 39 (-531) [16, 0.86, 0.243]
+					 44 (-431) [11, 0.84, 0.093]
+	 4 (21) [62, -0.23, -2.859]
+		 16 (21) [0, -0.25, -0.547]
+		 27 (21) [1, -0.79, -2.703]
+		 28 (21) [5, -0.30, -2.930]
+		 29 (21) [1, -0.15, 2.898]
+		 30 (21) [15, -0.17, -2.805]
+		 31 (21) [30, -0.13, -2.844]
+		 32 (21) [5, -0.19, -2.984]
+		 33 (21) [3, -0.77, -2.797]
+	 5 (21) [19, 1.16, 2.328]
+		 14 (21) [14, 1.34, 2.344]
+		 26 (21) [2, 0.25, 1.996]
+	 6 (3) [85, -0.32, 1.754]
+		 24 (3) [40, -0.24, 1.707]
+		 25 (21) [17, -0.20, 1.715]
+Processed    10000/ 1294728 entries,  0.77% (elapsed time     3.6s, curr speed    2.805 kHz, avg speed    2.805 kHz), accepted    10001/   10001 events (100.00%)
+Processed    20000/ 1294728 entries,  1.54% (elapsed time     4.8s, curr speed    8.155 kHz, avg speed    4.175 kHz), accepted    20001/   20001 events (100.00%)
+Processed    30000/ 1294728 entries,  2.32% (elapsed time     6.0s, curr speed    8.255 kHz, avg speed    4.998 kHz), accepted    30001/   30001 events (100.00%)
+Processed    40000/ 1294728 entries,  3.09% (elapsed time     7.2s, curr speed    8.102 kHz, avg speed    5.528 kHz), accepted    40001/   40001 events (100.00%)
+Processed    50000/ 1294728 entries,  3.86% (elapsed time     8.5s, curr speed    8.072 kHz, avg speed    5.900 kHz), accepted    50001/   50001 events (100.00%)
+Processed    60000/ 1294728 entries,  4.63% (elapsed time     9.7s, curr speed    8.273 kHz, avg speed    6.196 kHz), accepted    60001/   60001 events (100.00%)
+Processed    70000/ 1294728 entries,  5.41% (elapsed time    10.9s, curr speed    8.253 kHz, avg speed    6.425 kHz), accepted    70001/   70001 events (100.00%)
+Processed    80000/ 1294728 entries,  6.18% (elapsed time    12.2s, curr speed    7.949 kHz, avg speed    6.582 kHz), accepted    80001/   80001 events (100.00%)
+Processed    90000/ 1294728 entries,  6.95% (elapsed time    13.4s, curr speed    8.195 kHz, avg speed    6.729 kHz), accepted    90001/   90001 events (100.00%)
+Processed   100000/ 1294728 entries,  7.72% (elapsed time    14.6s, curr speed    8.145 kHz, avg speed    6.848 kHz), accepted   100001/  100001 events (100.00%)
+
+
+
+1:13961:57726552
+ event  found in listOfSelectedEvent. Analyze this event
+genPart 0: pt   0.0, 	 eta 23040.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 3, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 10625
+genPart 1: pt   0.0, 	 eta -23488.000, 	 phi 0.000, 	 m  0.00, 	 pdgId -4, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 18817
+genPart 2: pt  17.8, 	 eta 2.164, 	 phi -0.773, 	 m 81.25, 	 pdgId -24, 	 genPartIdxMother 0, 	 status 22, 	 statusFlags 4481
+genPart 3: pt  33.8, 	 eta 1.719, 	 phi -1.328, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 22913
+genPart 4: pt 132.0, 	 eta -1.352, 	 phi -3.094, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 22913
+genPart 5: pt  82.8, 	 eta 0.637, 	 phi 1.180, 	 m  0.00, 	 pdgId 4, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 4481
+genPart 6: pt  83.8, 	 eta -2.406, 	 phi -0.312, 	 m  0.00, 	 pdgId -4, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 385
+genPart 7: pt  18.1, 	 eta 2.148, 	 phi -0.654, 	 m 81.25, 	 pdgId -24, 	 genPartIdxMother 2, 	 status 44, 	 statusFlags 257
+genPart 8: pt  17.2, 	 eta 2.195, 	 phi -0.721, 	 m 81.25, 	 pdgId -24, 	 genPartIdxMother 7, 	 status 44, 	 statusFlags 257
+genPart 9: pt   0.0, 	 eta -39.250, 	 phi 1.453, 	 m  0.00, 	 pdgId 4, 	 genPartIdxMother -1, 	 status 41, 	 statusFlags 16385
+genPart 10: pt  17.2, 	 eta 2.195, 	 phi -0.721, 	 m 81.25, 	 pdgId -24, 	 genPartIdxMother 8, 	 status 44, 	 statusFlags 257
+genPart 11: pt   4.5, 	 eta 0.488, 	 phi 1.547, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 51, 	 statusFlags 8449
+genPart 12: pt  17.2, 	 eta 2.195, 	 phi -0.721, 	 m 81.25, 	 pdgId -24, 	 genPartIdxMother 10, 	 status 44, 	 statusFlags 257
+genPart 13: pt  17.8, 	 eta 2.164, 	 phi -0.730, 	 m 81.25, 	 pdgId -24, 	 genPartIdxMother 12, 	 status 62, 	 statusFlags 10497
+genPart 14: pt  34.0, 	 eta 1.465, 	 phi -2.086, 	 m  0.00, 	 pdgId 13, 	 genPartIdxMother 13, 	 status 23, 	 statusFlags 22913
+genPart 15: pt  34.8, 	 eta 0.192, 	 phi 0.539, 	 m  0.00, 	 pdgId -14, 	 genPartIdxMother 13, 	 status 23, 	 statusFlags 4481
+genPart 16: pt  34.0, 	 eta 1.465, 	 phi -2.086, 	 m  0.00, 	 pdgId 13, 	 genPartIdxMother 14, 	 status 1, 	 statusFlags 8449
+genPart 17: pt   0.0, 	 eta 1.465, 	 phi -1.582, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 14, 	 status 1, 	 statusFlags 12289
+genPart 18: pt  34.8, 	 eta 0.192, 	 phi 0.539, 	 m  0.00, 	 pdgId -14, 	 genPartIdxMother 15, 	 status 1, 	 statusFlags 8449
+genPart 19: pt  17.1, 	 eta -2.422, 	 phi -0.291, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 20: pt  47.2, 	 eta -2.414, 	 phi -0.336, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 21: pt   8.9, 	 eta -2.430, 	 phi -0.409, 	 m  0.00, 	 pdgId -4, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8449
+genPart 22: pt  71.5, 	 eta -2.414, 	 phi -0.336, 	 m  2.01, 	 pdgId -413, 	 genPartIdxMother 19, 	 status 2, 	 statusFlags 12291
+genPart 23: pt   0.8, 	 eta -4.672, 	 phi 3.047, 	 m  2.45, 	 pdgId 4212, 	 genPartIdxMother 9, 	 status 2, 	 statusFlags 12291
+genPart 24: pt   0.3, 	 eta -6.641, 	 phi -0.586, 	 m  2.51, 	 pdgId -4214, 	 genPartIdxMother 9, 	 status 2, 	 statusFlags 12291
+genPart 25: pt  52.4, 	 eta 0.637, 	 phi 1.188, 	 m  0.00, 	 pdgId 4, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 26: pt   4.8, 	 eta 0.470, 	 phi 1.117, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 27: pt  47.4, 	 eta 0.623, 	 phi 1.184, 	 m  2.01, 	 pdgId 413, 	 genPartIdxMother 5, 	 status 2, 	 statusFlags 12291
+genPart 28: pt   1.9, 	 eta -5.656, 	 phi -1.770, 	 m  2.01, 	 pdgId 423, 	 genPartIdxMother 9, 	 status 2, 	 statusFlags 12291
+genPart 29: pt   1.6, 	 eta 0.307, 	 phi 1.371, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 11, 	 status 71, 	 statusFlags 8193
+genPart 30: pt   2.5, 	 eta 1.621, 	 phi 1.133, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 31: pt   2.0, 	 eta 0.078, 	 phi 1.195, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 32: pt   0.5, 	 eta 0.801, 	 phi 2.953, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 33: pt   3.0, 	 eta -0.576, 	 phi 1.992, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 34: pt   2.9, 	 eta -1.473, 	 phi 1.441, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 35: pt   0.2, 	 eta 0.187, 	 phi 2.250, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 36: pt   1.6, 	 eta -1.977, 	 phi 2.250, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 37: pt   7.9, 	 eta -1.301, 	 phi -2.992, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 38: pt   4.2, 	 eta -1.074, 	 phi -2.977, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 39: pt  33.2, 	 eta -1.297, 	 phi -3.039, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 40: pt  26.0, 	 eta -1.332, 	 phi -3.055, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 41: pt   9.1, 	 eta -1.387, 	 phi -3.117, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 42: pt   3.6, 	 eta -1.273, 	 phi -2.977, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 43: pt  14.5, 	 eta -1.594, 	 phi -2.961, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 44: pt  20.2, 	 eta -1.645, 	 phi -3.008, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 45: pt   0.8, 	 eta -1.289, 	 phi 2.984, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 46: pt   0.6, 	 eta -0.303, 	 phi 1.629, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 47: pt   0.8, 	 eta 0.419, 	 phi 3.125, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 48: pt   2.2, 	 eta -0.180, 	 phi 2.562, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 49: pt   0.6, 	 eta -0.834, 	 phi 2.781, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 50: pt   1.3, 	 eta -2.625, 	 phi 2.352, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 51: pt   0.5, 	 eta -0.449, 	 phi -1.266, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 52: pt   8.5, 	 eta -2.156, 	 phi -0.269, 	 m  0.00, 	 pdgId -2, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 53: pt   1.9, 	 eta -2.914, 	 phi 0.652, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 54: pt   0.8, 	 eta 1.129, 	 phi -0.844, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 55: pt   3.8, 	 eta 1.723, 	 phi -1.520, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 56: pt   1.9, 	 eta 2.164, 	 phi -1.531, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 57: pt  23.5, 	 eta 1.703, 	 phi -1.301, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 58: pt   3.5, 	 eta 1.664, 	 phi -1.203, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 59: pt   5.8, 	 eta 0.484, 	 phi -2.414, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 60: pt   0.5, 	 eta 4.812, 	 phi -0.079, 	 m  0.00, 	 pdgId -3, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 61: pt  66.5, 	 eta -2.414, 	 phi -0.336, 	 m  0.00, 	 pdgId -411, 	 genPartIdxMother 22, 	 status 2, 	 statusFlags 12354
+genPart 62: pt   0.7, 	 eta -4.734, 	 phi 3.039, 	 m  2.29, 	 pdgId 4122, 	 genPartIdxMother 23, 	 status 2, 	 statusFlags 12354
+genPart 63: pt   0.3, 	 eta -6.406, 	 phi -0.007, 	 m  2.29, 	 pdgId -4122, 	 genPartIdxMother 24, 	 status 2, 	 statusFlags 12354
+genPart 64: pt  44.1, 	 eta 0.623, 	 phi 1.184, 	 m  0.00, 	 pdgId 411, 	 genPartIdxMother 27, 	 status 2, 	 statusFlags 12354
+genPart 65: pt   1.7, 	 eta -5.641, 	 phi -1.781, 	 m  0.00, 	 pdgId 421, 	 genPartIdxMother 28, 	 status 2, 	 statusFlags 12354
+genPart 66: pt  46.0, 	 eta -2.414, 	 phi -0.344, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 61, 	 status 1, 	 statusFlags 12352
+genPart 67: pt  13.1, 	 eta -2.406, 	 phi -0.303, 	 m  0.00, 	 pdgId -12, 	 genPartIdxMother 61, 	 status 1, 	 statusFlags 12352
+genPart 68: pt  20.2, 	 eta 0.625, 	 phi 1.176, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 64, 	 status 2, 	 statusFlags 28738
+genPart 69: pt   1.2, 	 eta -5.234, 	 phi -1.848, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 65, 	 status 1, 	 statusFlags 12352
+genPart 70: pt   0.3, 	 eta -4.922, 	 phi -1.926, 	 m  0.00, 	 pdgId 12, 	 genPartIdxMother 65, 	 status 1, 	 statusFlags 12352
+genPart 71: pt   0.1, 	 eta -1.137, 	 phi 1.621, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 9, 	 status 1, 	 statusFlags 12352
+genPart 72: pt   0.4, 	 eta -1.137, 	 phi 1.613, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 9, 	 status 1, 	 statusFlags 12352
+genPart 73: pt   0.1, 	 eta -3.891, 	 phi 0.512, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 3, 	 status 1, 	 statusFlags 12352
+genPart 74: pt   0.0, 	 eta -3.891, 	 phi 1.211, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 3, 	 status 1, 	 statusFlags 12352
+genPart 75: pt  15.5, 	 eta 0.625, 	 phi 1.172, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 68, 	 status 1, 	 statusFlags 12352
+
+
+ printFamilyTree: 
+
+ 0 (3) [0, 23040.00, 0.000]
+	 2 (-24) [18, 2.16, -0.773]
+		 7 (-24) [18, 2.15, -0.654]
+			 8 (-24) [17, 2.20, -0.721]
+				 10 (-24) [17, 2.20, -0.721]
+					 12 (-24) [17, 2.20, -0.721]
+						 13 (-24) [18, 2.16, -0.730]
+							 14 (13) [34, 1.46, -2.086]
+								 16 (13) [34, 1.46, -2.086]
+								 17 (22) [0, 1.46, -1.582]
+							 15 (-14) [35, 0.19, 0.539]
+								 18 (-14) [35, 0.19, 0.539]
+	 3 (21) [34, 1.72, -1.328]
+		 54 (21) [1, 1.13, -0.844]
+		 55 (21) [4, 1.72, -1.520]
+		 56 (21) [2, 2.16, -1.531]
+		 57 (21) [24, 1.70, -1.301]
+		 58 (21) [3, 1.66, -1.203]
+		 73 (11) [0, -3.89, 0.512]
+		 74 (-11) [0, -3.89, 1.211]
+	 4 (21) [132, -1.35, -3.094]
+		 11 (21) [4, 0.49, 1.547]
+			 29 (1) [2, 0.31, 1.371]
+		 26 (21) [5, 0.47, 1.117]
+		 30 (21) [3, 1.62, 1.133]
+		 31 (21) [2, 0.08, 1.195]
+		 32 (21) [1, 0.80, 2.953]
+		 33 (21) [3, -0.58, 1.992]
+		 34 (21) [3, -1.47, 1.441]
+		 35 (21) [0, 0.19, 2.250]
+		 36 (21) [2, -1.98, 2.250]
+		 37 (21) [8, -1.30, -2.992]
+		 38 (21) [4, -1.07, -2.977]
+		 39 (21) [33, -1.30, -3.039]
+		 40 (21) [26, -1.33, -3.055]
+		 41 (21) [9, -1.39, -3.117]
+		 42 (21) [4, -1.27, -2.977]
+		 43 (21) [14, -1.59, -2.961]
+		 44 (21) [20, -1.64, -3.008]
+		 45 (21) [1, -1.29, 2.984]
+		 46 (21) [1, -0.30, 1.629]
+		 47 (21) [1, 0.42, 3.125]
+		 48 (21) [2, -0.18, 2.562]
+		 49 (21) [1, -0.83, 2.781]
+		 50 (21) [1, -2.62, 2.352]
+		 51 (21) [1, -0.45, -1.266]
+	 5 (4) [83, 0.64, 1.180]
+		 25 (4) [52, 0.64, 1.188]
+		 27 (413) [47, 0.62, 1.184]
+			 64 (411) [44, 0.62, 1.184]
+				 68 (111) [20, 0.62, 1.176]
+					 75 (22) [16, 0.62, 1.172]
+	 6 (-4) [84, -2.41, -0.312]
+		 19 (2) [17, -2.42, -0.291]
+			 22 (-413) [72, -2.41, -0.336]
+				 61 (-411) [66, -2.41, -0.336]
+					 66 (11) [46, -2.41, -0.344]
+					 67 (-12) [13, -2.41, -0.303]
+		 20 (21) [47, -2.41, -0.336]
+		 21 (-4) [9, -2.43, -0.409]
+		 52 (-2) [8, -2.16, -0.269]
+Processed   110000/ 1294728 entries,  8.50% (elapsed time    17.4s, curr speed    3.622 kHz, avg speed    6.335 kHz), accepted   110001/  110001 events (100.00%)
+Processed   120000/ 1294728 entries,  9.27% (elapsed time    19.2s, curr speed    5.317 kHz, avg speed    6.236 kHz), accepted   120001/  120001 events (100.00%)
+Processed   130000/ 1294728 entries, 10.04% (elapsed time    21.0s, curr speed    5.828 kHz, avg speed    6.202 kHz), accepted   130001/  130001 events (100.00%)
+Processed   140000/ 1294728 entries, 10.81% (elapsed time    22.2s, curr speed    8.060 kHz, avg speed    6.306 kHz), accepted   140001/  140001 events (100.00%)
+Processed   150000/ 1294728 entries, 11.59% (elapsed time    23.4s, curr speed    8.179 kHz, avg speed    6.404 kHz), accepted   150001/  150001 events (100.00%)
+Processed   160000/ 1294728 entries, 12.36% (elapsed time    24.7s, curr speed    7.812 kHz, avg speed    6.477 kHz), accepted   160001/  160001 events (100.00%)
+
+
+
+1:32905:136059315
+ event  found in listOfSelectedEvent. Analyze this event
+genPart 0: pt   0.0, 	 eta 23616.000, 	 phi 0.000, 	 m  0.00, 	 pdgId -2, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 10625
+genPart 1: pt   0.0, 	 eta -23552.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 2433
+genPart 2: pt  27.1, 	 eta 2.672, 	 phi -0.801, 	 m 78.00, 	 pdgId -24, 	 genPartIdxMother 0, 	 status 22, 	 statusFlags 4481
+genPart 3: pt 113.0, 	 eta 0.472, 	 phi -2.586, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 4: pt  84.2, 	 eta -0.793, 	 phi 1.980, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 5: pt 358.0, 	 eta -1.238, 	 phi 0.358, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 6: pt 256.0, 	 eta 1.336, 	 phi -2.641, 	 m  0.00, 	 pdgId -1, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 4481
+genPart 7: pt  30.7, 	 eta 2.555, 	 phi -0.992, 	 m 78.00, 	 pdgId -24, 	 genPartIdxMother 2, 	 status 44, 	 statusFlags 257
+genPart 8: pt  30.8, 	 eta 2.531, 	 phi -0.994, 	 m 78.00, 	 pdgId -24, 	 genPartIdxMother 7, 	 status 44, 	 statusFlags 257
+genPart 9: pt  31.2, 	 eta 2.523, 	 phi -1.090, 	 m 78.00, 	 pdgId -24, 	 genPartIdxMother 8, 	 status 44, 	 statusFlags 257
+genPart 10: pt  30.1, 	 eta 2.555, 	 phi -1.137, 	 m 78.00, 	 pdgId -24, 	 genPartIdxMother 9, 	 status 44, 	 statusFlags 257
+genPart 11: pt  30.1, 	 eta 2.562, 	 phi -1.137, 	 m 78.00, 	 pdgId -24, 	 genPartIdxMother 10, 	 status 44, 	 statusFlags 257
+genPart 12: pt   8.1, 	 eta -0.727, 	 phi 1.758, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 51, 	 statusFlags 8449
+genPart 13: pt   1.4, 	 eta -1.078, 	 phi -0.131, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 51, 	 statusFlags 8449
+genPart 14: pt  30.1, 	 eta 2.562, 	 phi -1.133, 	 m 78.00, 	 pdgId -24, 	 genPartIdxMother 11, 	 status 44, 	 statusFlags 257
+genPart 15: pt  54.0, 	 eta 0.378, 	 phi -2.836, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 44, 	 statusFlags 8449
+genPart 16: pt  30.1, 	 eta 2.562, 	 phi -1.133, 	 m 78.00, 	 pdgId -24, 	 genPartIdxMother 14, 	 status 52, 	 statusFlags 257
+genPart 17: pt  30.1, 	 eta 2.562, 	 phi -1.145, 	 m 78.00, 	 pdgId -24, 	 genPartIdxMother 16, 	 status 62, 	 statusFlags 10497
+genPart 18: pt   4.7, 	 eta 0.910, 	 phi 1.184, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother -1, 	 status 1, 	 statusFlags 8193
+genPart 19: pt  22.0, 	 eta 0.812, 	 phi 1.281, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother -1, 	 status 1, 	 statusFlags 8193
+genPart 20: pt   0.1, 	 eta 0.910, 	 phi 1.266, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother -1, 	 status 1, 	 statusFlags 8193
+genPart 21: pt  50.2, 	 eta 1.582, 	 phi -0.441, 	 m  0.00, 	 pdgId 13, 	 genPartIdxMother 17, 	 status 23, 	 statusFlags 22913
+genPart 22: pt  33.5, 	 eta 1.562, 	 phi -2.961, 	 m  0.00, 	 pdgId -14, 	 genPartIdxMother 17, 	 status 23, 	 statusFlags 4481
+genPart 23: pt  50.2, 	 eta 1.582, 	 phi -0.441, 	 m  0.00, 	 pdgId 13, 	 genPartIdxMother 21, 	 status 1, 	 statusFlags 8449
+genPart 24: pt   0.0, 	 eta 1.363, 	 phi -0.939, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 21, 	 status 1, 	 statusFlags 12289
+genPart 25: pt  33.5, 	 eta 1.562, 	 phi -2.961, 	 m  0.00, 	 pdgId -14, 	 genPartIdxMother 22, 	 status 1, 	 statusFlags 8449
+genPart 26: pt  21.6, 	 eta -1.305, 	 phi 0.260, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 73, 	 statusFlags 257
+genPart 27: pt   1.7, 	 eta 0.799, 	 phi 1.574, 	 m  0.00, 	 pdgId -421, 	 genPartIdxMother -1, 	 status 2, 	 statusFlags 12291
+genPart 28: pt   0.9, 	 eta -2.820, 	 phi 2.172, 	 m  2.01, 	 pdgId 413, 	 genPartIdxMother -1, 	 status 2, 	 statusFlags 12291
+genPart 29: pt  18.5, 	 eta 0.405, 	 phi -2.836, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 15, 	 status 71, 	 statusFlags 8193
+genPart 30: pt   2.6, 	 eta 0.533, 	 phi -2.500, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 31: pt  59.6, 	 eta 0.795, 	 phi -2.609, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 32: pt   2.4, 	 eta 0.736, 	 phi -2.539, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 33: pt   0.3, 	 eta 0.611, 	 phi 3.008, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 34: pt   3.1, 	 eta 1.016, 	 phi -2.289, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 35: pt   0.3, 	 eta 0.650, 	 phi 2.508, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 36: pt   1.3, 	 eta 0.723, 	 phi -1.625, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 37: pt   3.3, 	 eta 0.795, 	 phi -2.656, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 38: pt   0.7, 	 eta 0.584, 	 phi -1.582, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 39: pt   2.3, 	 eta 1.406, 	 phi -2.852, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 40: pt 155.0, 	 eta 1.238, 	 phi -2.594, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 41: pt  15.3, 	 eta 1.172, 	 phi -2.617, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 42: pt  43.5, 	 eta 1.262, 	 phi -2.633, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 43: pt  41.1, 	 eta 1.281, 	 phi -2.617, 	 m  0.00, 	 pdgId -1, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8449
+genPart 44: pt  23.3, 	 eta -0.781, 	 phi 2.031, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 45: pt  21.9, 	 eta -0.842, 	 phi 2.016, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 46: pt  18.5, 	 eta -0.760, 	 phi 2.016, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 47: pt   3.7, 	 eta -0.850, 	 phi 2.086, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 48: pt   1.7, 	 eta -1.762, 	 phi 1.859, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 49: pt   1.0, 	 eta -0.893, 	 phi 2.070, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 50: pt   2.1, 	 eta -0.662, 	 phi 1.020, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 51: pt  21.6, 	 eta -1.305, 	 phi 0.260, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 26, 	 status 71, 	 statusFlags 8449
+genPart 52: pt  21.2, 	 eta -1.305, 	 phi 0.341, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 53: pt  86.0, 	 eta -1.266, 	 phi 0.331, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 54: pt  44.6, 	 eta -1.238, 	 phi 0.327, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 55: pt 137.0, 	 eta -1.234, 	 phi 0.341, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 56: pt  13.4, 	 eta -1.246, 	 phi 0.365, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 57: pt   6.2, 	 eta -1.227, 	 phi 0.516, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 58: pt   0.6, 	 eta -0.854, 	 phi 0.963, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 59: pt   3.2, 	 eta -1.066, 	 phi -0.089, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 60: pt   6.4, 	 eta -1.152, 	 phi 0.253, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 61: pt   1.0, 	 eta -0.990, 	 phi -0.482, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 62: pt   4.4, 	 eta -0.441, 	 phi -1.383, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 63: pt   1.2, 	 eta -0.617, 	 phi -1.875, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 64: pt   1.9, 	 eta -1.367, 	 phi -1.477, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 65: pt   4.6, 	 eta -1.027, 	 phi -1.273, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 66: pt   2.3, 	 eta -0.723, 	 phi -0.713, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 67: pt   2.4, 	 eta -0.263, 	 phi -0.754, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 68: pt   0.2, 	 eta -0.303, 	 phi -2.359, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 69: pt   4.5, 	 eta 0.666, 	 phi -2.711, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 70: pt   1.7, 	 eta 0.286, 	 phi -2.695, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 71: pt  32.1, 	 eta 0.363, 	 phi -2.828, 	 m  0.00, 	 pdgId -1, 	 genPartIdxMother 15, 	 status 71, 	 statusFlags 8193
+genPart 72: pt  15.4, 	 eta -1.324, 	 phi 0.335, 	 m  0.78, 	 pdgId 223, 	 genPartIdxMother 13, 	 status 2, 	 statusFlags 28675
+genPart 73: pt  34.5, 	 eta -1.262, 	 phi 0.341, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 13, 	 status 2, 	 statusFlags 28675
+genPart 74: pt  21.9, 	 eta 0.354, 	 phi -2.836, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 13, 	 status 2, 	 statusFlags 28675
+genPart 75: pt   5.7, 	 eta 0.846, 	 phi -2.641, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 29, 	 status 2, 	 statusFlags 28738
+genPart 76: pt   0.9, 	 eta -2.797, 	 phi 2.172, 	 m  0.00, 	 pdgId 421, 	 genPartIdxMother 28, 	 status 2, 	 statusFlags 12354
+genPart 77: pt  20.3, 	 eta 1.230, 	 phi -2.594, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 29, 	 status 2, 	 statusFlags 28738
+genPart 78: pt  11.0, 	 eta -1.305, 	 phi 0.312, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 72, 	 status 1, 	 statusFlags 12352
+genPart 79: pt  16.9, 	 eta -1.266, 	 phi 0.341, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 73, 	 status 1, 	 statusFlags 12352
+genPart 80: pt  16.1, 	 eta -1.258, 	 phi 0.341, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 73, 	 status 1, 	 statusFlags 12352
+genPart 81: pt   1.6, 	 eta -1.258, 	 phi 0.342, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 73, 	 status 1, 	 statusFlags 12352
+genPart 82: pt  16.6, 	 eta -1.230, 	 phi 0.333, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 13, 	 status 2, 	 statusFlags 28738
+genPart 83: pt  32.6, 	 eta -1.234, 	 phi 0.334, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 13, 	 status 2, 	 statusFlags 28738
+genPart 84: pt  13.7, 	 eta 0.352, 	 phi -2.836, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 74, 	 status 1, 	 statusFlags 12352
+genPart 85: pt   3.3, 	 eta 0.826, 	 phi -2.641, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 75, 	 status 1, 	 statusFlags 12352
+genPart 86: pt   0.2, 	 eta 0.822, 	 phi -2.641, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 75, 	 status 1, 	 statusFlags 12352
+genPart 87: pt  16.9, 	 eta 1.230, 	 phi -2.594, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 77, 	 status 1, 	 statusFlags 12352
+genPart 88: pt  12.7, 	 eta -1.234, 	 phi 0.330, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 82, 	 status 1, 	 statusFlags 12352
+genPart 89: pt  30.0, 	 eta -1.234, 	 phi 0.333, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 83, 	 status 1, 	 statusFlags 12352
+
+
+ printFamilyTree: 
+
+ 0 (-2) [0, 23616.00, 0.000]
+	 2 (-24) [27, 2.67, -0.801]
+		 7 (-24) [31, 2.55, -0.992]
+			 8 (-24) [31, 2.53, -0.994]
+				 9 (-24) [31, 2.52, -1.090]
+					 10 (-24) [30, 2.55, -1.137]
+						 11 (-24) [30, 2.56, -1.137]
+							 14 (-24) [30, 2.56, -1.133]
+								 16 (-24) [30, 2.56, -1.133]
+									 17 (-24) [30, 2.56, -1.145]
+										 21 (13) [50, 1.58, -0.441]
+											 23 (13) [50, 1.58, -0.441]
+											 24 (22) [0, 1.36, -0.939]
+										 22 (-14) [34, 1.56, -2.961]
+											 25 (-14) [34, 1.56, -2.961]
+	 3 (21) [113, 0.47, -2.586]
+		 15 (21) [54, 0.38, -2.836]
+			 29 (1) [18, 0.41, -2.836]
+				 75 (111) [6, 0.85, -2.641]
+					 85 (11) [3, 0.83, -2.641]
+					 86 (-11) [0, 0.82, -2.641]
+				 77 (111) [20, 1.23, -2.594]
+					 87 (22) [17, 1.23, -2.594]
+			 71 (-1) [32, 0.36, -2.828]
+		 30 (21) [3, 0.53, -2.500]
+		 31 (21) [60, 0.79, -2.609]
+		 32 (21) [2, 0.74, -2.539]
+		 33 (21) [0, 0.61, 3.008]
+		 34 (21) [3, 1.02, -2.289]
+		 35 (21) [0, 0.65, 2.508]
+		 36 (21) [1, 0.72, -1.625]
+		 37 (21) [3, 0.79, -2.656]
+		 38 (21) [1, 0.58, -1.582]
+		 39 (21) [2, 1.41, -2.852]
+		 61 (21) [1, -0.99, -0.482]
+		 62 (21) [4, -0.44, -1.383]
+		 63 (21) [1, -0.62, -1.875]
+		 64 (21) [2, -1.37, -1.477]
+		 65 (21) [5, -1.03, -1.273]
+		 66 (21) [2, -0.72, -0.713]
+		 67 (21) [2, -0.26, -0.754]
+		 68 (21) [0, -0.30, -2.359]
+		 69 (21) [4, 0.67, -2.711]
+		 70 (21) [2, 0.29, -2.695]
+	 4 (21) [84, -0.79, 1.980]
+		 12 (21) [8, -0.73, 1.758]
+		 44 (21) [23, -0.78, 2.031]
+		 45 (21) [22, -0.84, 2.016]
+		 46 (21) [18, -0.76, 2.016]
+		 47 (21) [4, -0.85, 2.086]
+		 48 (21) [2, -1.76, 1.859]
+		 49 (21) [1, -0.89, 2.070]
+	 5 (21) [358, -1.24, 0.358]
+		 13 (21) [1, -1.08, -0.131]
+			 72 (223) [15, -1.32, 0.335]
+				 78 (22) [11, -1.30, 0.312]
+			 73 (111) [34, -1.26, 0.341]
+				 79 (22) [17, -1.27, 0.341]
+				 80 (11) [16, -1.26, 0.341]
+				 81 (-11) [2, -1.26, 0.342]
+			 74 (111) [22, 0.35, -2.836]
+				 84 (22) [14, 0.35, -2.836]
+			 82 (111) [17, -1.23, 0.333]
+				 88 (22) [13, -1.23, 0.330]
+			 83 (111) [33, -1.23, 0.334]
+				 89 (22) [30, -1.23, 0.333]
+		 26 (21) [22, -1.30, 0.260]
+			 51 (21) [22, -1.30, 0.260]
+		 50 (21) [2, -0.66, 1.020]
+		 52 (21) [21, -1.30, 0.341]
+		 53 (21) [86, -1.27, 0.331]
+		 54 (21) [45, -1.24, 0.327]
+		 55 (21) [137, -1.23, 0.341]
+		 56 (21) [13, -1.25, 0.365]
+		 57 (21) [6, -1.23, 0.516]
+		 58 (21) [1, -0.85, 0.963]
+		 59 (21) [3, -1.07, -0.089]
+		 60 (21) [6, -1.15, 0.253]
+	 6 (-1) [256, 1.34, -2.641]
+		 40 (21) [155, 1.24, -2.594]
+		 41 (21) [15, 1.17, -2.617]
+		 42 (21) [44, 1.26, -2.633]
+		 43 (-1) [41, 1.28, -2.617]
+Processed   170000/ 1294728 entries, 13.13% (elapsed time    27.4s, curr speed    3.745 kHz, avg speed    6.210 kHz), accepted   170001/  170001 events (100.00%)
+Processed   180000/ 1294728 entries, 13.90% (elapsed time    28.6s, curr speed    8.168 kHz, avg speed    6.294 kHz), accepted   180001/  180001 events (100.00%)
+Processed   190000/ 1294728 entries, 14.67% (elapsed time    29.9s, curr speed    7.687 kHz, avg speed    6.355 kHz), accepted   190001/  190001 events (100.00%)
+Processed   200000/ 1294728 entries, 15.45% (elapsed time    31.1s, curr speed    8.175 kHz, avg speed    6.426 kHz), accepted   200001/  200001 events (100.00%)
+Processed   210000/ 1294728 entries, 16.22% (elapsed time    32.3s, curr speed    8.159 kHz, avg speed    6.492 kHz), accepted   210001/  210001 events (100.00%)
+Processed   220000/ 1294728 entries, 16.99% (elapsed time    33.6s, curr speed    7.949 kHz, avg speed    6.547 kHz), accepted   220001/  220001 events (100.00%)
+Processed   230000/ 1294728 entries, 17.76% (elapsed time    34.9s, curr speed    7.912 kHz, avg speed    6.596 kHz), accepted   230001/  230001 events (100.00%)
+Processed   240000/ 1294728 entries, 18.54% (elapsed time    36.2s, curr speed    7.543 kHz, avg speed    6.631 kHz), accepted   240001/  240001 events (100.00%)
+Processed   250000/ 1294728 entries, 19.31% (elapsed time    37.5s, curr speed    7.952 kHz, avg speed    6.675 kHz), accepted   250001/  250001 events (100.00%)
+Processed   260000/ 1294728 entries, 20.08% (elapsed time    39.5s, curr speed    4.846 kHz, avg speed    6.580 kHz), accepted   260001/  260001 events (100.00%)
+Processed   270000/ 1294728 entries, 20.85% (elapsed time    41.1s, curr speed    6.179 kHz, avg speed    6.564 kHz), accepted   270001/  270001 events (100.00%)
+Processed   280000/ 1294728 entries, 21.63% (elapsed time    42.4s, curr speed    7.653 kHz, avg speed    6.597 kHz), accepted   280001/  280001 events (100.00%)
+Processed   290000/ 1294728 entries, 22.40% (elapsed time    43.9s, curr speed    6.717 kHz, avg speed    6.601 kHz), accepted   290001/  290001 events (100.00%)
+Processed   300000/ 1294728 entries, 23.17% (elapsed time    46.3s, curr speed    4.310 kHz, avg speed    6.486 kHz), accepted   300001/  300001 events (100.00%)
+Processed   310000/ 1294728 entries, 23.94% (elapsed time    47.5s, curr speed    7.944 kHz, avg speed    6.525 kHz), accepted   310001/  310001 events (100.00%)
+Processed   320000/ 1294728 entries, 24.72% (elapsed time    48.7s, curr speed    8.077 kHz, avg speed    6.564 kHz), accepted   320001/  320001 events (100.00%)
+Processed   330000/ 1294728 entries, 25.49% (elapsed time    50.0s, curr speed    8.052 kHz, avg speed    6.601 kHz), accepted   330001/  330001 events (100.00%)
+Processed   340000/ 1294728 entries, 26.26% (elapsed time    51.2s, curr speed    7.982 kHz, avg speed    6.635 kHz), accepted   340001/  340001 events (100.00%)
+Processed   350000/ 1294728 entries, 27.03% (elapsed time    52.5s, curr speed    7.934 kHz, avg speed    6.666 kHz), accepted   350001/  350001 events (100.00%)
+Processed   360000/ 1294728 entries, 27.81% (elapsed time    53.8s, curr speed    8.011 kHz, avg speed    6.698 kHz), accepted   360001/  360001 events (100.00%)
+Processed   370000/ 1294728 entries, 28.58% (elapsed time    55.0s, curr speed    8.100 kHz, avg speed    6.729 kHz), accepted   370001/  370001 events (100.00%)
+Processed   380000/ 1294728 entries, 29.35% (elapsed time    56.2s, curr speed    8.074 kHz, avg speed    6.759 kHz), accepted   380001/  380001 events (100.00%)
+Processed   390000/ 1294728 entries, 30.12% (elapsed time    58.0s, curr speed    5.671 kHz, avg speed    6.726 kHz), accepted   390001/  390001 events (100.00%)
+Processed   400000/ 1294728 entries, 30.89% (elapsed time    59.2s, curr speed    8.127 kHz, avg speed    6.755 kHz), accepted   400001/  400001 events (100.00%)
+Processed   410000/ 1294728 entries, 31.67% (elapsed time    60.5s, curr speed    7.977 kHz, avg speed    6.780 kHz), accepted   410001/  410001 events (100.00%)
+Processed   420000/ 1294728 entries, 32.44% (elapsed time    61.7s, curr speed    8.132 kHz, avg speed    6.807 kHz), accepted   420001/  420001 events (100.00%)
+Processed   430000/ 1294728 entries, 33.21% (elapsed time    62.9s, curr speed    8.058 kHz, avg speed    6.832 kHz), accepted   430001/  430001 events (100.00%)
+
+
+
+1:638:2634937
+ event  found in listOfSelectedEvent. Analyze this event
+genPart 0: pt   0.0, 	 eta 23296.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 22913
+genPart 1: pt   0.0, 	 eta -23424.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 27009
+genPart 2: pt  36.5, 	 eta -1.254, 	 phi -1.367, 	 m 79.75, 	 pdgId 24, 	 genPartIdxMother 0, 	 status 22, 	 statusFlags 4481
+genPart 3: pt  81.2, 	 eta 2.445, 	 phi 2.242, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 4: pt 157.5, 	 eta -1.551, 	 phi -1.035, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 5: pt  54.2, 	 eta -1.469, 	 phi -0.165, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 6: pt 148.0, 	 eta -0.483, 	 phi 2.234, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 22913
+genPart 7: pt  36.9, 	 eta -1.246, 	 phi -1.336, 	 m 79.75, 	 pdgId 24, 	 genPartIdxMother 2, 	 status 44, 	 statusFlags 257
+genPart 8: pt  37.0, 	 eta -1.246, 	 phi -1.336, 	 m 79.75, 	 pdgId 24, 	 genPartIdxMother 7, 	 status 44, 	 statusFlags 257
+genPart 9: pt  18.5, 	 eta 2.602, 	 phi 1.941, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 51, 	 statusFlags 8449
+genPart 10: pt  15.8, 	 eta 2.625, 	 phi 1.828, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 51, 	 statusFlags 8449
+genPart 11: pt  37.0, 	 eta -1.246, 	 phi -1.336, 	 m 79.75, 	 pdgId 24, 	 genPartIdxMother 8, 	 status 62, 	 statusFlags 10497
+genPart 12: pt   0.1, 	 eta 1.754, 	 phi 1.551, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 62, 	 statusFlags 8449
+genPart 13: pt  58.2, 	 eta -0.361, 	 phi -1.500, 	 m  0.00, 	 pdgId -13, 	 genPartIdxMother 11, 	 status 1, 	 statusFlags 12673
+genPart 14: pt  22.6, 	 eta -1.277, 	 phi 1.367, 	 m  0.00, 	 pdgId 14, 	 genPartIdxMother 11, 	 status 1, 	 statusFlags 12673
+genPart 15: pt  22.6, 	 eta -0.613, 	 phi 2.023, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 6, 	 status 73, 	 statusFlags 1
+genPart 16: pt  15.2, 	 eta 2.633, 	 phi 1.863, 	 m  0.00, 	 pdgId -2, 	 genPartIdxMother 10, 	 status 71, 	 statusFlags 8193
+genPart 17: pt  17.9, 	 eta 4.172, 	 phi -2.820, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 18: pt   0.5, 	 eta 0.959, 	 phi 0.280, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 19: pt   2.2, 	 eta 1.914, 	 phi 3.133, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 20: pt   2.2, 	 eta 1.289, 	 phi 2.852, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 21: pt   0.8, 	 eta 1.039, 	 phi -0.351, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 22: pt   0.9, 	 eta 1.430, 	 phi 2.906, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 23: pt   1.5, 	 eta 2.547, 	 phi 2.680, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 24: pt   0.6, 	 eta 2.766, 	 phi -0.234, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 25: pt  16.0, 	 eta 2.570, 	 phi 1.973, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 26: pt   0.3, 	 eta 3.062, 	 phi 1.836, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 27: pt   5.4, 	 eta 2.734, 	 phi 2.133, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 28: pt   2.7, 	 eta 2.719, 	 phi 1.641, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 29: pt   5.1, 	 eta 2.461, 	 phi 1.859, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 30: pt  22.4, 	 eta -0.943, 	 phi 1.969, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8449
+genPart 31: pt  11.2, 	 eta -0.721, 	 phi 2.180, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 32: pt  11.6, 	 eta -0.699, 	 phi 2.039, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 33: pt  22.6, 	 eta -0.613, 	 phi 2.023, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 15, 	 status 71, 	 statusFlags 8193
+genPart 34: pt   9.9, 	 eta -0.551, 	 phi 1.973, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 35: pt  12.0, 	 eta 0.207, 	 phi 2.711, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 36: pt  40.8, 	 eta 0.166, 	 phi 2.766, 	 m  0.00, 	 pdgId -1, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 37: pt   0.7, 	 eta 3.656, 	 phi 2.898, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 38: pt   7.6, 	 eta 1.559, 	 phi 3.062, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 39: pt   6.6, 	 eta 1.387, 	 phi 3.023, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 40: pt   0.3, 	 eta -3.000, 	 phi 1.598, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 41: pt   4.8, 	 eta -1.543, 	 phi -1.473, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 42: pt   1.7, 	 eta -1.863, 	 phi -1.094, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 43: pt   3.4, 	 eta -2.172, 	 phi -1.535, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 44: pt   2.1, 	 eta -1.844, 	 phi -1.168, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 45: pt   5.4, 	 eta -1.859, 	 phi -0.814, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 46: pt   0.1, 	 eta -3.109, 	 phi 0.973, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 47: pt   2.2, 	 eta -0.750, 	 phi -1.070, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 48: pt   0.1, 	 eta -1.906, 	 phi -2.586, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 49: pt   9.4, 	 eta -1.336, 	 phi -1.223, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 50: pt  59.5, 	 eta -1.359, 	 phi -1.184, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 51: pt  10.9, 	 eta -1.176, 	 phi -1.305, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 52: pt   6.1, 	 eta -1.070, 	 phi -1.363, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 53: pt   1.1, 	 eta -0.998, 	 phi -1.758, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 54: pt   4.2, 	 eta -1.723, 	 phi -1.070, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 55: pt   1.0, 	 eta -1.152, 	 phi -1.090, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 56: pt  25.7, 	 eta -1.559, 	 phi -0.680, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 57: pt  10.6, 	 eta -1.535, 	 phi -0.742, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 58: pt   2.9, 	 eta -1.707, 	 phi -0.656, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 59: pt   1.9, 	 eta -1.410, 	 phi -0.324, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 60: pt   8.1, 	 eta -1.684, 	 phi -0.289, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 61: pt  10.7, 	 eta -1.605, 	 phi -0.361, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 62: pt   3.6, 	 eta -1.566, 	 phi -0.549, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 63: pt   4.6, 	 eta -1.480, 	 phi -0.146, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 64: pt  27.7, 	 eta -1.418, 	 phi -0.198, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 65: pt   5.4, 	 eta -1.316, 	 phi -0.070, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 66: pt   0.2, 	 eta -2.383, 	 phi -1.680, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 67: pt   3.9, 	 eta -2.062, 	 phi -0.190, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 68: pt   2.9, 	 eta -2.109, 	 phi 0.195, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 69: pt   1.5, 	 eta -5.969, 	 phi 1.398, 	 m  0.00, 	 pdgId -2, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 70: pt  19.0, 	 eta -1.379, 	 phi -0.193, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 37, 	 status 2, 	 statusFlags 28675
+genPart 71: pt  17.0, 	 eta -1.375, 	 phi -0.194, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 70, 	 status 1, 	 statusFlags 12352
+genPart 72: pt   0.1, 	 eta 0.514, 	 phi 2.273, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 6, 	 status 1, 	 statusFlags 12352
+genPart 73: pt   0.1, 	 eta 0.500, 	 phi 2.242, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 6, 	 status 1, 	 statusFlags 12352
+genPart 74: pt   0.0, 	 eta -5.047, 	 phi -0.811, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 37, 	 status 1, 	 statusFlags 12352
+genPart 75: pt   0.0, 	 eta -3.109, 	 phi -2.047, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 37, 	 status 1, 	 statusFlags 12352
+
+
+ printFamilyTree: 
+
+ 0 (21) [0, 23296.00, 0.000]
+	 2 (24) [36, -1.25, -1.367]
+		 7 (24) [37, -1.25, -1.336]
+			 8 (24) [37, -1.25, -1.336]
+				 11 (24) [37, -1.25, -1.336]
+					 13 (-13) [58, -0.36, -1.500]
+					 14 (14) [23, -1.28, 1.367]
+	 3 (21) [81, 2.45, 2.242]
+		 9 (21) [18, 2.60, 1.941]
+		 10 (21) [16, 2.62, 1.828]
+			 16 (-2) [15, 2.63, 1.863]
+		 12 (21) [0, 1.75, 1.551]
+		 18 (21) [1, 0.96, 0.280]
+		 19 (21) [2, 1.91, 3.133]
+		 20 (21) [2, 1.29, 2.852]
+		 21 (21) [1, 1.04, -0.351]
+		 22 (21) [1, 1.43, 2.906]
+		 23 (21) [2, 2.55, 2.680]
+		 24 (21) [1, 2.77, -0.234]
+		 25 (21) [16, 2.57, 1.973]
+		 26 (21) [0, 3.06, 1.836]
+		 27 (21) [5, 2.73, 2.133]
+		 28 (21) [3, 2.72, 1.641]
+		 29 (21) [5, 2.46, 1.859]
+	 4 (21) [158, -1.55, -1.035]
+		 40 (21) [0, -3.00, 1.598]
+		 41 (21) [5, -1.54, -1.473]
+		 42 (21) [2, -1.86, -1.094]
+		 43 (21) [3, -2.17, -1.535]
+		 44 (21) [2, -1.84, -1.168]
+		 45 (21) [5, -1.86, -0.814]
+		 46 (21) [0, -3.11, 0.973]
+		 47 (21) [2, -0.75, -1.070]
+		 48 (21) [0, -1.91, -2.586]
+		 49 (21) [9, -1.34, -1.223]
+		 50 (21) [60, -1.36, -1.184]
+		 51 (21) [11, -1.18, -1.305]
+		 52 (21) [6, -1.07, -1.363]
+		 53 (21) [1, -1.00, -1.758]
+		 54 (21) [4, -1.72, -1.070]
+		 55 (21) [1, -1.15, -1.090]
+		 56 (21) [26, -1.56, -0.680]
+		 57 (21) [11, -1.54, -0.742]
+		 58 (21) [3, -1.71, -0.656]
+		 59 (21) [2, -1.41, -0.324]
+		 60 (21) [8, -1.68, -0.289]
+		 61 (21) [11, -1.61, -0.361]
+		 62 (21) [4, -1.57, -0.549]
+		 63 (21) [5, -1.48, -0.146]
+	 5 (21) [54, -1.47, -0.165]
+		 64 (21) [28, -1.42, -0.198]
+		 65 (21) [5, -1.32, -0.070]
+		 66 (21) [0, -2.38, -1.680]
+		 67 (21) [4, -2.06, -0.190]
+		 68 (21) [3, -2.11, 0.195]
+	 6 (1) [148, -0.48, 2.234]
+		 15 (21) [23, -0.61, 2.023]
+			 33 (21) [23, -0.61, 2.023]
+		 30 (1) [22, -0.94, 1.969]
+		 31 (21) [11, -0.72, 2.180]
+		 32 (21) [12, -0.70, 2.039]
+		 34 (21) [10, -0.55, 1.973]
+		 35 (21) [12, 0.21, 2.711]
+		 36 (-1) [41, 0.17, 2.766]
+		 72 (11) [0, 0.51, 2.273]
+		 73 (-11) [0, 0.50, 2.242]
+Processed   440000/ 1294728 entries, 33.98% (elapsed time    66.1s, curr speed    3.212 kHz, avg speed    6.661 kHz), accepted   440001/  440001 events (100.00%)
+Processed   450000/ 1294728 entries, 34.76% (elapsed time    67.3s, curr speed    8.110 kHz, avg speed    6.688 kHz), accepted   450001/  450001 events (100.00%)
+Processed   460000/ 1294728 entries, 35.53% (elapsed time    68.6s, curr speed    7.921 kHz, avg speed    6.710 kHz), accepted   460001/  460001 events (100.00%)
+Processed   470000/ 1294728 entries, 36.30% (elapsed time    69.8s, curr speed    8.180 kHz, avg speed    6.736 kHz), accepted   470001/  470001 events (100.00%)
+Processed   480000/ 1294728 entries, 37.07% (elapsed time    71.9s, curr speed    4.625 kHz, avg speed    6.673 kHz), accepted   480001/  480001 events (100.00%)
+Processed   490000/ 1294728 entries, 37.85% (elapsed time    73.2s, curr speed    8.062 kHz, avg speed    6.696 kHz), accepted   490001/  490001 events (100.00%)
+Processed   500000/ 1294728 entries, 38.62% (elapsed time    74.4s, curr speed    7.971 kHz, avg speed    6.718 kHz), accepted   500001/  500001 events (100.00%)
+Processed   510000/ 1294728 entries, 39.39% (elapsed time    75.7s, curr speed    8.052 kHz, avg speed    6.740 kHz), accepted   510001/  510001 events (100.00%)
+
+
+
+1:14074:58191861
+ event  found in listOfSelectedEvent. Analyze this event
+genPart 0: pt   0.0, 	 eta 23360.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 2433
+genPart 1: pt   0.0, 	 eta -23040.000, 	 phi 0.000, 	 m  0.00, 	 pdgId -2, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 10625
+genPart 2: pt 157.0, 	 eta -0.592, 	 phi -2.289, 	 m 82.25, 	 pdgId -24, 	 genPartIdxMother 0, 	 status 22, 	 statusFlags 4481
+genPart 3: pt 146.0, 	 eta 1.840, 	 phi 0.811, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 4: pt  38.5, 	 eta -1.000, 	 phi -0.932, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 5: pt  43.9, 	 eta 1.117, 	 phi 1.051, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 6: pt  42.5, 	 eta -0.689, 	 phi 3.008, 	 m  0.00, 	 pdgId -1, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 22913
+genPart 7: pt 157.0, 	 eta -0.594, 	 phi -2.297, 	 m 82.25, 	 pdgId -24, 	 genPartIdxMother 2, 	 status 44, 	 statusFlags 257
+genPart 8: pt 157.0, 	 eta -0.594, 	 phi -2.297, 	 m 82.25, 	 pdgId -24, 	 genPartIdxMother 7, 	 status 44, 	 statusFlags 257
+genPart 9: pt  34.9, 	 eta -1.047, 	 phi -0.846, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 44, 	 statusFlags 8449
+genPart 10: pt 157.0, 	 eta -0.594, 	 phi -2.297, 	 m 82.25, 	 pdgId -24, 	 genPartIdxMother 8, 	 status 44, 	 statusFlags 257
+genPart 11: pt 157.0, 	 eta -0.592, 	 phi -2.297, 	 m 82.25, 	 pdgId -24, 	 genPartIdxMother 10, 	 status 62, 	 statusFlags 10497
+genPart 12: pt  56.8, 	 eta -0.855, 	 phi -2.930, 	 m  0.00, 	 pdgId 13, 	 genPartIdxMother 11, 	 status 23, 	 statusFlags 22913
+genPart 13: pt 116.0, 	 eta -0.369, 	 phi -2.008, 	 m  0.00, 	 pdgId -14, 	 genPartIdxMother 11, 	 status 23, 	 statusFlags 4481
+genPart 14: pt  56.2, 	 eta -0.543, 	 phi -2.336, 	 m  0.00, 	 pdgId 13, 	 genPartIdxMother 12, 	 status 1, 	 statusFlags 8449
+genPart 15: pt  28.2, 	 eta -0.996, 	 phi 3.016, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 12, 	 status 1, 	 statusFlags 12289
+genPart 16: pt  88.5, 	 eta -0.369, 	 phi -2.008, 	 m  0.00, 	 pdgId -14, 	 genPartIdxMother 13, 	 status 1, 	 statusFlags 8449
+genPart 17: pt  43.9, 	 eta -0.287, 	 phi -2.992, 	 m  0.00, 	 pdgId -1, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8449
+genPart 18: pt  28.2, 	 eta -0.289, 	 phi -3.000, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 6, 	 status 2, 	 statusFlags 28675
+genPart 19: pt   5.0, 	 eta -1.812, 	 phi -0.104, 	 m  0.00, 	 pdgId 3, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 20: pt  26.8, 	 eta -1.035, 	 phi -0.887, 	 m  0.00, 	 pdgId -3, 	 genPartIdxMother 9, 	 status 71, 	 statusFlags 8193
+genPart 21: pt   3.4, 	 eta -0.363, 	 phi -1.660, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 22: pt   5.2, 	 eta 1.426, 	 phi 1.324, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 23: pt   0.2, 	 eta 0.343, 	 phi -0.842, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 24: pt  12.2, 	 eta 1.000, 	 phi 1.078, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 25: pt  21.8, 	 eta 1.043, 	 phi 0.982, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 26: pt   7.8, 	 eta 1.512, 	 phi 0.902, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 27: pt   8.6, 	 eta 1.594, 	 phi 0.721, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 28: pt  29.8, 	 eta 1.754, 	 phi 0.709, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 29: pt   6.4, 	 eta 1.719, 	 phi 0.830, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 30: pt   3.6, 	 eta 1.953, 	 phi 0.900, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 31: pt  44.5, 	 eta 1.867, 	 phi 0.867, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 32: pt  23.0, 	 eta 1.914, 	 phi 0.867, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 33: pt   3.3, 	 eta 1.961, 	 phi 0.984, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 34: pt  21.7, 	 eta 2.008, 	 phi 0.801, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 35: pt   0.6, 	 eta 2.406, 	 phi 0.274, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 36: pt   1.7, 	 eta 1.641, 	 phi 1.070, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 37: pt  13.5, 	 eta 1.688, 	 phi 0.732, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 9, 	 status 2, 	 statusFlags 28675
+genPart 38: pt   1.1, 	 eta 7.125, 	 phi -1.961, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 39: pt   1.5, 	 eta -3.906, 	 phi -1.160, 	 m  0.00, 	 pdgId -3, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 40: pt  10.7, 	 eta -0.286, 	 phi -3.008, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 18, 	 status 1, 	 statusFlags 12352
+genPart 41: pt  17.5, 	 eta -0.290, 	 phi -3.000, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 18, 	 status 1, 	 statusFlags 12352
+genPart 42: pt  12.6, 	 eta 1.688, 	 phi 0.734, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 37, 	 status 1, 	 statusFlags 12352
+genPart 43: pt   0.0, 	 eta 6.031, 	 phi -3.109, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 38, 	 status 1, 	 statusFlags 12352
+genPart 44: pt   0.1, 	 eta 6.375, 	 phi -2.922, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 38, 	 status 1, 	 statusFlags 12352
+genPart 45: pt   0.2, 	 eta -4.641, 	 phi -1.262, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 19, 	 status 1, 	 statusFlags 12352
+genPart 46: pt   0.1, 	 eta -4.641, 	 phi -1.152, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 19, 	 status 1, 	 statusFlags 12352
+genPart 47: pt   0.0, 	 eta -5.031, 	 phi -1.848, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 19, 	 status 1, 	 statusFlags 12352
+genPart 48: pt   0.1, 	 eta -5.688, 	 phi -1.758, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 19, 	 status 1, 	 statusFlags 12352
+
+
+ printFamilyTree: 
+
+ 0 (21) [0, 23360.00, 0.000]
+	 2 (-24) [157, -0.59, -2.289]
+		 7 (-24) [157, -0.59, -2.297]
+			 8 (-24) [157, -0.59, -2.297]
+				 10 (-24) [157, -0.59, -2.297]
+					 11 (-24) [157, -0.59, -2.297]
+						 12 (13) [57, -0.86, -2.930]
+							 14 (13) [56, -0.54, -2.336]
+							 15 (22) [28, -1.00, 3.016]
+						 13 (-14) [116, -0.37, -2.008]
+							 16 (-14) [88, -0.37, -2.008]
+	 3 (21) [146, 1.84, 0.811]
+		 27 (21) [9, 1.59, 0.721]
+		 28 (21) [30, 1.75, 0.709]
+		 29 (21) [6, 1.72, 0.830]
+		 30 (21) [4, 1.95, 0.900]
+		 31 (21) [44, 1.87, 0.867]
+		 32 (21) [23, 1.91, 0.867]
+		 33 (21) [3, 1.96, 0.984]
+		 34 (21) [22, 2.01, 0.801]
+		 35 (21) [1, 2.41, 0.274]
+		 36 (21) [2, 1.64, 1.070]
+	 4 (21) [38, -1.00, -0.932]
+		 9 (21) [35, -1.05, -0.846]
+			 20 (-3) [27, -1.04, -0.887]
+			 37 (111) [14, 1.69, 0.732]
+				 42 (22) [13, 1.69, 0.734]
+		 21 (21) [3, -0.36, -1.660]
+	 5 (21) [44, 1.12, 1.051]
+		 22 (21) [5, 1.43, 1.324]
+		 23 (21) [0, 0.34, -0.842]
+		 24 (21) [12, 1.00, 1.078]
+		 25 (21) [22, 1.04, 0.982]
+		 26 (21) [8, 1.51, 0.902]
+	 6 (-1) [42, -0.69, 3.008]
+		 17 (-1) [44, -0.29, -2.992]
+		 18 (111) [28, -0.29, -3.000]
+			 40 (22) [11, -0.29, -3.008]
+			 41 (22) [18, -0.29, -3.000]
+Processed   520000/ 1294728 entries, 40.16% (elapsed time    79.1s, curr speed    2.893 kHz, avg speed    6.572 kHz), accepted   520001/  520001 events (100.00%)
+Processed   530000/ 1294728 entries, 40.94% (elapsed time    80.4s, curr speed    7.608 kHz, avg speed    6.589 kHz), accepted   530001/  530001 events (100.00%)
+Processed   540000/ 1294728 entries, 41.71% (elapsed time    81.7s, curr speed    8.227 kHz, avg speed    6.613 kHz), accepted   540001/  540001 events (100.00%)
+Processed   550000/ 1294728 entries, 42.48% (elapsed time    82.9s, curr speed    7.987 kHz, avg speed    6.634 kHz), accepted   550001/  550001 events (100.00%)
+Processed   560000/ 1294728 entries, 43.25% (elapsed time    84.1s, curr speed    8.179 kHz, avg speed    6.656 kHz), accepted   560001/  560001 events (100.00%)
+Processed   570000/ 1294728 entries, 44.02% (elapsed time    85.4s, curr speed    7.992 kHz, avg speed    6.676 kHz), accepted   570001/  570001 events (100.00%)
+Processed   580000/ 1294728 entries, 44.80% (elapsed time    86.6s, curr speed    8.187 kHz, avg speed    6.697 kHz), accepted   580001/  580001 events (100.00%)
+
+
+
+1:988:4081481
+ event  found in listOfSelectedEvent. Analyze this event
+genPart 0: pt   0.0, 	 eta 23488.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 2433
+genPart 1: pt   0.0, 	 eta -24064.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 2433
+genPart 2: pt 202.5, 	 eta -2.062, 	 phi 2.594, 	 m 79.25, 	 pdgId 24, 	 genPartIdxMother 0, 	 status 22, 	 statusFlags 4481
+genPart 3: pt 196.0, 	 eta 0.380, 	 phi 2.766, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 22913
+genPart 4: pt 129.0, 	 eta 1.293, 	 phi -0.238, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 22913
+genPart 5: pt 327.0, 	 eta 0.725, 	 phi -0.213, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 385
+genPart 6: pt 118.8, 	 eta -1.738, 	 phi -2.438, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 4481
+genPart 7: pt 210.0, 	 eta -2.031, 	 phi 2.414, 	 m 79.25, 	 pdgId 24, 	 genPartIdxMother 2, 	 status 44, 	 statusFlags 257
+genPart 8: pt 209.5, 	 eta -2.031, 	 phi 2.469, 	 m 79.25, 	 pdgId 24, 	 genPartIdxMother 7, 	 status 44, 	 statusFlags 257
+genPart 9: pt 209.5, 	 eta -2.031, 	 phi 2.469, 	 m 79.25, 	 pdgId 24, 	 genPartIdxMother 8, 	 status 44, 	 statusFlags 257
+genPart 10: pt 197.5, 	 eta 0.243, 	 phi 2.875, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 52, 	 statusFlags 8449
+genPart 11: pt 211.5, 	 eta -2.023, 	 phi 2.461, 	 m 79.25, 	 pdgId 24, 	 genPartIdxMother 9, 	 status 44, 	 statusFlags 257
+genPart 12: pt 211.5, 	 eta -2.023, 	 phi 2.461, 	 m 79.25, 	 pdgId 24, 	 genPartIdxMother 11, 	 status 44, 	 statusFlags 257
+genPart 13: pt  25.1, 	 eta -0.596, 	 phi 0.038, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 44, 	 statusFlags 8449
+genPart 14: pt   2.3, 	 eta 1.832, 	 phi -0.364, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 51, 	 statusFlags 8449
+genPart 15: pt 211.0, 	 eta -2.023, 	 phi 2.453, 	 m 79.25, 	 pdgId 24, 	 genPartIdxMother 12, 	 status 44, 	 statusFlags 257
+genPart 16: pt   0.9, 	 eta 0.408, 	 phi -2.062, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 51, 	 statusFlags 8449
+genPart 17: pt   4.5, 	 eta -2.039, 	 phi -1.988, 	 m  0.00, 	 pdgId 13, 	 genPartIdxMother -1, 	 status 51, 	 statusFlags 4097
+genPart 18: pt  59.9, 	 eta -2.055, 	 phi -2.023, 	 m  0.00, 	 pdgId -13, 	 genPartIdxMother -1, 	 status 51, 	 statusFlags 4097
+genPart 19: pt 210.0, 	 eta -2.031, 	 phi 2.453, 	 m 79.25, 	 pdgId 24, 	 genPartIdxMother 15, 	 status 62, 	 statusFlags 10497
+genPart 20: pt   4.5, 	 eta -2.039, 	 phi -1.984, 	 m  0.00, 	 pdgId 13, 	 genPartIdxMother 17, 	 status 1, 	 statusFlags 8193
+genPart 21: pt  59.9, 	 eta -2.055, 	 phi -2.016, 	 m  0.00, 	 pdgId -13, 	 genPartIdxMother 18, 	 status 1, 	 statusFlags 8193
+genPart 22: pt 175.0, 	 eta -1.840, 	 phi 2.586, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 19, 	 status 1, 	 statusFlags 12673
+genPart 23: pt  43.1, 	 eta -2.445, 	 phi 1.902, 	 m  0.00, 	 pdgId 12, 	 genPartIdxMother 19, 	 status 1, 	 statusFlags 12673
+genPart 24: pt  16.2, 	 eta 0.793, 	 phi -0.147, 	 m  0.00, 	 pdgId 3, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8193
+genPart 25: pt  18.1, 	 eta 0.678, 	 phi -0.129, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8193
+genPart 26: pt  22.3, 	 eta 0.721, 	 phi -0.172, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8193
+genPart 27: pt   9.8, 	 eta 0.516, 	 phi -0.920, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 28: pt   4.8, 	 eta 1.242, 	 phi -0.022, 	 m  2.01, 	 pdgId 423, 	 genPartIdxMother 14, 	 status 2, 	 statusFlags 12291
+genPart 29: pt 240.0, 	 eta 0.711, 	 phi -0.244, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 30: pt  17.4, 	 eta 0.611, 	 phi -0.132, 	 m  0.00, 	 pdgId -3, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8193
+genPart 31: pt  18.4, 	 eta -0.568, 	 phi -0.046, 	 m  0.00, 	 pdgId 4, 	 genPartIdxMother 13, 	 status 71, 	 statusFlags 8193
+genPart 32: pt  14.2, 	 eta -0.580, 	 phi -0.053, 	 m  2.45, 	 pdgId 4212, 	 genPartIdxMother 31, 	 status 2, 	 statusFlags 12291
+genPart 33: pt   6.6, 	 eta 0.949, 	 phi -0.190, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 34: pt   3.4, 	 eta 0.764, 	 phi -0.354, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 35: pt   5.0, 	 eta 1.223, 	 phi -0.383, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 36: pt  15.2, 	 eta 1.359, 	 phi -0.137, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 37: pt  40.5, 	 eta 1.348, 	 phi -0.240, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 38: pt  17.6, 	 eta 1.398, 	 phi -0.225, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 39: pt  12.9, 	 eta 1.348, 	 phi -0.235, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 40: pt   3.1, 	 eta 1.227, 	 phi -0.248, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 41: pt   2.5, 	 eta 1.320, 	 phi 0.182, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 42: pt   4.3, 	 eta 1.074, 	 phi -0.031, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 43: pt   6.0, 	 eta 1.328, 	 phi -0.080, 	 m  2.11, 	 pdgId -433, 	 genPartIdxMother 5, 	 status 2, 	 statusFlags 28675
+genPart 44: pt  23.1, 	 eta 0.223, 	 phi 2.664, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother 10, 	 status 71, 	 statusFlags 8193
+genPart 45: pt   2.5, 	 eta 0.516, 	 phi 2.625, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 46: pt   0.5, 	 eta -0.650, 	 phi 0.971, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 47: pt   3.2, 	 eta -0.512, 	 phi 2.211, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 48: pt  12.9, 	 eta -0.345, 	 phi 2.289, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 49: pt   5.7, 	 eta -0.303, 	 phi 2.414, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 50: pt   2.6, 	 eta -0.639, 	 phi 0.380, 	 m  2.01, 	 pdgId -413, 	 genPartIdxMother 13, 	 status 2, 	 statusFlags 12291
+genPart 51: pt   1.5, 	 eta 0.672, 	 phi -0.287, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 52: pt   1.1, 	 eta -0.376, 	 phi 2.703, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 53: pt   7.4, 	 eta 0.286, 	 phi 2.867, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 54: pt  94.0, 	 eta 0.246, 	 phi 2.914, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 10, 	 status 71, 	 statusFlags 8193
+genPart 55: pt  31.7, 	 eta 0.264, 	 phi 2.906, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 10, 	 status 71, 	 statusFlags 8193
+genPart 56: pt  32.9, 	 eta 0.239, 	 phi 2.914, 	 m  0.00, 	 pdgId -2, 	 genPartIdxMother 10, 	 status 71, 	 statusFlags 8193
+genPart 57: pt  83.5, 	 eta -1.852, 	 phi -2.492, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8449
+genPart 58: pt  19.5, 	 eta -1.875, 	 phi -2.500, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 59: pt  24.9, 	 eta -1.879, 	 phi -2.477, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 6, 	 status 2, 	 statusFlags 28738
+genPart 60: pt   4.3, 	 eta 1.246, 	 phi -0.022, 	 m  0.00, 	 pdgId 421, 	 genPartIdxMother 28, 	 status 2, 	 statusFlags 12354
+genPart 61: pt  13.5, 	 eta -0.582, 	 phi -0.047, 	 m  2.29, 	 pdgId 4122, 	 genPartIdxMother 32, 	 status 2, 	 statusFlags 12354
+genPart 62: pt   5.3, 	 eta 1.328, 	 phi -0.070, 	 m  1.97, 	 pdgId -431, 	 genPartIdxMother 43, 	 status 2, 	 statusFlags 12354
+genPart 63: pt   2.5, 	 eta -0.635, 	 phi 0.372, 	 m  0.00, 	 pdgId -411, 	 genPartIdxMother 50, 	 status 2, 	 statusFlags 12354
+genPart 64: pt  18.8, 	 eta -1.875, 	 phi -2.484, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 59, 	 status 1, 	 statusFlags 12352
+
+
+ printFamilyTree: 
+
+ 0 (2) [0, 23488.00, 0.000]
+	 2 (24) [202, -2.06, 2.594]
+		 7 (24) [210, -2.03, 2.414]
+			 8 (24) [210, -2.03, 2.469]
+				 9 (24) [210, -2.03, 2.469]
+					 11 (24) [212, -2.02, 2.461]
+						 12 (24) [212, -2.02, 2.461]
+							 15 (24) [211, -2.02, 2.453]
+								 19 (24) [210, -2.03, 2.453]
+									 22 (-11) [175, -1.84, 2.586]
+									 23 (12) [43, -2.45, 1.902]
+	 3 (21) [196, 0.38, 2.766]
+		 10 (21) [198, 0.24, 2.875]
+			 44 (2) [23, 0.22, 2.664]
+			 54 (21) [94, 0.25, 2.914]
+			 55 (21) [32, 0.26, 2.906]
+			 56 (-2) [33, 0.24, 2.914]
+		 13 (21) [25, -0.60, 0.038]
+			 31 (4) [18, -0.57, -0.046]
+				 32 (4212) [14, -0.58, -0.053]
+					 61 (4122) [14, -0.58, -0.047]
+			 50 (-413) [3, -0.64, 0.380]
+				 63 (-411) [2, -0.63, 0.372]
+		 45 (21) [2, 0.52, 2.625]
+		 46 (21) [0, -0.65, 0.971]
+		 47 (21) [3, -0.51, 2.211]
+		 48 (21) [13, -0.34, 2.289]
+		 49 (21) [6, -0.30, 2.414]
+	 4 (21) [129, 1.29, -0.238]
+		 14 (21) [2, 1.83, -0.364]
+			 28 (423) [5, 1.24, -0.022]
+				 60 (421) [4, 1.25, -0.022]
+		 16 (21) [1, 0.41, -2.062]
+		 27 (21) [10, 0.52, -0.920]
+		 33 (21) [7, 0.95, -0.190]
+		 34 (21) [3, 0.76, -0.354]
+		 35 (21) [5, 1.22, -0.383]
+		 36 (21) [15, 1.36, -0.137]
+		 37 (21) [40, 1.35, -0.240]
+		 38 (21) [18, 1.40, -0.225]
+		 39 (21) [13, 1.35, -0.235]
+		 40 (21) [3, 1.23, -0.248]
+		 41 (21) [2, 1.32, 0.182]
+		 42 (21) [4, 1.07, -0.031]
+		 51 (21) [2, 0.67, -0.287]
+		 52 (21) [1, -0.38, 2.703]
+		 53 (21) [7, 0.29, 2.867]
+	 5 (2) [327, 0.72, -0.213]
+		 24 (3) [16, 0.79, -0.147]
+		 25 (21) [18, 0.68, -0.129]
+		 26 (21) [22, 0.72, -0.172]
+		 29 (2) [240, 0.71, -0.244]
+		 30 (-3) [17, 0.61, -0.132]
+		 43 (-433) [6, 1.33, -0.080]
+			 62 (-431) [5, 1.33, -0.070]
+	 6 (1) [119, -1.74, -2.438]
+		 57 (1) [84, -1.85, -2.492]
+		 58 (21) [20, -1.88, -2.500]
+		 59 (111) [25, -1.88, -2.477]
+			 64 (22) [19, -1.88, -2.484]
+Processed   590000/ 1294728 entries, 45.57% (elapsed time    89.2s, curr speed    3.783 kHz, avg speed    6.611 kHz), accepted   590001/  590001 events (100.00%)
+Processed   600000/ 1294728 entries, 46.34% (elapsed time    90.5s, curr speed    8.217 kHz, avg speed    6.632 kHz), accepted   600001/  600001 events (100.00%)
+Processed   610000/ 1294728 entries, 47.11% (elapsed time    91.7s, curr speed    8.200 kHz, avg speed    6.653 kHz), accepted   610001/  610001 events (100.00%)
+Processed   620000/ 1294728 entries, 47.89% (elapsed time    92.9s, curr speed    8.303 kHz, avg speed    6.675 kHz), accepted   620001/  620001 events (100.00%)
+Processed   630000/ 1294728 entries, 48.66% (elapsed time    94.1s, curr speed    7.964 kHz, avg speed    6.692 kHz), accepted   630001/  630001 events (100.00%)
+Processed   640000/ 1294728 entries, 49.43% (elapsed time    95.4s, curr speed    7.949 kHz, avg speed    6.708 kHz), accepted   640001/  640001 events (100.00%)
+Processed   650000/ 1294728 entries, 50.20% (elapsed time    97.2s, curr speed    5.719 kHz, avg speed    6.691 kHz), accepted   650001/  650001 events (100.00%)
+Processed   660000/ 1294728 entries, 50.98% (elapsed time    98.4s, curr speed    8.138 kHz, avg speed    6.709 kHz), accepted   660001/  660001 events (100.00%)
+
+
+
+1:41443:171362834
+ event  found in listOfSelectedEvent. Analyze this event
+genPart 0: pt   0.0, 	 eta 22912.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 2433
+genPart 1: pt   0.0, 	 eta -23808.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 2433
+genPart 2: pt 187.5, 	 eta -1.590, 	 phi 2.414, 	 m 82.00, 	 pdgId -24, 	 genPartIdxMother 0, 	 status 22, 	 statusFlags 4481
+genPart 3: pt  76.5, 	 eta 0.353, 	 phi -1.926, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 4: pt 126.0, 	 eta -0.133, 	 phi 1.293, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 4481
+genPart 5: pt 210.0, 	 eta -1.234, 	 phi -0.405, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 385
+genPart 6: pt 109.0, 	 eta -0.775, 	 phi -2.156, 	 m  0.00, 	 pdgId -1, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 22913
+genPart 7: pt 187.5, 	 eta -1.586, 	 phi 2.422, 	 m 82.00, 	 pdgId -24, 	 genPartIdxMother 2, 	 status 44, 	 statusFlags 257
+genPart 8: pt 188.0, 	 eta -1.586, 	 phi 2.422, 	 m 82.00, 	 pdgId -24, 	 genPartIdxMother 7, 	 status 44, 	 statusFlags 257
+genPart 9: pt 188.5, 	 eta -1.586, 	 phi 2.422, 	 m 82.00, 	 pdgId -24, 	 genPartIdxMother 8, 	 status 44, 	 statusFlags 257
+genPart 10: pt 187.0, 	 eta -1.594, 	 phi 2.422, 	 m 82.00, 	 pdgId -24, 	 genPartIdxMother 9, 	 status 44, 	 statusFlags 257
+genPart 11: pt  29.2, 	 eta 0.242, 	 phi -2.117, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 52, 	 statusFlags 8449
+genPart 12: pt 188.0, 	 eta -1.590, 	 phi 2.422, 	 m 82.00, 	 pdgId -24, 	 genPartIdxMother 10, 	 status 62, 	 statusFlags 10497
+genPart 13: pt  26.2, 	 eta -0.840, 	 phi -3.023, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 12, 	 status 1, 	 statusFlags 12673
+genPart 14: pt 171.5, 	 eta -1.621, 	 phi 2.305, 	 m  0.00, 	 pdgId -12, 	 genPartIdxMother 12, 	 status 1, 	 statusFlags 12673
+genPart 15: pt  20.8, 	 eta -0.093, 	 phi 1.312, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 16: pt  20.5, 	 eta -0.058, 	 phi 1.367, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8193
+genPart 17: pt  42.6, 	 eta -0.131, 	 phi 1.293, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8193
+genPart 18: pt  20.1, 	 eta -0.182, 	 phi 1.305, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8193
+genPart 19: pt  20.0, 	 eta 0.317, 	 phi -2.133, 	 m  0.00, 	 pdgId 3, 	 genPartIdxMother 11, 	 status 71, 	 statusFlags 8193
+genPart 20: pt  12.9, 	 eta 0.452, 	 phi -1.855, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 21: pt  12.8, 	 eta 0.496, 	 phi -1.965, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 22: pt   6.7, 	 eta 0.435, 	 phi -1.910, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 23: pt   5.3, 	 eta 0.444, 	 phi -1.730, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 24: pt   2.0, 	 eta 0.537, 	 phi -2.102, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 25: pt   7.9, 	 eta 0.230, 	 phi -1.855, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 26: pt 140.5, 	 eta -1.215, 	 phi -0.407, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 27: pt  24.4, 	 eta -1.242, 	 phi -0.400, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8193
+genPart 28: pt  54.1, 	 eta -0.752, 	 phi -2.344, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 29: pt  19.5, 	 eta -0.717, 	 phi -2.367, 	 m  0.00, 	 pdgId -1, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8449
+genPart 30: pt 154.5, 	 eta -1.219, 	 phi -0.410, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 5, 	 status 2, 	 statusFlags 28675
+genPart 31: pt   4.7, 	 eta -0.693, 	 phi 1.410, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 32: pt   7.9, 	 eta 0.041, 	 phi 0.857, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 33: pt   1.3, 	 eta 8.594, 	 phi 2.508, 	 m  0.58, 	 pdgId 2101, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 34: pt  21.8, 	 eta -0.103, 	 phi 1.305, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 4, 	 status 2, 	 statusFlags 28738
+genPart 35: pt 151.5, 	 eta -1.219, 	 phi -0.411, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 30, 	 status 1, 	 statusFlags 12352
+genPart 36: pt  15.5, 	 eta -0.099, 	 phi 1.305, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 34, 	 status 1, 	 statusFlags 12352
+genPart 37: pt   0.2, 	 eta 0.090, 	 phi 1.137, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 31, 	 status 1, 	 statusFlags 12352
+genPart 38: pt   0.6, 	 eta 0.026, 	 phi 1.086, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 31, 	 status 1, 	 statusFlags 12352
+
+
+ printFamilyTree: 
+
+ 0 (21) [0, 22912.00, 0.000]
+	 2 (-24) [188, -1.59, 2.414]
+		 7 (-24) [188, -1.59, 2.422]
+			 8 (-24) [188, -1.59, 2.422]
+				 9 (-24) [188, -1.59, 2.422]
+					 10 (-24) [187, -1.59, 2.422]
+						 12 (-24) [188, -1.59, 2.422]
+							 13 (11) [26, -0.84, -3.023]
+							 14 (-12) [172, -1.62, 2.305]
+	 3 (21) [76, 0.35, -1.926]
+		 11 (21) [29, 0.24, -2.117]
+			 19 (3) [20, 0.32, -2.133]
+		 20 (21) [13, 0.45, -1.855]
+		 21 (21) [13, 0.50, -1.965]
+		 22 (21) [7, 0.43, -1.910]
+		 23 (21) [5, 0.44, -1.730]
+		 24 (21) [2, 0.54, -2.102]
+		 25 (21) [8, 0.23, -1.855]
+	 4 (2) [126, -0.13, 1.293]
+		 15 (2) [21, -0.09, 1.312]
+		 16 (21) [20, -0.06, 1.367]
+		 17 (21) [43, -0.13, 1.293]
+		 18 (21) [20, -0.18, 1.305]
+		 34 (111) [22, -0.10, 1.305]
+			 36 (22) [16, -0.10, 1.305]
+	 5 (1) [210, -1.23, -0.405]
+		 26 (1) [140, -1.21, -0.407]
+		 27 (21) [24, -1.24, -0.400]
+		 30 (111) [154, -1.22, -0.410]
+			 35 (22) [152, -1.22, -0.411]
+	 6 (-1) [109, -0.78, -2.156]
+		 28 (21) [54, -0.75, -2.344]
+		 29 (-1) [20, -0.72, -2.367]
+Processed   670000/ 1294728 entries, 51.75% (elapsed time   101.1s, curr speed    3.650 kHz, avg speed    6.626 kHz), accepted   670001/  670001 events (100.00%)
+Processed   680000/ 1294728 entries, 52.52% (elapsed time   102.4s, curr speed    7.946 kHz, avg speed    6.642 kHz), accepted   680001/  680001 events (100.00%)
+
+
+
+1:30823:127451298
+ event  found in listOfSelectedEvent. Analyze this event
+genPart 0: pt   0.0, 	 eta 23232.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 2433
+genPart 1: pt   0.0, 	 eta -23744.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 2433
+genPart 2: pt 275.0, 	 eta 0.365, 	 phi -1.117, 	 m 79.00, 	 pdgId 24, 	 genPartIdxMother 0, 	 status 22, 	 statusFlags 4481
+genPart 3: pt 220.0, 	 eta -0.742, 	 phi 2.898, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 22913
+genPart 4: pt  30.2, 	 eta -1.074, 	 phi 1.891, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 22913
+genPart 5: pt 317.0, 	 eta -1.113, 	 phi -0.239, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 385
+genPart 6: pt 317.0, 	 eta 0.087, 	 phi 2.273, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 4481
+genPart 7: pt 287.0, 	 eta 0.325, 	 phi -1.090, 	 m 79.00, 	 pdgId 24, 	 genPartIdxMother 2, 	 status 44, 	 statusFlags 257
+genPart 8: pt 321.0, 	 eta -1.125, 	 phi -0.242, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother 5, 	 status 44, 	 statusFlags 2305
+genPart 9: pt 287.0, 	 eta 0.325, 	 phi -1.094, 	 m 79.00, 	 pdgId 24, 	 genPartIdxMother 7, 	 status 44, 	 statusFlags 257
+genPart 10: pt  44.5, 	 eta -0.689, 	 phi 2.820, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 52, 	 statusFlags 8449
+genPart 11: pt 287.0, 	 eta 0.325, 	 phi -1.094, 	 m 79.00, 	 pdgId 24, 	 genPartIdxMother 9, 	 status 44, 	 statusFlags 257
+genPart 12: pt 288.0, 	 eta 0.325, 	 phi -1.094, 	 m 79.00, 	 pdgId 24, 	 genPartIdxMother 11, 	 status 62, 	 statusFlags 10497
+genPart 13: pt  25.5, 	 eta -0.906, 	 phi -1.094, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 8, 	 status 1, 	 statusFlags 8193
+genPart 14: pt   1.5, 	 eta -1.211, 	 phi -1.164, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 8, 	 status 1, 	 statusFlags 8193
+genPart 15: pt 292.0, 	 eta 0.331, 	 phi -1.098, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 12, 	 status 23, 	 statusFlags 22913
+genPart 16: pt   4.4, 	 eta -0.643, 	 phi 1.570, 	 m  0.00, 	 pdgId 12, 	 genPartIdxMother 12, 	 status 23, 	 statusFlags 4481
+genPart 17: pt 292.0, 	 eta 0.331, 	 phi -1.098, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 15, 	 status 1, 	 statusFlags 8449
+genPart 18: pt   0.1, 	 eta 0.331, 	 phi -1.098, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 15, 	 status 1, 	 statusFlags 12289
+genPart 19: pt   4.4, 	 eta -0.643, 	 phi 1.570, 	 m  0.00, 	 pdgId 12, 	 genPartIdxMother 16, 	 status 1, 	 statusFlags 8449
+genPart 20: pt  44.4, 	 eta -0.727, 	 phi 2.820, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother 10, 	 status 71, 	 statusFlags 8193
+genPart 21: pt   6.7, 	 eta -1.031, 	 phi 2.359, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 22: pt   1.1, 	 eta -1.012, 	 phi -2.867, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 23: pt   1.9, 	 eta -0.707, 	 phi 2.664, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 24: pt   2.4, 	 eta 0.054, 	 phi 2.609, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 25: pt   3.0, 	 eta -0.002, 	 phi 1.973, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 26: pt   3.4, 	 eta -0.906, 	 phi 2.391, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 27: pt   1.2, 	 eta -1.453, 	 phi 1.824, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 28: pt   2.2, 	 eta -0.881, 	 phi 2.484, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 29: pt   0.9, 	 eta -1.332, 	 phi 1.273, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 30: pt   1.2, 	 eta -1.305, 	 phi 2.297, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 31: pt   2.6, 	 eta -1.422, 	 phi 1.914, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 32: pt   5.8, 	 eta -1.215, 	 phi 2.078, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 33: pt   4.4, 	 eta -0.996, 	 phi 1.922, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 34: pt   2.9, 	 eta -0.859, 	 phi 2.188, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 35: pt 205.5, 	 eta 0.125, 	 phi 2.258, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8449
+genPart 36: pt  63.4, 	 eta 0.127, 	 phi 2.250, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 37: pt  17.0, 	 eta 0.153, 	 phi 2.281, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 38: pt   7.9, 	 eta -0.750, 	 phi 2.891, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 39: pt  41.1, 	 eta -0.736, 	 phi 2.953, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 40: pt  11.7, 	 eta -0.756, 	 phi 3.000, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 41: pt  19.9, 	 eta -0.740, 	 phi 2.914, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 42: pt  67.5, 	 eta -0.723, 	 phi 2.945, 	 m  0.00, 	 pdgId -2, 	 genPartIdxMother 10, 	 status 71, 	 statusFlags 8193
+genPart 43: pt  16.5, 	 eta 0.126, 	 phi 2.258, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 6, 	 status 2, 	 statusFlags 28675
+genPart 44: pt  39.5, 	 eta 0.135, 	 phi 2.234, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 6, 	 status 2, 	 statusFlags 28675
+genPart 45: pt  12.6, 	 eta -0.719, 	 phi 2.961, 	 m  0.55, 	 pdgId 221, 	 genPartIdxMother 6, 	 status 2, 	 statusFlags 28675
+genPart 46: pt   0.4, 	 eta 7.156, 	 phi -2.820, 	 m  0.00, 	 pdgId -411, 	 genPartIdxMother -1, 	 status 2, 	 statusFlags 12291
+genPart 47: pt   1.1, 	 eta 5.734, 	 phi -0.127, 	 m  0.00, 	 pdgId 421, 	 genPartIdxMother -1, 	 status 2, 	 statusFlags 12291
+genPart 48: pt 116.2, 	 eta -1.234, 	 phi -0.260, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 8, 	 status 71, 	 statusFlags 8193
+genPart 49: pt  51.6, 	 eta -1.223, 	 phi -0.244, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 8, 	 status 71, 	 statusFlags 8193
+genPart 50: pt  26.1, 	 eta -1.172, 	 phi -0.251, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 8, 	 status 71, 	 statusFlags 8193
+genPart 51: pt  19.8, 	 eta -0.896, 	 phi -0.012, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 8, 	 status 71, 	 statusFlags 8193
+genPart 52: pt  18.9, 	 eta -1.043, 	 phi 0.165, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother 8, 	 status 71, 	 statusFlags 8449
+genPart 53: pt  16.5, 	 eta -0.750, 	 phi 2.914, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 6, 	 status 2, 	 statusFlags 28738
+genPart 54: pt  11.7, 	 eta -1.184, 	 phi -0.255, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 8, 	 status 2, 	 statusFlags 28738
+genPart 55: pt  13.0, 	 eta 0.130, 	 phi 2.258, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 43, 	 status 1, 	 statusFlags 12352
+genPart 56: pt  21.3, 	 eta 0.132, 	 phi 2.234, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 44, 	 status 1, 	 statusFlags 12352
+genPart 57: pt  18.1, 	 eta 0.139, 	 phi 2.234, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 44, 	 status 1, 	 statusFlags 12352
+genPart 58: pt  10.6, 	 eta -0.734, 	 phi 2.945, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 45, 	 status 1, 	 statusFlags 12352
+genPart 59: pt  16.1, 	 eta -0.725, 	 phi 2.945, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 6, 	 status 2, 	 statusFlags 28738
+genPart 60: pt   0.9, 	 eta 5.094, 	 phi 0.084, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 47, 	 status 1, 	 statusFlags 12352
+genPart 61: pt   0.4, 	 eta 4.438, 	 phi 2.914, 	 m  0.00, 	 pdgId 12, 	 genPartIdxMother 47, 	 status 1, 	 statusFlags 12352
+genPart 62: pt  10.5, 	 eta -0.752, 	 phi 2.922, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 53, 	 status 1, 	 statusFlags 12352
+genPart 63: pt  10.1, 	 eta -1.188, 	 phi -0.260, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 54, 	 status 1, 	 statusFlags 12352
+genPart 64: pt  12.2, 	 eta -0.729, 	 phi 2.953, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 59, 	 status 1, 	 statusFlags 12352
+
+
+ printFamilyTree: 
+
+ 0 (2) [0, 23232.00, 0.000]
+	 2 (24) [275, 0.37, -1.117]
+		 7 (24) [287, 0.33, -1.090]
+			 9 (24) [287, 0.33, -1.094]
+				 11 (24) [287, 0.33, -1.094]
+					 12 (24) [288, 0.33, -1.094]
+						 15 (-11) [292, 0.33, -1.098]
+							 17 (-11) [292, 0.33, -1.098]
+							 18 (22) [0, 0.33, -1.098]
+						 16 (12) [4, -0.64, 1.570]
+							 19 (12) [4, -0.64, 1.570]
+	 3 (21) [220, -0.74, 2.898]
+		 10 (21) [44, -0.69, 2.820]
+			 20 (2) [44, -0.73, 2.820]
+			 42 (-2) [68, -0.72, 2.945]
+		 38 (21) [8, -0.75, 2.891]
+		 39 (21) [41, -0.74, 2.953]
+		 40 (21) [12, -0.76, 3.000]
+		 41 (21) [20, -0.74, 2.914]
+	 4 (21) [30, -1.07, 1.891]
+		 21 (21) [7, -1.03, 2.359]
+		 22 (21) [1, -1.01, -2.867]
+		 23 (21) [2, -0.71, 2.664]
+		 24 (21) [2, 0.05, 2.609]
+		 25 (21) [3, -0.00, 1.973]
+		 26 (21) [3, -0.91, 2.391]
+		 27 (21) [1, -1.45, 1.824]
+		 28 (21) [2, -0.88, 2.484]
+		 29 (21) [1, -1.33, 1.273]
+		 30 (21) [1, -1.30, 2.297]
+		 31 (21) [3, -1.42, 1.914]
+		 32 (21) [6, -1.21, 2.078]
+		 33 (21) [4, -1.00, 1.922]
+		 34 (21) [3, -0.86, 2.188]
+	 5 (2) [317, -1.11, -0.239]
+		 8 (2) [321, -1.12, -0.242]
+			 13 (-11) [26, -0.91, -1.094]
+			 14 (11) [1, -1.21, -1.164]
+			 48 (21) [116, -1.23, -0.260]
+			 49 (21) [52, -1.22, -0.244]
+			 50 (21) [26, -1.17, -0.251]
+			 51 (21) [20, -0.90, -0.012]
+			 52 (2) [19, -1.04, 0.165]
+			 54 (111) [12, -1.18, -0.255]
+				 63 (22) [10, -1.19, -0.260]
+	 6 (1) [317, 0.09, 2.273]
+		 35 (1) [206, 0.12, 2.258]
+		 36 (21) [63, 0.13, 2.250]
+		 37 (21) [17, 0.15, 2.281]
+		 43 (111) [16, 0.13, 2.258]
+			 55 (22) [13, 0.13, 2.258]
+		 44 (111) [40, 0.13, 2.234]
+			 56 (22) [21, 0.13, 2.234]
+			 57 (22) [18, 0.14, 2.234]
+		 45 (221) [13, -0.72, 2.961]
+			 58 (22) [11, -0.73, 2.945]
+		 53 (111) [16, -0.75, 2.914]
+			 62 (22) [11, -0.75, 2.922]
+		 59 (111) [16, -0.72, 2.945]
+			 64 (22) [12, -0.73, 2.953]
+Processed   690000/ 1294728 entries, 53.29% (elapsed time   105.0s, curr speed    3.783 kHz, avg speed    6.570 kHz), accepted   690001/  690001 events (100.00%)
+Processed   700000/ 1294728 entries, 54.07% (elapsed time   107.0s, curr speed    5.125 kHz, avg speed    6.544 kHz), accepted   700001/  700001 events (100.00%)
+Processed   710000/ 1294728 entries, 54.84% (elapsed time   120.4s, curr speed    0.745 kHz, avg speed    5.897 kHz), accepted   710001/  710001 events (100.00%)
+
+
+
+1:24307:100505410
+ event  found in listOfSelectedEvent. Analyze this event
+genPart 0: pt   0.0, 	 eta 23104.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 2433
+genPart 1: pt   0.0, 	 eta -23040.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 2433
+genPart 2: pt  63.9, 	 eta 1.949, 	 phi -0.820, 	 m 80.00, 	 pdgId -24, 	 genPartIdxMother 0, 	 status 22, 	 statusFlags 4481
+genPart 3: pt  75.5, 	 eta -0.967, 	 phi 1.402, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 12673
+genPart 4: pt  21.2, 	 eta -0.167, 	 phi -1.105, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 22913
+genPart 5: pt  68.8, 	 eta 1.227, 	 phi -2.008, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 4481
+genPart 6: pt  64.5, 	 eta -1.527, 	 phi 2.172, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 385
+genPart 7: pt  66.0, 	 eta 1.922, 	 phi -0.734, 	 m 80.00, 	 pdgId -24, 	 genPartIdxMother 2, 	 status 44, 	 statusFlags 257
+genPart 8: pt  70.2, 	 eta 1.859, 	 phi -0.691, 	 m 80.00, 	 pdgId -24, 	 genPartIdxMother 7, 	 status 44, 	 statusFlags 257
+genPart 9: pt  70.5, 	 eta 1.859, 	 phi -0.695, 	 m 80.00, 	 pdgId -24, 	 genPartIdxMother 8, 	 status 44, 	 statusFlags 257
+genPart 10: pt   0.0, 	 eta 22784.000, 	 phi 0.000, 	 m  0.00, 	 pdgId -4, 	 genPartIdxMother -1, 	 status 31, 	 statusFlags 20481
+genPart 11: pt   0.6, 	 eta -2.188, 	 phi 1.266, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 51, 	 statusFlags 8449
+genPart 12: pt  69.5, 	 eta 1.875, 	 phi -0.703, 	 m 80.00, 	 pdgId -24, 	 genPartIdxMother 9, 	 status 62, 	 statusFlags 10497
+genPart 13: pt  22.6, 	 eta -1.504, 	 phi 1.449, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 3, 	 status 1, 	 statusFlags 8193
+genPart 14: pt   4.7, 	 eta -1.504, 	 phi 1.449, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 3, 	 status 1, 	 statusFlags 8193
+genPart 15: pt  81.0, 	 eta 1.398, 	 phi -0.428, 	 m  0.00, 	 pdgId 13, 	 genPartIdxMother 12, 	 status 23, 	 statusFlags 22913
+genPart 16: pt  23.6, 	 eta 1.770, 	 phi -2.641, 	 m  0.00, 	 pdgId -14, 	 genPartIdxMother 12, 	 status 23, 	 statusFlags 4481
+genPart 17: pt  81.0, 	 eta 1.398, 	 phi -0.428, 	 m  0.00, 	 pdgId 13, 	 genPartIdxMother 15, 	 status 1, 	 statusFlags 8449
+genPart 18: pt   0.0, 	 eta 1.375, 	 phi -0.446, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 15, 	 status 1, 	 statusFlags 12289
+genPart 19: pt  23.6, 	 eta 1.770, 	 phi -2.641, 	 m  0.00, 	 pdgId -14, 	 genPartIdxMother 16, 	 status 1, 	 statusFlags 8449
+genPart 20: pt   3.7, 	 eta 1.613, 	 phi -1.633, 	 m  2.11, 	 pdgId 433, 	 genPartIdxMother -1, 	 status 2, 	 statusFlags 28675
+genPart 21: pt  10.9, 	 eta -1.277, 	 phi 2.031, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8449
+genPart 22: pt  17.9, 	 eta -1.668, 	 phi 2.297, 	 m  0.00, 	 pdgId -2, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 23: pt  50.4, 	 eta 1.281, 	 phi -1.949, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 24: pt   1.8, 	 eta 1.047, 	 phi -2.336, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 25: pt   4.4, 	 eta 0.795, 	 phi -1.387, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 26: pt  23.6, 	 eta 0.734, 	 phi -1.652, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 27: pt   3.5, 	 eta 0.188, 	 phi -1.059, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 28: pt   3.0, 	 eta 0.477, 	 phi -1.340, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 29: pt  34.4, 	 eta -1.098, 	 phi 1.527, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8193
+genPart 30: pt   3.4, 	 eta 2.102, 	 phi -1.801, 	 m  0.00, 	 pdgId -421, 	 genPartIdxMother 10, 	 status 2, 	 statusFlags 12291
+genPart 31: pt   5.7, 	 eta -4.875, 	 phi 2.688, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 32: pt   0.5, 	 eta 8.125, 	 phi -0.693, 	 m  0.58, 	 pdgId 2101, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 33: pt   0.7, 	 eta -2.977, 	 phi -1.930, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 34: pt   3.6, 	 eta -1.680, 	 phi 0.594, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 35: pt   1.0, 	 eta -2.062, 	 phi 1.328, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 36: pt   1.3, 	 eta -2.539, 	 phi 2.297, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 37: pt   0.9, 	 eta -1.797, 	 phi 1.199, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 38: pt   1.4, 	 eta -2.883, 	 phi -0.001, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 39: pt   0.8, 	 eta -4.125, 	 phi 3.078, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 40: pt   2.9, 	 eta -2.328, 	 phi -0.662, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 41: pt   0.8, 	 eta -2.891, 	 phi 2.141, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 42: pt   0.8, 	 eta -3.430, 	 phi 3.133, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 43: pt   0.3, 	 eta -4.391, 	 phi -0.203, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 44: pt   0.2, 	 eta -7.062, 	 phi -0.295, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 45: pt   2.8, 	 eta 6.203, 	 phi 1.320, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 46: pt   0.7, 	 eta 1.426, 	 phi 1.891, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 47: pt   3.4, 	 eta 1.602, 	 phi -1.672, 	 m  1.97, 	 pdgId 431, 	 genPartIdxMother 20, 	 status 2, 	 statusFlags 12354
+genPart 48: pt   0.0, 	 eta 2.734, 	 phi 0.129, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 31, 	 status 1, 	 statusFlags 12352
+genPart 49: pt   0.3, 	 eta 2.680, 	 phi 0.028, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 31, 	 status 1, 	 statusFlags 12352
+genPart 50: pt   0.0, 	 eta -3.273, 	 phi -1.711, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 10, 	 status 1, 	 statusFlags 12352
+genPart 51: pt   0.1, 	 eta -3.422, 	 phi -1.480, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 10, 	 status 1, 	 statusFlags 12352
+
+
+ printFamilyTree: 
+
+ 0 (1) [0, 23104.00, 0.000]
+	 2 (-24) [64, 1.95, -0.820]
+		 7 (-24) [66, 1.92, -0.734]
+			 8 (-24) [70, 1.86, -0.691]
+				 9 (-24) [70, 1.86, -0.695]
+					 12 (-24) [70, 1.88, -0.703]
+						 15 (13) [81, 1.40, -0.428]
+							 17 (13) [81, 1.40, -0.428]
+							 18 (22) [0, 1.38, -0.446]
+						 16 (-14) [24, 1.77, -2.641]
+							 19 (-14) [24, 1.77, -2.641]
+	 3 (21) [76, -0.97, 1.402]
+		 13 (11) [23, -1.50, 1.449]
+		 14 (-11) [5, -1.50, 1.449]
+		 29 (1) [34, -1.10, 1.527]
+	 4 (21) [21, -0.17, -1.105]
+		 11 (21) [1, -2.19, 1.266]
+		 24 (21) [2, 1.05, -2.336]
+		 25 (21) [4, 0.79, -1.387]
+		 26 (21) [24, 0.73, -1.652]
+		 27 (21) [4, 0.19, -1.059]
+		 28 (21) [3, 0.48, -1.340]
+		 33 (21) [1, -2.98, -1.930]
+		 34 (21) [4, -1.68, 0.594]
+		 35 (21) [1, -2.06, 1.328]
+		 36 (21) [1, -2.54, 2.297]
+		 37 (21) [1, -1.80, 1.199]
+		 38 (21) [1, -2.88, -0.001]
+		 39 (21) [1, -4.12, 3.078]
+		 40 (21) [3, -2.33, -0.662]
+		 41 (21) [1, -2.89, 2.141]
+		 42 (21) [1, -3.43, 3.133]
+		 43 (21) [0, -4.39, -0.203]
+	 5 (2) [69, 1.23, -2.008]
+		 23 (2) [50, 1.28, -1.949]
+	 6 (1) [64, -1.53, 2.172]
+		 21 (1) [11, -1.28, 2.031]
+		 22 (-2) [18, -1.67, 2.297]
+Processed   720000/ 1294728 entries, 55.61% (elapsed time   124.0s, curr speed    2.750 kHz, avg speed    5.805 kHz), accepted   720001/  720001 events (100.00%)
+Processed   730000/ 1294728 entries, 56.38% (elapsed time   125.3s, curr speed    8.065 kHz, avg speed    5.827 kHz), accepted   730001/  730001 events (100.00%)
+Processed   740000/ 1294728 entries, 57.15% (elapsed time   126.5s, curr speed    8.310 kHz, avg speed    5.851 kHz), accepted   740001/  740001 events (100.00%)
+Processed   750000/ 1294728 entries, 57.93% (elapsed time   127.7s, curr speed    8.022 kHz, avg speed    5.872 kHz), accepted   750001/  750001 events (100.00%)
+Processed   760000/ 1294728 entries, 58.70% (elapsed time   129.0s, curr speed    8.136 kHz, avg speed    5.893 kHz), accepted   760001/  760001 events (100.00%)
+Processed   770000/ 1294728 entries, 59.47% (elapsed time   130.2s, curr speed    8.002 kHz, avg speed    5.914 kHz), accepted   770001/  770001 events (100.00%)
+Processed   780000/ 1294728 entries, 60.24% (elapsed time   132.0s, curr speed    5.711 kHz, avg speed    5.911 kHz), accepted   780001/  780001 events (100.00%)
+Processed   790000/ 1294728 entries, 61.02% (elapsed time   134.4s, curr speed    4.086 kHz, avg speed    5.878 kHz), accepted   790001/  790001 events (100.00%)
+Processed   800000/ 1294728 entries, 61.79% (elapsed time   135.7s, curr speed    7.942 kHz, avg speed    5.897 kHz), accepted   800001/  800001 events (100.00%)
+Processed   810000/ 1294728 entries, 62.56% (elapsed time   136.9s, curr speed    7.988 kHz, avg speed    5.916 kHz), accepted   810001/  810001 events (100.00%)
+Processed   820000/ 1294728 entries, 63.33% (elapsed time   138.2s, curr speed    8.065 kHz, avg speed    5.935 kHz), accepted   820001/  820001 events (100.00%)
+Processed   830000/ 1294728 entries, 64.11% (elapsed time   139.4s, curr speed    8.042 kHz, avg speed    5.954 kHz), accepted   830001/  830001 events (100.00%)
+Processed   840000/ 1294728 entries, 64.88% (elapsed time   140.7s, curr speed    7.871 kHz, avg speed    5.971 kHz), accepted   840001/  840001 events (100.00%)
+Processed   850000/ 1294728 entries, 65.65% (elapsed time   141.9s, curr speed    8.096 kHz, avg speed    5.990 kHz), accepted   850001/  850001 events (100.00%)
+Processed   860000/ 1294728 entries, 66.42% (elapsed time   143.2s, curr speed    7.922 kHz, avg speed    6.007 kHz), accepted   860001/  860001 events (100.00%)
+Processed   870000/ 1294728 entries, 67.20% (elapsed time   144.5s, curr speed    7.676 kHz, avg speed    6.022 kHz), accepted   870001/  870001 events (100.00%)
+Processed   880000/ 1294728 entries, 67.97% (elapsed time   145.7s, curr speed    8.007 kHz, avg speed    6.039 kHz), accepted   880001/  880001 events (100.00%)
+Processed   890000/ 1294728 entries, 68.74% (elapsed time   147.0s, curr speed    8.097 kHz, avg speed    6.056 kHz), accepted   890001/  890001 events (100.00%)
+Processed   900000/ 1294728 entries, 69.51% (elapsed time   148.2s, curr speed    8.128 kHz, avg speed    6.074 kHz), accepted   900001/  900001 events (100.00%)
+
+
+
+1:48147:199085837
+ event  found in listOfSelectedEvent. Analyze this event
+genPart 0: pt   0.0, 	 eta 23040.000, 	 phi 0.000, 	 m  0.00, 	 pdgId -1, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 10625
+genPart 1: pt   0.0, 	 eta -23040.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 10625
+genPart 2: pt 150.0, 	 eta -0.216, 	 phi 1.273, 	 m 80.00, 	 pdgId 24, 	 genPartIdxMother 0, 	 status 22, 	 statusFlags 4481
+genPart 3: pt  25.6, 	 eta 0.701, 	 phi -2.461, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 22913
+genPart 4: pt 190.0, 	 eta 0.396, 	 phi -1.352, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 22913
+genPart 5: pt  87.5, 	 eta -0.123, 	 phi -3.102, 	 m  0.00, 	 pdgId 4, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 4481
+genPart 6: pt  65.8, 	 eta -0.904, 	 phi 1.227, 	 m  0.00, 	 pdgId -4, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 4481
+genPart 7: pt 150.5, 	 eta -0.204, 	 phi 1.258, 	 m 80.00, 	 pdgId 24, 	 genPartIdxMother 2, 	 status 44, 	 statusFlags 257
+genPart 8: pt 150.0, 	 eta -0.200, 	 phi 1.262, 	 m 80.00, 	 pdgId 24, 	 genPartIdxMother 7, 	 status 44, 	 statusFlags 257
+genPart 9: pt  55.5, 	 eta 0.341, 	 phi -1.375, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 51, 	 statusFlags 8449
+genPart 10: pt 150.5, 	 eta -0.197, 	 phi 1.266, 	 m 80.00, 	 pdgId 24, 	 genPartIdxMother 8, 	 status 44, 	 statusFlags 257
+genPart 11: pt 105.5, 	 eta 0.397, 	 phi -1.312, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 44, 	 statusFlags 8449
+genPart 12: pt 150.5, 	 eta -0.197, 	 phi 1.266, 	 m 80.00, 	 pdgId 24, 	 genPartIdxMother 10, 	 status 44, 	 statusFlags 257
+genPart 13: pt 150.0, 	 eta -0.193, 	 phi 1.262, 	 m 80.00, 	 pdgId 24, 	 genPartIdxMother 12, 	 status 62, 	 statusFlags 10497
+genPart 14: pt  37.2, 	 eta -0.639, 	 phi 2.078, 	 m  0.00, 	 pdgId -13, 	 genPartIdxMother 13, 	 status 23, 	 statusFlags 22913
+genPart 15: pt 127.2, 	 eta -0.029, 	 phi 1.051, 	 m  0.00, 	 pdgId 14, 	 genPartIdxMother 13, 	 status 23, 	 statusFlags 4481
+genPart 16: pt  35.2, 	 eta -0.641, 	 phi 2.086, 	 m  0.00, 	 pdgId -13, 	 genPartIdxMother 14, 	 status 1, 	 statusFlags 8449
+genPart 17: pt   2.1, 	 eta -0.570, 	 phi 1.934, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 14, 	 status 1, 	 statusFlags 12289
+genPart 18: pt 127.2, 	 eta -0.029, 	 phi 1.051, 	 m  0.00, 	 pdgId 14, 	 genPartIdxMother 15, 	 status 1, 	 statusFlags 8449
+genPart 19: pt  54.9, 	 eta 0.381, 	 phi -1.301, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 11, 	 status 71, 	 statusFlags 8193
+genPart 20: pt  20.5, 	 eta 0.199, 	 phi -1.422, 	 m  0.00, 	 pdgId -2, 	 genPartIdxMother 9, 	 status 71, 	 statusFlags 8193
+genPart 21: pt  77.8, 	 eta -0.195, 	 phi -3.047, 	 m  0.00, 	 pdgId 4, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 22: pt  27.7, 	 eta 0.487, 	 phi -1.352, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 23: pt   2.5, 	 eta 0.347, 	 phi -1.422, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 24: pt  47.0, 	 eta 0.401, 	 phi -1.328, 	 m  0.00, 	 pdgId -1, 	 genPartIdxMother 11, 	 status 71, 	 statusFlags 8193
+genPart 25: pt  74.2, 	 eta -0.198, 	 phi -3.047, 	 m  0.00, 	 pdgId 411, 	 genPartIdxMother 5, 	 status 2, 	 statusFlags 12291
+genPart 26: pt   7.7, 	 eta 0.506, 	 phi -2.148, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 27: pt   5.1, 	 eta 0.662, 	 phi -2.570, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 28: pt  10.5, 	 eta 0.799, 	 phi -2.672, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 29: pt  39.0, 	 eta -0.965, 	 phi 1.184, 	 m  0.00, 	 pdgId -4, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8449
+genPart 30: pt  47.8, 	 eta -0.961, 	 phi 1.184, 	 m  2.01, 	 pdgId -423, 	 genPartIdxMother 6, 	 status 2, 	 statusFlags 28675
+genPart 31: pt  19.1, 	 eta 0.396, 	 phi -1.352, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother 9, 	 status 71, 	 statusFlags 8193
+genPart 32: pt  16.9, 	 eta 0.369, 	 phi -1.320, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 31, 	 status 2, 	 statusFlags 28675
+genPart 33: pt  23.0, 	 eta 0.421, 	 phi -1.363, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 5, 	 status 2, 	 statusFlags 28738
+genPart 34: pt  42.8, 	 eta -0.211, 	 phi -3.055, 	 m  0.00, 	 pdgId -13, 	 genPartIdxMother 25, 	 status 1, 	 statusFlags 12352
+genPart 35: pt   4.2, 	 eta -0.229, 	 phi -3.016, 	 m  0.00, 	 pdgId 14, 	 genPartIdxMother 25, 	 status 1, 	 statusFlags 12352
+genPart 36: pt  43.9, 	 eta -0.961, 	 phi 1.188, 	 m  0.00, 	 pdgId -421, 	 genPartIdxMother 30, 	 status 2, 	 statusFlags 12354
+genPart 37: pt  15.8, 	 eta 0.370, 	 phi -1.316, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 32, 	 status 1, 	 statusFlags 12352
+genPart 38: pt  17.9, 	 eta 0.420, 	 phi -1.367, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 33, 	 status 1, 	 statusFlags 12352
+
+
+ printFamilyTree: 
+
+ 0 (-1) [0, 23040.00, 0.000]
+	 2 (24) [150, -0.22, 1.273]
+		 7 (24) [150, -0.20, 1.258]
+			 8 (24) [150, -0.20, 1.262]
+				 10 (24) [150, -0.20, 1.266]
+					 12 (24) [150, -0.20, 1.266]
+						 13 (24) [150, -0.19, 1.262]
+							 14 (-13) [37, -0.64, 2.078]
+								 16 (-13) [35, -0.64, 2.086]
+								 17 (22) [2, -0.57, 1.934]
+							 15 (14) [127, -0.03, 1.051]
+								 18 (14) [127, -0.03, 1.051]
+	 3 (21) [26, 0.70, -2.461]
+		 26 (21) [8, 0.51, -2.148]
+		 27 (21) [5, 0.66, -2.570]
+		 28 (21) [10, 0.80, -2.672]
+	 4 (21) [190, 0.40, -1.352]
+		 9 (21) [56, 0.34, -1.375]
+			 20 (-2) [20, 0.20, -1.422]
+			 31 (2) [19, 0.40, -1.352]
+				 32 (111) [17, 0.37, -1.320]
+					 37 (22) [16, 0.37, -1.316]
+		 11 (21) [106, 0.40, -1.312]
+			 19 (1) [55, 0.38, -1.301]
+			 24 (-1) [47, 0.40, -1.328]
+		 22 (21) [28, 0.49, -1.352]
+		 23 (21) [3, 0.35, -1.422]
+	 5 (4) [88, -0.12, -3.102]
+		 21 (4) [78, -0.20, -3.047]
+		 25 (411) [74, -0.20, -3.047]
+			 34 (-13) [43, -0.21, -3.055]
+			 35 (14) [4, -0.23, -3.016]
+		 33 (111) [23, 0.42, -1.363]
+			 38 (22) [18, 0.42, -1.367]
+	 6 (-4) [66, -0.90, 1.227]
+		 29 (-4) [39, -0.96, 1.184]
+		 30 (-423) [48, -0.96, 1.184]
+			 36 (-421) [44, -0.96, 1.188]
+Processed   910000/ 1294728 entries, 70.29% (elapsed time   151.8s, curr speed    2.781 kHz, avg speed    5.996 kHz), accepted   910001/  910001 events (100.00%)
+Processed   920000/ 1294728 entries, 71.06% (elapsed time   153.0s, curr speed    8.202 kHz, avg speed    6.013 kHz), accepted   920001/  920001 events (100.00%)
+Processed   930000/ 1294728 entries, 71.83% (elapsed time   154.2s, curr speed    8.064 kHz, avg speed    6.030 kHz), accepted   930001/  930001 events (100.00%)
+Processed   940000/ 1294728 entries, 72.60% (elapsed time   155.5s, curr speed    8.141 kHz, avg speed    6.046 kHz), accepted   940001/  940001 events (100.00%)
+
+
+
+1:38793:160408886
+ event  found in listOfSelectedEvent. Analyze this event
+genPart 0: pt   0.0, 	 eta 23296.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 27009
+genPart 1: pt   0.0, 	 eta -23104.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 4, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 18817
+genPart 2: pt  61.6, 	 eta 1.926, 	 phi -0.865, 	 m 80.75, 	 pdgId 24, 	 genPartIdxMother 0, 	 status 22, 	 statusFlags 4481
+genPart 3: pt 106.8, 	 eta 1.141, 	 phi -2.477, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 12673
+genPart 4: pt  37.6, 	 eta 0.639, 	 phi 2.648, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 22913
+genPart 5: pt 159.5, 	 eta -1.324, 	 phi 1.164, 	 m  0.00, 	 pdgId 4, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 6: pt  53.9, 	 eta 1.324, 	 phi -1.305, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 4481
+genPart 7: pt  61.6, 	 eta 1.926, 	 phi -0.863, 	 m 80.75, 	 pdgId 24, 	 genPartIdxMother 2, 	 status 44, 	 statusFlags 257
+genPart 8: pt  53.9, 	 eta 1.324, 	 phi -1.301, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 6, 	 status 44, 	 statusFlags 18689
+genPart 9: pt  37.5, 	 eta 0.635, 	 phi 2.648, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 52, 	 statusFlags 8449
+genPart 10: pt  57.5, 	 eta -1.305, 	 phi 0.834, 	 m  0.00, 	 pdgId -13, 	 genPartIdxMother 5, 	 status 51, 	 statusFlags 4097
+genPart 11: pt   3.0, 	 eta -1.434, 	 phi 0.703, 	 m  0.00, 	 pdgId 13, 	 genPartIdxMother 5, 	 status 51, 	 statusFlags 4097
+genPart 12: pt  62.1, 	 eta 1.918, 	 phi -0.869, 	 m 80.75, 	 pdgId 24, 	 genPartIdxMother 7, 	 status 62, 	 statusFlags 10497
+genPart 13: pt  57.9, 	 eta -1.297, 	 phi 0.828, 	 m  0.00, 	 pdgId -13, 	 genPartIdxMother 10, 	 status 1, 	 statusFlags 8193
+genPart 14: pt   3.0, 	 eta -1.426, 	 phi 0.699, 	 m  0.00, 	 pdgId 13, 	 genPartIdxMother 11, 	 status 1, 	 statusFlags 8193
+genPart 15: pt  74.8, 	 eta 1.707, 	 phi -1.012, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 12, 	 status 1, 	 statusFlags 12673
+genPart 16: pt  16.0, 	 eta 0.453, 	 phi 1.543, 	 m  0.00, 	 pdgId 12, 	 genPartIdxMother 12, 	 status 1, 	 statusFlags 12673
+genPart 17: pt  58.1, 	 eta 1.109, 	 phi -2.352, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8193
+genPart 18: pt   0.3, 	 eta -3.672, 	 phi -2.688, 	 m  0.00, 	 pdgId 411, 	 genPartIdxMother -1, 	 status 2, 	 statusFlags 12291
+genPart 19: pt  27.1, 	 eta 1.285, 	 phi -1.277, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 8, 	 status 71, 	 statusFlags 8449
+genPart 20: pt  19.7, 	 eta 1.344, 	 phi -1.258, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 8, 	 status 71, 	 statusFlags 8193
+genPart 21: pt   5.9, 	 eta 1.363, 	 phi -1.480, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 8, 	 status 71, 	 statusFlags 8193
+genPart 22: pt   6.3, 	 eta 1.098, 	 phi -2.703, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 8, 	 status 71, 	 statusFlags 8193
+genPart 23: pt   5.5, 	 eta 1.055, 	 phi -2.523, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 8, 	 status 71, 	 statusFlags 8193
+genPart 24: pt  19.9, 	 eta 1.125, 	 phi -2.648, 	 m  0.00, 	 pdgId -1, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8193
+genPart 25: pt   4.6, 	 eta -1.805, 	 phi 0.102, 	 m  2.29, 	 pdgId -4122, 	 genPartIdxMother -1, 	 status 2, 	 statusFlags 12291
+genPart 26: pt  31.9, 	 eta -1.348, 	 phi 1.340, 	 m  0.00, 	 pdgId 4, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 27: pt  65.2, 	 eta -1.363, 	 phi 1.312, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8193
+genPart 28: pt  18.8, 	 eta 0.578, 	 phi 2.672, 	 m  0.00, 	 pdgId -3, 	 genPartIdxMother 9, 	 status 71, 	 statusFlags 8193
+genPart 29: pt  61.5, 	 eta -1.355, 	 phi 1.324, 	 m  2.11, 	 pdgId 433, 	 genPartIdxMother 5, 	 status 2, 	 statusFlags 28675
+genPart 30: pt   2.5, 	 eta -3.258, 	 phi 3.023, 	 m  2.01, 	 pdgId -423, 	 genPartIdxMother -1, 	 status 2, 	 statusFlags 12291
+genPart 31: pt  55.5, 	 eta -1.355, 	 phi 1.324, 	 m  1.97, 	 pdgId 431, 	 genPartIdxMother 29, 	 status 2, 	 statusFlags 12354
+genPart 32: pt   2.4, 	 eta -3.266, 	 phi 3.023, 	 m  0.00, 	 pdgId -421, 	 genPartIdxMother 30, 	 status 2, 	 statusFlags 12354
+genPart 33: pt   0.2, 	 eta 1.629, 	 phi -1.293, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 8, 	 status 1, 	 statusFlags 12352
+genPart 34: pt   0.9, 	 eta 1.625, 	 phi -1.293, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 8, 	 status 1, 	 statusFlags 12352
+
+
+ printFamilyTree: 
+
+ 0 (2) [0, 23296.00, 0.000]
+	 2 (24) [62, 1.93, -0.865]
+		 7 (24) [62, 1.93, -0.863]
+			 12 (24) [62, 1.92, -0.869]
+				 15 (-11) [75, 1.71, -1.012]
+				 16 (12) [16, 0.45, 1.543]
+	 3 (21) [107, 1.14, -2.477]
+		 17 (1) [58, 1.11, -2.352]
+		 24 (-1) [20, 1.12, -2.648]
+	 4 (21) [38, 0.64, 2.648]
+		 9 (21) [38, 0.63, 2.648]
+			 28 (-3) [19, 0.58, 2.672]
+	 5 (4) [160, -1.32, 1.164]
+		 10 (-13) [58, -1.30, 0.834]
+			 13 (-13) [58, -1.30, 0.828]
+		 11 (13) [3, -1.43, 0.703]
+			 14 (13) [3, -1.43, 0.699]
+		 26 (4) [32, -1.35, 1.340]
+		 27 (21) [65, -1.36, 1.312]
+		 29 (433) [62, -1.36, 1.324]
+			 31 (431) [56, -1.36, 1.324]
+	 6 (1) [54, 1.32, -1.305]
+		 8 (1) [54, 1.32, -1.301]
+			 19 (1) [27, 1.29, -1.277]
+			 20 (21) [20, 1.34, -1.258]
+			 21 (21) [6, 1.36, -1.480]
+			 22 (21) [6, 1.10, -2.703]
+			 23 (21) [5, 1.05, -2.523]
+			 33 (11) [0, 1.63, -1.293]
+			 34 (-11) [1, 1.62, -1.293]
+Processed   950000/ 1294728 entries, 73.37% (elapsed time   158.1s, curr speed    3.775 kHz, avg speed    6.008 kHz), accepted   950001/  950001 events (100.00%)
+Processed   960000/ 1294728 entries, 74.15% (elapsed time   159.4s, curr speed    7.870 kHz, avg speed    6.023 kHz), accepted   960001/  960001 events (100.00%)
+Processed   970000/ 1294728 entries, 74.92% (elapsed time   160.6s, curr speed    7.966 kHz, avg speed    6.038 kHz), accepted   970001/  970001 events (100.00%)
+Processed   980000/ 1294728 entries, 75.69% (elapsed time   161.9s, curr speed    8.027 kHz, avg speed    6.054 kHz), accepted   980001/  980001 events (100.00%)
+Processed   990000/ 1294728 entries, 76.46% (elapsed time   163.1s, curr speed    8.046 kHz, avg speed    6.069 kHz), accepted   990001/  990001 events (100.00%)
+Processed  1000000/ 1294728 entries, 77.24% (elapsed time   164.4s, curr speed    8.128 kHz, avg speed    6.084 kHz), accepted  1000001/ 1000001 events (100.00%)
+Processed  1010000/ 1294728 entries, 78.01% (elapsed time   165.6s, curr speed    8.061 kHz, avg speed    6.099 kHz), accepted  1010001/ 1010001 events (100.00%)
+Processed  1020000/ 1294728 entries, 78.78% (elapsed time   166.9s, curr speed    7.938 kHz, avg speed    6.113 kHz), accepted  1020001/ 1020001 events (100.00%)
+Processed  1030000/ 1294728 entries, 79.55% (elapsed time   168.6s, curr speed    5.766 kHz, avg speed    6.109 kHz), accepted  1030001/ 1030001 events (100.00%)
+Processed  1040000/ 1294728 entries, 80.33% (elapsed time   169.8s, curr speed    8.175 kHz, avg speed    6.124 kHz), accepted  1040001/ 1040001 events (100.00%)
+Processed  1050000/ 1294728 entries, 81.10% (elapsed time   171.0s, curr speed    8.228 kHz, avg speed    6.139 kHz), accepted  1050001/ 1050001 events (100.00%)
+Processed  1060000/ 1294728 entries, 81.87% (elapsed time   172.3s, curr speed    8.192 kHz, avg speed    6.154 kHz), accepted  1060001/ 1060001 events (100.00%)
+Processed  1070000/ 1294728 entries, 82.64% (elapsed time   173.5s, curr speed    8.209 kHz, avg speed    6.168 kHz), accepted  1070001/ 1070001 events (100.00%)
+Processed  1080000/ 1294728 entries, 83.42% (elapsed time   174.7s, curr speed    8.273 kHz, avg speed    6.183 kHz), accepted  1080001/ 1080001 events (100.00%)
+Processed  1090000/ 1294728 entries, 84.19% (elapsed time   175.9s, curr speed    8.263 kHz, avg speed    6.197 kHz), accepted  1090001/ 1090001 events (100.00%)
+Processed  1100000/ 1294728 entries, 84.96% (elapsed time   177.1s, curr speed    8.092 kHz, avg speed    6.210 kHz), accepted  1100001/ 1100001 events (100.00%)
+Processed  1110000/ 1294728 entries, 85.73% (elapsed time   178.4s, curr speed    8.037 kHz, avg speed    6.223 kHz), accepted  1110001/ 1110001 events (100.00%)
+Processed  1120000/ 1294728 entries, 86.50% (elapsed time   179.6s, curr speed    7.869 kHz, avg speed    6.235 kHz), accepted  1120001/ 1120001 events (100.00%)
+Processed  1130000/ 1294728 entries, 87.28% (elapsed time   181.1s, curr speed    6.724 kHz, avg speed    6.239 kHz), accepted  1130001/ 1130001 events (100.00%)
+Processed  1140000/ 1294728 entries, 88.05% (elapsed time   182.4s, curr speed    7.767 kHz, avg speed    6.249 kHz), accepted  1140001/ 1140001 events (100.00%)
+Processed  1150000/ 1294728 entries, 88.82% (elapsed time   183.7s, curr speed    7.779 kHz, avg speed    6.260 kHz), accepted  1150001/ 1150001 events (100.00%)
+Processed  1160000/ 1294728 entries, 89.59% (elapsed time   185.5s, curr speed    5.623 kHz, avg speed    6.254 kHz), accepted  1160001/ 1160001 events (100.00%)
+Processed  1170000/ 1294728 entries, 90.37% (elapsed time   186.8s, curr speed    7.473 kHz, avg speed    6.263 kHz), accepted  1170001/ 1170001 events (100.00%)
+Processed  1180000/ 1294728 entries, 91.14% (elapsed time   188.1s, curr speed    7.814 kHz, avg speed    6.273 kHz), accepted  1180001/ 1180001 events (100.00%)
+Processed  1190000/ 1294728 entries, 91.91% (elapsed time   189.3s, curr speed    8.024 kHz, avg speed    6.285 kHz), accepted  1190001/ 1190001 events (100.00%)
+Processed  1200000/ 1294728 entries, 92.68% (elapsed time   190.6s, curr speed    8.010 kHz, avg speed    6.296 kHz), accepted  1200001/ 1200001 events (100.00%)
+Processed  1210000/ 1294728 entries, 93.46% (elapsed time   191.8s, curr speed    8.150 kHz, avg speed    6.308 kHz), accepted  1210001/ 1210001 events (100.00%)
+Processed  1220000/ 1294728 entries, 94.23% (elapsed time   193.0s, curr speed    8.197 kHz, avg speed    6.320 kHz), accepted  1220001/ 1220001 events (100.00%)
+Processed  1230000/ 1294728 entries, 95.00% (elapsed time   194.3s, curr speed    7.956 kHz, avg speed    6.330 kHz), accepted  1230001/ 1230001 events (100.00%)
+Processed  1240000/ 1294728 entries, 95.77% (elapsed time   195.5s, curr speed    8.230 kHz, avg speed    6.342 kHz), accepted  1240001/ 1240001 events (100.00%)
+Processed  1250000/ 1294728 entries, 96.55% (elapsed time   196.7s, curr speed    8.125 kHz, avg speed    6.353 kHz), accepted  1250001/ 1250001 events (100.00%)
+Processed  1260000/ 1294728 entries, 97.32% (elapsed time   198.1s, curr speed    7.617 kHz, avg speed    6.362 kHz), accepted  1260001/ 1260001 events (100.00%)
+Processed  1270000/ 1294728 entries, 98.09% (elapsed time   199.3s, curr speed    7.770 kHz, avg speed    6.371 kHz), accepted  1270001/ 1270001 events (100.00%)
+Processed  1280000/ 1294728 entries, 98.86% (elapsed time   200.6s, curr speed    7.786 kHz, avg speed    6.380 kHz), accepted  1280001/ 1280001 events (100.00%)
+Processed  1290000/ 1294728 entries, 99.63% (elapsed time   202.4s, curr speed    5.690 kHz, avg speed    6.374 kHz), accepted  1290001/ 1290001 events (100.00%)
+Processed 1294728 preselected entries from root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer16NanoAODv7/W4JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/NANOAODSIM/PUMoriond17_Nano02Apr2020_102X_mcRun2_asymptotic_v8-v1/70000/01E5AB94-A9D4-214E-8BE7-03BE75E43986.root (1294728 entries). Finally selected 1294728 entries
+Pre-select 1078955 entries out of 1078955 (100.00%)
+Processed    10000/ 1078955 entries,  0.93% (elapsed time     2.1s, curr speed    4.708 kHz, avg speed    4.708 kHz), accepted    10001/   10001 events (100.00%)
+
+
+
+1:16358:67639176
+ event  found in listOfSelectedEvent. Analyze this event
+genPart 0: pt   0.0, 	 eta 22912.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 10625
+genPart 1: pt   0.0, 	 eta -22976.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 2433
+genPart 2: pt  20.9, 	 eta 1.918, 	 phi -3.117, 	 m 81.00, 	 pdgId 24, 	 genPartIdxMother 0, 	 status 22, 	 statusFlags 4481
+genPart 3: pt  29.8, 	 eta -1.840, 	 phi 0.520, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 4: pt  63.4, 	 eta -0.738, 	 phi 1.070, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 5: pt  28.7, 	 eta -1.047, 	 phi -3.000, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 6: pt  66.2, 	 eta 0.445, 	 phi -1.676, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 4481
+genPart 7: pt  19.7, 	 eta 1.945, 	 phi 3.133, 	 m 81.00, 	 pdgId 24, 	 genPartIdxMother 2, 	 status 44, 	 statusFlags 257
+genPart 8: pt  18.6, 	 eta 1.992, 	 phi 3.133, 	 m 81.00, 	 pdgId 24, 	 genPartIdxMother 7, 	 status 44, 	 statusFlags 257
+genPart 9: pt  69.0, 	 eta -0.668, 	 phi 0.980, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 44, 	 statusFlags 8449
+genPart 10: pt  18.6, 	 eta 1.988, 	 phi 3.125, 	 m 81.00, 	 pdgId 24, 	 genPartIdxMother 8, 	 status 44, 	 statusFlags 257
+genPart 11: pt  16.8, 	 eta 2.094, 	 phi -3.094, 	 m 81.00, 	 pdgId 24, 	 genPartIdxMother 10, 	 status 44, 	 statusFlags 257
+genPart 12: pt  15.9, 	 eta 2.141, 	 phi -3.102, 	 m 81.00, 	 pdgId 24, 	 genPartIdxMother 11, 	 status 62, 	 statusFlags 10497
+genPart 13: pt  35.4, 	 eta 0.142, 	 phi 1.922, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 12, 	 status 23, 	 statusFlags 22913
+genPart 14: pt  34.0, 	 eta 1.363, 	 phi -1.684, 	 m  0.00, 	 pdgId 12, 	 genPartIdxMother 12, 	 status 23, 	 statusFlags 4481
+genPart 15: pt  35.1, 	 eta 0.142, 	 phi 1.922, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 13, 	 status 1, 	 statusFlags 8449
+genPart 16: pt   0.2, 	 eta 0.153, 	 phi 1.926, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 13, 	 status 1, 	 statusFlags 12289
+genPart 17: pt  34.0, 	 eta 1.363, 	 phi -1.684, 	 m  0.00, 	 pdgId 12, 	 genPartIdxMother 14, 	 status 1, 	 statusFlags 8449
+genPart 18: pt  14.1, 	 eta 0.498, 	 phi -1.535, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8449
+genPart 19: pt   1.3, 	 eta 1.035, 	 phi 0.781, 	 m  1.97, 	 pdgId 431, 	 genPartIdxMother -1, 	 status 2, 	 statusFlags 12291
+genPart 20: pt   2.5, 	 eta 1.496, 	 phi -0.353, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 21: pt   0.5, 	 eta 3.555, 	 phi -0.274, 	 m  0.00, 	 pdgId -3, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 22: pt   2.7, 	 eta -0.024, 	 phi 0.982, 	 m  2.01, 	 pdgId -413, 	 genPartIdxMother -1, 	 status 2, 	 statusFlags 12291
+genPart 23: pt  20.1, 	 eta 0.551, 	 phi -1.633, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 24: pt   4.5, 	 eta -1.148, 	 phi -2.953, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 25: pt  13.5, 	 eta -1.270, 	 phi -3.055, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 26: pt   2.8, 	 eta -1.395, 	 phi 0.650, 	 m  5.28, 	 pdgId -511, 	 genPartIdxMother 9, 	 status 2, 	 statusFlags 12291
+genPart 27: pt   1.8, 	 eta -1.406, 	 phi 0.241, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 28: pt  14.4, 	 eta -2.312, 	 phi 1.504, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 29: pt   5.1, 	 eta 4.797, 	 phi -0.969, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 30: pt   1.5, 	 eta 4.500, 	 phi 1.094, 	 m  0.00, 	 pdgId -3, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 31: pt  26.8, 	 eta -1.578, 	 phi 0.451, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 32: pt   4.8, 	 eta -1.355, 	 phi 0.428, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 33: pt   1.0, 	 eta -0.930, 	 phi 0.561, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 34: pt   3.0, 	 eta -1.547, 	 phi 0.812, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 35: pt   1.7, 	 eta -0.691, 	 phi 0.705, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 36: pt  69.0, 	 eta -0.729, 	 phi 0.959, 	 m  0.00, 	 pdgId -5, 	 genPartIdxMother 9, 	 status 71, 	 statusFlags 8193
+genPart 37: pt  63.0, 	 eta -0.736, 	 phi 0.951, 	 m  5.62, 	 pdgId -5122, 	 genPartIdxMother 31, 	 status 2, 	 statusFlags 12291
+genPart 38: pt   2.5, 	 eta -0.026, 	 phi 0.967, 	 m  0.00, 	 pdgId -421, 	 genPartIdxMother 22, 	 status 2, 	 statusFlags 12354
+genPart 39: pt   0.8, 	 eta 0.226, 	 phi -0.099, 	 m  0.00, 	 pdgId -12, 	 genPartIdxMother 26, 	 status 1, 	 statusFlags 12352
+genPart 40: pt   1.8, 	 eta -0.719, 	 phi 1.629, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 26, 	 status 1, 	 statusFlags 12352
+genPart 41: pt   0.1, 	 eta 4.109, 	 phi -1.797, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 27, 	 status 1, 	 statusFlags 12352
+genPart 42: pt   0.0, 	 eta 4.094, 	 phi -1.875, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 27, 	 status 1, 	 statusFlags 12352
+genPart 43: pt   5.7, 	 eta -0.648, 	 phi 0.947, 	 m  0.00, 	 pdgId 12, 	 genPartIdxMother 37, 	 status 1, 	 statusFlags 12352
+genPart 44: pt  43.0, 	 eta -0.729, 	 phi 0.969, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 37, 	 status 1, 	 statusFlags 12352
+genPart 45: pt  14.3, 	 eta -0.791, 	 phi 0.895, 	 m  2.29, 	 pdgId -4122, 	 genPartIdxMother 37, 	 status 2, 	 statusFlags 12354
+genPart 46: pt   0.0, 	 eta 2.055, 	 phi 0.258, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 20, 	 status 1, 	 statusFlags 12352
+genPart 47: pt   0.1, 	 eta 2.133, 	 phi -0.001, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 20, 	 status 1, 	 statusFlags 12352
+genPart 48: pt   1.7, 	 eta -1.574, 	 phi -0.003, 	 m  2.01, 	 pdgId 423, 	 genPartIdxMother 26, 	 status 2, 	 statusFlags 28738
+genPart 49: pt   1.7, 	 eta -1.582, 	 phi -0.026, 	 m  0.00, 	 pdgId 421, 	 genPartIdxMother 48, 	 status 2, 	 statusFlags 12354
+
+
+ printFamilyTree: 
+
+ 0 (2) [0, 22912.00, 0.000]
+	 2 (24) [21, 1.92, -3.117]
+		 7 (24) [20, 1.95, 3.133]
+			 8 (24) [19, 1.99, 3.133]
+				 10 (24) [19, 1.99, 3.125]
+					 11 (24) [17, 2.09, -3.094]
+						 12 (24) [16, 2.14, -3.102]
+							 13 (-11) [35, 0.14, 1.922]
+								 15 (-11) [35, 0.14, 1.922]
+								 16 (22) [0, 0.15, 1.926]
+							 14 (12) [34, 1.36, -1.684]
+								 17 (12) [34, 1.36, -1.684]
+	 3 (21) [30, -1.84, 0.520]
+		 31 (21) [27, -1.58, 0.451]
+			 37 (-5122) [63, -0.74, 0.951]
+				 43 (12) [6, -0.65, 0.947]
+				 44 (-11) [43, -0.73, 0.969]
+				 45 (-4122) [14, -0.79, 0.895]
+		 32 (21) [5, -1.36, 0.428]
+		 33 (21) [1, -0.93, 0.561]
+		 34 (21) [3, -1.55, 0.812]
+		 35 (21) [2, -0.69, 0.705]
+	 4 (21) [63, -0.74, 1.070]
+		 9 (21) [69, -0.67, 0.980]
+			 26 (-511) [3, -1.39, 0.650]
+				 39 (-12) [1, 0.23, -0.099]
+				 40 (11) [2, -0.72, 1.629]
+				 48 (423) [2, -1.57, -0.003]
+					 49 (421) [2, -1.58, -0.026]
+			 36 (-5) [69, -0.73, 0.959]
+	 5 (21) [29, -1.05, -3.000]
+		 24 (21) [5, -1.15, -2.953]
+		 25 (21) [13, -1.27, -3.055]
+	 6 (1) [66, 0.45, -1.676]
+		 18 (1) [14, 0.50, -1.535]
+		 23 (2) [20, 0.55, -1.633]
+Processed    20000/ 1078955 entries,  1.85% (elapsed time     4.8s, curr speed    3.784 kHz, avg speed    4.196 kHz), accepted    20001/   20001 events (100.00%)
+Processed    30000/ 1078955 entries,  2.78% (elapsed time     6.0s, curr speed    8.183 kHz, avg speed    5.010 kHz), accepted    30001/   30001 events (100.00%)
+Processed    40000/ 1078955 entries,  3.71% (elapsed time     7.3s, curr speed    7.833 kHz, avg speed    5.506 kHz), accepted    40001/   40001 events (100.00%)
+Processed    50000/ 1078955 entries,  4.63% (elapsed time     8.5s, curr speed    8.083 kHz, avg speed    5.881 kHz), accepted    50001/   50001 events (100.00%)
+Processed    60000/ 1078955 entries,  5.56% (elapsed time     9.7s, curr speed    8.226 kHz, avg speed    6.174 kHz), accepted    60001/   60001 events (100.00%)
+Processed    70000/ 1078955 entries,  6.49% (elapsed time    10.9s, curr speed    8.205 kHz, avg speed    6.400 kHz), accepted    70001/   70001 events (100.00%)
+Processed    80000/ 1078955 entries,  7.41% (elapsed time    12.2s, curr speed    8.038 kHz, avg speed    6.568 kHz), accepted    80001/   80001 events (100.00%)
+Processed    90000/ 1078955 entries,  8.34% (elapsed time    13.4s, curr speed    8.254 kHz, avg speed    6.720 kHz), accepted    90001/   90001 events (100.00%)
+Processed   100000/ 1078955 entries,  9.27% (elapsed time    14.6s, curr speed    8.018 kHz, avg speed    6.831 kHz), accepted   100001/  100001 events (100.00%)
+Processed   110000/ 1078955 entries, 10.20% (elapsed time    15.9s, curr speed    8.236 kHz, avg speed    6.938 kHz), accepted   110001/  110001 events (100.00%)
+Processed   120000/ 1078955 entries, 11.12% (elapsed time    17.1s, curr speed    7.997 kHz, avg speed    7.016 kHz), accepted   120001/  120001 events (100.00%)
+Processed   130000/ 1078955 entries, 12.05% (elapsed time    18.3s, curr speed    8.173 kHz, avg speed    7.093 kHz), accepted   130001/  130001 events (100.00%)
+Processed   140000/ 1078955 entries, 12.98% (elapsed time    20.0s, curr speed    6.003 kHz, avg speed    7.002 kHz), accepted   140001/  140001 events (100.00%)
+Processed   150000/ 1078955 entries, 13.90% (elapsed time    21.2s, curr speed    8.271 kHz, avg speed    7.075 kHz), accepted   150001/  150001 events (100.00%)
+Processed   160000/ 1078955 entries, 14.83% (elapsed time    22.5s, curr speed    7.881 kHz, avg speed    7.120 kHz), accepted   160001/  160001 events (100.00%)
+Processed   170000/ 1078955 entries, 15.76% (elapsed time    23.7s, curr speed    8.007 kHz, avg speed    7.167 kHz), accepted   170001/  170001 events (100.00%)
+Processed   180000/ 1078955 entries, 16.68% (elapsed time    24.9s, curr speed    8.158 kHz, avg speed    7.215 kHz), accepted   180001/  180001 events (100.00%)
+Processed   190000/ 1078955 entries, 17.61% (elapsed time    26.2s, curr speed    8.217 kHz, avg speed    7.262 kHz), accepted   190001/  190001 events (100.00%)
+Processed   200000/ 1078955 entries, 18.54% (elapsed time    27.4s, curr speed    8.193 kHz, avg speed    7.304 kHz), accepted   200001/  200001 events (100.00%)
+Processed   210000/ 1078955 entries, 19.46% (elapsed time    28.6s, curr speed    8.173 kHz, avg speed    7.341 kHz), accepted   210001/  210001 events (100.00%)
+Processed   220000/ 1078955 entries, 20.39% (elapsed time    29.8s, curr speed    8.067 kHz, avg speed    7.371 kHz), accepted   220001/  220001 events (100.00%)
+Processed   230000/ 1078955 entries, 21.32% (elapsed time    31.1s, curr speed    8.243 kHz, avg speed    7.405 kHz), accepted   230001/  230001 events (100.00%)
+
+
+
+1:10794:44629918
+ event  found in listOfSelectedEvent. Analyze this event
+genPart 0: pt   0.0, 	 eta 23488.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 31105
+genPart 1: pt   0.0, 	 eta -22976.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 2433
+genPart 2: pt  56.1, 	 eta 3.047, 	 phi 1.531, 	 m 82.50, 	 pdgId 24, 	 genPartIdxMother 0, 	 status 22, 	 statusFlags 4481
+genPart 3: pt  31.5, 	 eta -1.625, 	 phi -0.898, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 4: pt  73.8, 	 eta -0.383, 	 phi -2.289, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 5: pt  32.8, 	 eta -1.121, 	 phi 2.844, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 6: pt  59.9, 	 eta 1.348, 	 phi 0.242, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 4481
+genPart 7: pt  82.8, 	 eta 2.688, 	 phi 0.705, 	 m 82.50, 	 pdgId 24, 	 genPartIdxMother 2, 	 status 44, 	 statusFlags 257
+genPart 8: pt  83.0, 	 eta 2.680, 	 phi 0.695, 	 m 82.50, 	 pdgId 24, 	 genPartIdxMother 7, 	 status 44, 	 statusFlags 257
+genPart 9: pt  94.8, 	 eta 2.547, 	 phi 0.811, 	 m 82.50, 	 pdgId 24, 	 genPartIdxMother 8, 	 status 44, 	 statusFlags 257
+genPart 10: pt  93.5, 	 eta 2.555, 	 phi 0.812, 	 m 82.50, 	 pdgId 24, 	 genPartIdxMother 9, 	 status 52, 	 statusFlags 257
+genPart 11: pt  93.5, 	 eta 2.555, 	 phi 0.814, 	 m 82.50, 	 pdgId 24, 	 genPartIdxMother 10, 	 status 44, 	 statusFlags 257
+genPart 12: pt  90.5, 	 eta 2.570, 	 phi 0.822, 	 m 82.50, 	 pdgId 24, 	 genPartIdxMother 11, 	 status 52, 	 statusFlags 257
+genPart 13: pt  13.7, 	 eta -1.457, 	 phi 2.898, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 51, 	 statusFlags 8449
+genPart 14: pt   3.6, 	 eta -0.646, 	 phi -1.309, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 52, 	 statusFlags 8449
+genPart 15: pt   5.5, 	 eta -0.514, 	 phi -2.242, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 52, 	 statusFlags 8449
+genPart 16: pt  89.5, 	 eta 2.578, 	 phi 0.824, 	 m 82.50, 	 pdgId 24, 	 genPartIdxMother 12, 	 status 62, 	 statusFlags 10497
+genPart 17: pt  45.8, 	 eta 2.703, 	 phi 2.852, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother -1, 	 status 1, 	 statusFlags 8193
+genPart 18: pt   3.4, 	 eta 2.133, 	 phi 1.055, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother -1, 	 status 1, 	 statusFlags 8193
+genPart 19: pt  46.5, 	 eta 1.980, 	 phi 1.750, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 16, 	 status 23, 	 statusFlags 22913
+genPart 20: pt  71.8, 	 eta 2.469, 	 phi 0.281, 	 m  0.00, 	 pdgId 12, 	 genPartIdxMother 16, 	 status 23, 	 statusFlags 4481
+genPart 21: pt  16.2, 	 eta 1.395, 	 phi 1.324, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 19, 	 status 1, 	 statusFlags 8449
+genPart 22: pt  32.5, 	 eta 2.391, 	 phi 1.742, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 19, 	 status 1, 	 statusFlags 12289
+genPart 23: pt  65.0, 	 eta 2.469, 	 phi 0.281, 	 m  0.00, 	 pdgId 12, 	 genPartIdxMother 20, 	 status 1, 	 statusFlags 8449
+genPart 24: pt   1.0, 	 eta -1.152, 	 phi -3.141, 	 m  2.01, 	 pdgId 423, 	 genPartIdxMother 15, 	 status 2, 	 statusFlags 12291
+genPart 25: pt  50.8, 	 eta 1.180, 	 phi 0.225, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8449
+genPart 26: pt  47.6, 	 eta 1.180, 	 phi 0.233, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 6, 	 status 2, 	 statusFlags 28675
+genPart 27: pt   1.6, 	 eta -1.273, 	 phi 2.523, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 28: pt  11.7, 	 eta -0.365, 	 phi -2.133, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 29: pt  34.6, 	 eta -0.322, 	 phi -2.195, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 30: pt   3.4, 	 eta -0.425, 	 phi -2.250, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 31: pt   8.7, 	 eta -0.337, 	 phi -2.352, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 32: pt   2.6, 	 eta -0.713, 	 phi -2.562, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 33: pt  19.2, 	 eta 1.203, 	 phi 0.246, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 34: pt   2.4, 	 eta 0.615, 	 phi -2.625, 	 m  0.00, 	 pdgId -421, 	 genPartIdxMother 6, 	 status 2, 	 statusFlags 12291
+genPart 35: pt   9.0, 	 eta -1.227, 	 phi -0.479, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 36: pt   1.7, 	 eta -1.473, 	 phi -0.590, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 37: pt   1.6, 	 eta -1.039, 	 phi -0.605, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 38: pt   7.8, 	 eta -1.230, 	 phi -0.666, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 39: pt   0.7, 	 eta -0.900, 	 phi -0.305, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 40: pt   2.8, 	 eta -1.105, 	 phi -0.945, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 41: pt   0.6, 	 eta -0.547, 	 phi -1.270, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 42: pt   3.5, 	 eta -1.480, 	 phi -0.055, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 43: pt   0.2, 	 eta -3.453, 	 phi -0.325, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 44: pt   8.6, 	 eta -2.078, 	 phi -1.199, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 45: pt   0.6, 	 eta -3.617, 	 phi -1.883, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 46: pt   0.7, 	 eta -0.840, 	 phi 1.094, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 47: pt   7.7, 	 eta -1.516, 	 phi 2.867, 	 m  0.00, 	 pdgId 3, 	 genPartIdxMother 13, 	 status 71, 	 statusFlags 8193
+genPart 48: pt   2.6, 	 eta -1.125, 	 phi 2.703, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 49: pt   8.0, 	 eta -0.936, 	 phi 2.922, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 50: pt   6.6, 	 eta -0.760, 	 phi 2.664, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 51: pt  10.6, 	 eta -0.902, 	 phi 2.633, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 52: pt   8.5, 	 eta -0.672, 	 phi 2.789, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 53: pt   1.1, 	 eta -4.141, 	 phi 0.555, 	 m  0.00, 	 pdgId -3, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 54: pt   0.9, 	 eta -0.947, 	 phi -1.562, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 55: pt   0.6, 	 eta 1.754, 	 phi -3.000, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 56: pt   3.1, 	 eta 1.707, 	 phi -1.176, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 57: pt   3.6, 	 eta 1.281, 	 phi -0.854, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 58: pt   2.0, 	 eta 0.963, 	 phi -0.914, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 59: pt  16.7, 	 eta 2.352, 	 phi 3.109, 	 m  0.00, 	 pdgId -2, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 60: pt  15.7, 	 eta -1.473, 	 phi -2.836, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 61: pt  11.9, 	 eta 2.359, 	 phi 3.133, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 59, 	 status 2, 	 statusFlags 28738
+genPart 62: pt   0.9, 	 eta -1.133, 	 phi 3.102, 	 m  0.00, 	 pdgId 421, 	 genPartIdxMother 24, 	 status 2, 	 statusFlags 12354
+genPart 63: pt  23.6, 	 eta 1.180, 	 phi 0.230, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 26, 	 status 1, 	 statusFlags 12352
+genPart 64: pt  24.1, 	 eta 1.180, 	 phi 0.235, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 26, 	 status 1, 	 statusFlags 12352
+genPart 65: pt   0.0, 	 eta -0.366, 	 phi 0.053, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 47, 	 status 1, 	 statusFlags 12352
+genPart 66: pt   0.0, 	 eta -0.246, 	 phi 0.157, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 47, 	 status 1, 	 statusFlags 12352
+genPart 67: pt  11.4, 	 eta 2.359, 	 phi 3.133, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 61, 	 status 1, 	 statusFlags 12352
+
+
+ printFamilyTree: 
+
+ 0 (2) [0, 23488.00, 0.000]
+	 2 (24) [56, 3.05, 1.531]
+		 7 (24) [83, 2.69, 0.705]
+			 8 (24) [83, 2.68, 0.695]
+				 9 (24) [95, 2.55, 0.811]
+					 10 (24) [94, 2.55, 0.812]
+						 11 (24) [94, 2.55, 0.814]
+							 12 (24) [90, 2.57, 0.822]
+								 16 (24) [90, 2.58, 0.824]
+									 19 (-11) [46, 1.98, 1.750]
+										 21 (-11) [16, 1.39, 1.324]
+										 22 (22) [32, 2.39, 1.742]
+									 20 (12) [72, 2.47, 0.281]
+										 23 (12) [65, 2.47, 0.281]
+	 3 (21) [32, -1.62, -0.898]
+		 35 (21) [9, -1.23, -0.479]
+		 36 (21) [2, -1.47, -0.590]
+		 37 (21) [2, -1.04, -0.605]
+		 38 (21) [8, -1.23, -0.666]
+		 39 (21) [1, -0.90, -0.305]
+		 40 (21) [3, -1.11, -0.945]
+		 41 (21) [1, -0.55, -1.270]
+		 42 (21) [4, -1.48, -0.055]
+		 43 (21) [0, -3.45, -0.325]
+		 44 (21) [9, -2.08, -1.199]
+		 45 (21) [1, -3.62, -1.883]
+		 46 (21) [1, -0.84, 1.094]
+		 54 (21) [1, -0.95, -1.562]
+		 55 (21) [1, 1.75, -3.000]
+		 56 (21) [3, 1.71, -1.176]
+		 57 (21) [4, 1.28, -0.854]
+		 58 (21) [2, 0.96, -0.914]
+	 4 (21) [74, -0.38, -2.289]
+		 14 (21) [4, -0.65, -1.309]
+		 15 (21) [5, -0.51, -2.242]
+			 24 (423) [1, -1.15, -3.141]
+				 62 (421) [1, -1.13, 3.102]
+		 28 (21) [12, -0.37, -2.133]
+		 29 (21) [35, -0.32, -2.195]
+		 30 (21) [3, -0.42, -2.250]
+		 31 (21) [9, -0.34, -2.352]
+		 32 (21) [3, -0.71, -2.562]
+	 5 (21) [33, -1.12, 2.844]
+		 13 (21) [14, -1.46, 2.898]
+			 47 (3) [8, -1.52, 2.867]
+				 65 (11) [0, -0.37, 0.053]
+				 66 (-11) [0, -0.25, 0.157]
+		 27 (21) [2, -1.27, 2.523]
+		 48 (21) [3, -1.12, 2.703]
+		 49 (21) [8, -0.94, 2.922]
+	 6 (1) [60, 1.35, 0.242]
+		 25 (1) [51, 1.18, 0.225]
+		 26 (111) [48, 1.18, 0.233]
+			 63 (22) [24, 1.18, 0.230]
+			 64 (22) [24, 1.18, 0.235]
+		 33 (2) [19, 1.20, 0.246]
+		 34 (-421) [2, 0.62, -2.625]
+Processed   240000/ 1078955 entries, 22.24% (elapsed time    33.8s, curr speed    3.676 kHz, avg speed    7.105 kHz), accepted   240001/  240001 events (100.00%)
+Processed   250000/ 1078955 entries, 23.17% (elapsed time    35.0s, curr speed    8.150 kHz, avg speed    7.141 kHz), accepted   250001/  250001 events (100.00%)
+Processed   260000/ 1078955 entries, 24.10% (elapsed time    36.2s, curr speed    8.199 kHz, avg speed    7.177 kHz), accepted   260001/  260001 events (100.00%)
+Processed   270000/ 1078955 entries, 25.02% (elapsed time    37.5s, curr speed    8.039 kHz, avg speed    7.206 kHz), accepted   270001/  270001 events (100.00%)
+Processed   280000/ 1078955 entries, 25.95% (elapsed time    39.2s, curr speed    5.842 kHz, avg speed    7.146 kHz), accepted   280001/  280001 events (100.00%)
+Processed   290000/ 1078955 entries, 26.88% (elapsed time    40.4s, curr speed    8.143 kHz, avg speed    7.176 kHz), accepted   290001/  290001 events (100.00%)
+Processed   300000/ 1078955 entries, 27.80% (elapsed time    41.6s, curr speed    8.157 kHz, avg speed    7.205 kHz), accepted   300001/  300001 events (100.00%)
+Processed   310000/ 1078955 entries, 28.73% (elapsed time    42.9s, curr speed    8.056 kHz, avg speed    7.230 kHz), accepted   310001/  310001 events (100.00%)
+Processed   320000/ 1078955 entries, 29.66% (elapsed time    44.2s, curr speed    7.841 kHz, avg speed    7.247 kHz), accepted   320001/  320001 events (100.00%)
+Processed   330000/ 1078955 entries, 30.59% (elapsed time    45.9s, curr speed    5.573 kHz, avg speed    7.182 kHz), accepted   330001/  330001 events (100.00%)
+Processed   340000/ 1078955 entries, 31.51% (elapsed time    47.2s, curr speed    8.028 kHz, avg speed    7.204 kHz), accepted   340001/  340001 events (100.00%)
+Processed   350000/ 1078955 entries, 32.44% (elapsed time    48.4s, curr speed    8.334 kHz, avg speed    7.232 kHz), accepted   350001/  350001 events (100.00%)
+Processed   360000/ 1078955 entries, 33.37% (elapsed time    49.6s, curr speed    8.048 kHz, avg speed    7.253 kHz), accepted   360001/  360001 events (100.00%)
+Processed   370000/ 1078955 entries, 34.29% (elapsed time    50.9s, curr speed    8.116 kHz, avg speed    7.274 kHz), accepted   370001/  370001 events (100.00%)
+Processed   380000/ 1078955 entries, 35.22% (elapsed time    52.1s, curr speed    8.335 kHz, avg speed    7.298 kHz), accepted   380001/  380001 events (100.00%)
+Processed   390000/ 1078955 entries, 36.15% (elapsed time    53.3s, curr speed    7.956 kHz, avg speed    7.314 kHz), accepted   390001/  390001 events (100.00%)
+Processed   400000/ 1078955 entries, 37.07% (elapsed time    54.6s, curr speed    7.798 kHz, avg speed    7.325 kHz), accepted   400001/  400001 events (100.00%)
+Processed   410000/ 1078955 entries, 38.00% (elapsed time    55.8s, curr speed    8.071 kHz, avg speed    7.342 kHz), accepted   410001/  410001 events (100.00%)
+Processed   420000/ 1078955 entries, 38.93% (elapsed time    57.9s, curr speed    4.819 kHz, avg speed    7.251 kHz), accepted   420001/  420001 events (100.00%)
+
+
+
+1:39112:161725641
+ event  found in listOfSelectedEvent. Analyze this event
+genPart 0: pt   0.0, 	 eta 23488.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 2433
+genPart 1: pt   0.0, 	 eta -23680.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 10625
+genPart 2: pt 324.0, 	 eta -1.457, 	 phi 1.391, 	 m 77.50, 	 pdgId 24, 	 genPartIdxMother 0, 	 status 22, 	 statusFlags 4481
+genPart 3: pt  78.8, 	 eta 0.869, 	 phi -1.820, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 22913
+genPart 4: pt  76.8, 	 eta 0.417, 	 phi 1.785, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 22913
+genPart 5: pt 474.0, 	 eta 0.471, 	 phi -1.691, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 385
+genPart 6: pt 157.0, 	 eta 0.572, 	 phi 1.352, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 385
+genPart 7: pt 323.0, 	 eta -1.453, 	 phi 1.387, 	 m 77.50, 	 pdgId 24, 	 genPartIdxMother 2, 	 status 44, 	 statusFlags 257
+genPart 8: pt  34.1, 	 eta 0.910, 	 phi -1.754, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 51, 	 statusFlags 8449
+genPart 9: pt 322.0, 	 eta -1.457, 	 phi 1.387, 	 m 77.50, 	 pdgId 24, 	 genPartIdxMother 7, 	 status 44, 	 statusFlags 257
+genPart 10: pt 321.0, 	 eta -1.461, 	 phi 1.383, 	 m 77.50, 	 pdgId 24, 	 genPartIdxMother 9, 	 status 44, 	 statusFlags 257
+genPart 11: pt 321.0, 	 eta -1.461, 	 phi 1.383, 	 m 77.50, 	 pdgId 24, 	 genPartIdxMother 10, 	 status 44, 	 statusFlags 257
+genPart 12: pt   2.3, 	 eta 1.457, 	 phi -2.312, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 44, 	 statusFlags 8449
+genPart 13: pt   6.0, 	 eta 1.266, 	 phi -1.582, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 52, 	 statusFlags 8449
+genPart 14: pt  14.1, 	 eta 0.541, 	 phi 1.754, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 52, 	 statusFlags 8449
+genPart 15: pt  26.8, 	 eta 0.680, 	 phi -1.562, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 51, 	 statusFlags 8449
+genPart 16: pt 322.0, 	 eta -1.461, 	 phi 1.387, 	 m 77.50, 	 pdgId 24, 	 genPartIdxMother 11, 	 status 62, 	 statusFlags 10497
+genPart 17: pt  76.8, 	 eta -1.164, 	 phi 1.051, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 16, 	 status 23, 	 statusFlags 22913
+genPart 18: pt 250.5, 	 eta -1.516, 	 phi 1.484, 	 m  0.00, 	 pdgId 12, 	 genPartIdxMother 16, 	 status 23, 	 statusFlags 4481
+genPart 19: pt 250.5, 	 eta -1.516, 	 phi 1.484, 	 m  0.00, 	 pdgId 12, 	 genPartIdxMother 18, 	 status 1, 	 statusFlags 8449
+genPart 20: pt  76.5, 	 eta -1.164, 	 phi 1.051, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 17, 	 status 1, 	 statusFlags 8449
+genPart 21: pt   0.0, 	 eta -1.164, 	 phi 1.051, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 17, 	 status 1, 	 statusFlags 12289
+genPart 22: pt   0.4, 	 eta -1.180, 	 phi 1.020, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 17, 	 status 1, 	 statusFlags 8193
+genPart 23: pt  15.8, 	 eta 0.666, 	 phi -1.555, 	 m  0.00, 	 pdgId 3, 	 genPartIdxMother 15, 	 status 71, 	 statusFlags 8193
+genPart 24: pt  11.7, 	 eta 0.705, 	 phi -1.672, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 25: pt   0.5, 	 eta 0.309, 	 phi -2.008, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 26: pt  32.0, 	 eta 0.969, 	 phi -1.734, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother 8, 	 status 71, 	 statusFlags 8193
+genPart 27: pt  27.6, 	 eta 0.969, 	 phi -1.738, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 12, 	 status 2, 	 statusFlags 28675
+genPart 28: pt  61.9, 	 eta 0.422, 	 phi 1.223, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8449
+genPart 29: pt  16.2, 	 eta 0.516, 	 phi 1.289, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 30: pt  46.1, 	 eta 0.760, 	 phi 1.379, 	 m  0.00, 	 pdgId -4, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 31: pt  28.4, 	 eta 0.723, 	 phi 1.367, 	 m  2.01, 	 pdgId -413, 	 genPartIdxMother 6, 	 status 2, 	 statusFlags 12291
+genPart 32: pt 405.0, 	 eta 0.458, 	 phi -1.664, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 33: pt  43.8, 	 eta 0.460, 	 phi -1.641, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 34: pt   7.4, 	 eta 0.417, 	 phi -1.578, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 35: pt   5.7, 	 eta 0.321, 	 phi -1.836, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 36: pt  22.3, 	 eta 0.607, 	 phi 1.469, 	 m  0.00, 	 pdgId 4, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 37: pt  16.1, 	 eta 0.586, 	 phi 1.477, 	 m  2.01, 	 pdgId 413, 	 genPartIdxMother 36, 	 status 2, 	 statusFlags 12291
+genPart 38: pt   3.8, 	 eta 0.678, 	 phi -2.102, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 39: pt   1.6, 	 eta 0.260, 	 phi -1.816, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 40: pt   3.2, 	 eta -0.177, 	 phi -2.430, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 41: pt   1.0, 	 eta -0.742, 	 phi -2.703, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 42: pt   4.8, 	 eta 0.475, 	 phi -2.438, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 43: pt   0.7, 	 eta 1.637, 	 phi -1.953, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 44: pt   3.0, 	 eta 0.881, 	 phi 1.504, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 45: pt  29.4, 	 eta 0.386, 	 phi 1.766, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 46: pt  10.9, 	 eta 1.539, 	 phi 2.344, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 47: pt   5.9, 	 eta 0.963, 	 phi 2.953, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 48: pt   2.5, 	 eta 0.670, 	 phi 1.695, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 49: pt   8.1, 	 eta 0.496, 	 phi 1.902, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 50: pt  12.9, 	 eta 0.418, 	 phi 1.738, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 14, 	 status 71, 	 statusFlags 8193
+genPart 51: pt   3.3, 	 eta -1.355, 	 phi 1.770, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 52: pt   0.8, 	 eta 9.250, 	 phi 1.957, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 53: pt  12.8, 	 eta 0.436, 	 phi -1.668, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 15, 	 status 2, 	 statusFlags 28738
+genPart 54: pt  18.6, 	 eta 0.967, 	 phi -1.734, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 27, 	 status 1, 	 statusFlags 12352
+genPart 55: pt  26.2, 	 eta 0.723, 	 phi 1.367, 	 m  0.00, 	 pdgId -421, 	 genPartIdxMother 31, 	 status 2, 	 statusFlags 12354
+genPart 56: pt  15.2, 	 eta 0.584, 	 phi 1.477, 	 m  0.00, 	 pdgId 421, 	 genPartIdxMother 37, 	 status 2, 	 statusFlags 12354
+genPart 57: pt   0.3, 	 eta 8.500, 	 phi 0.949, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 4, 	 status 1, 	 statusFlags 12352
+genPart 58: pt   0.0, 	 eta 8.500, 	 phi 0.977, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 4, 	 status 1, 	 statusFlags 12352
+genPart 59: pt  10.3, 	 eta 0.431, 	 phi -1.672, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 53, 	 status 1, 	 statusFlags 12352
+genPart 60: pt   1.2, 	 eta 0.711, 	 phi 1.281, 	 m  0.00, 	 pdgId 13, 	 genPartIdxMother 55, 	 status 1, 	 statusFlags 12352
+genPart 61: pt   3.8, 	 eta 0.709, 	 phi 1.414, 	 m  0.00, 	 pdgId -14, 	 genPartIdxMother 55, 	 status 1, 	 statusFlags 12352
+
+
+ printFamilyTree: 
+
+ 0 (1) [0, 23488.00, 0.000]
+	 2 (24) [324, -1.46, 1.391]
+		 7 (24) [323, -1.45, 1.387]
+			 9 (24) [322, -1.46, 1.387]
+				 10 (24) [321, -1.46, 1.383]
+					 11 (24) [321, -1.46, 1.383]
+						 16 (24) [322, -1.46, 1.387]
+							 17 (-11) [77, -1.16, 1.051]
+								 20 (-11) [76, -1.16, 1.051]
+								 21 (22) [0, -1.16, 1.051]
+								 22 (22) [0, -1.18, 1.020]
+							 18 (12) [250, -1.52, 1.484]
+								 19 (12) [250, -1.52, 1.484]
+	 3 (21) [79, 0.87, -1.820]
+		 8 (21) [34, 0.91, -1.754]
+			 26 (2) [32, 0.97, -1.734]
+		 12 (21) [2, 1.46, -2.312]
+			 27 (111) [28, 0.97, -1.738]
+				 54 (22) [19, 0.97, -1.734]
+		 13 (21) [6, 1.27, -1.582]
+		 15 (21) [27, 0.68, -1.562]
+			 23 (3) [16, 0.67, -1.555]
+			 53 (111) [13, 0.44, -1.668]
+				 59 (22) [10, 0.43, -1.672]
+		 24 (21) [12, 0.71, -1.672]
+		 25 (21) [0, 0.31, -2.008]
+		 33 (21) [44, 0.46, -1.641]
+		 34 (21) [7, 0.42, -1.578]
+		 35 (21) [6, 0.32, -1.836]
+		 38 (21) [4, 0.68, -2.102]
+		 39 (21) [2, 0.26, -1.816]
+		 40 (21) [3, -0.18, -2.430]
+		 41 (21) [1, -0.74, -2.703]
+		 42 (21) [5, 0.47, -2.438]
+		 43 (21) [1, 1.64, -1.953]
+		 44 (21) [3, 0.88, 1.504]
+	 4 (21) [77, 0.42, 1.785]
+		 14 (21) [14, 0.54, 1.754]
+			 50 (1) [13, 0.42, 1.738]
+		 45 (21) [29, 0.39, 1.766]
+		 48 (21) [3, 0.67, 1.695]
+		 49 (21) [8, 0.50, 1.902]
+		 57 (11) [0, 8.50, 0.949]
+		 58 (-11) [0, 8.50, 0.977]
+	 5 (1) [474, 0.47, -1.691]
+		 32 (1) [405, 0.46, -1.664]
+	 6 (1) [157, 0.57, 1.352]
+		 28 (1) [62, 0.42, 1.223]
+		 29 (21) [16, 0.52, 1.289]
+		 30 (-4) [46, 0.76, 1.379]
+		 31 (-413) [28, 0.72, 1.367]
+			 55 (-421) [26, 0.72, 1.367]
+				 60 (13) [1, 0.71, 1.281]
+				 61 (-14) [4, 0.71, 1.414]
+		 36 (4) [22, 0.61, 1.469]
+			 37 (413) [16, 0.59, 1.477]
+				 56 (421) [15, 0.58, 1.477]
+Processed   430000/ 1078955 entries, 39.85% (elapsed time    60.8s, curr speed    3.511 kHz, avg speed    7.076 kHz), accepted   430001/  430001 events (100.00%)
+Processed   440000/ 1078955 entries, 40.78% (elapsed time    62.0s, curr speed    8.068 kHz, avg speed    7.096 kHz), accepted   440001/  440001 events (100.00%)
+Processed   450000/ 1078955 entries, 41.71% (elapsed time    63.2s, curr speed    8.166 kHz, avg speed    7.116 kHz), accepted   450001/  450001 events (100.00%)
+Processed   460000/ 1078955 entries, 42.63% (elapsed time    64.5s, curr speed    7.839 kHz, avg speed    7.131 kHz), accepted   460001/  460001 events (100.00%)
+
+
+
+1:43066:178075550
+ event  found in listOfSelectedEvent. Analyze this event
+genPart 0: pt   0.0, 	 eta 23040.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 2433
+genPart 1: pt   0.0, 	 eta -23104.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 10625
+genPart 2: pt  26.9, 	 eta -2.273, 	 phi -2.188, 	 m 79.50, 	 pdgId 24, 	 genPartIdxMother 0, 	 status 22, 	 statusFlags 4481
+genPart 3: pt  44.0, 	 eta -1.344, 	 phi -1.223, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 4: pt  47.5, 	 eta 0.668, 	 phi -2.484, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 5: pt 154.5, 	 eta 0.321, 	 phi 0.142, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 6: pt 134.5, 	 eta 0.295, 	 phi 2.594, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 4481
+genPart 7: pt  26.3, 	 eta -2.281, 	 phi -2.188, 	 m 79.50, 	 pdgId 24, 	 genPartIdxMother 2, 	 status 44, 	 statusFlags 257
+genPart 8: pt  26.2, 	 eta -2.281, 	 phi -2.172, 	 m 79.50, 	 pdgId 24, 	 genPartIdxMother 7, 	 status 44, 	 statusFlags 257
+genPart 9: pt  26.6, 	 eta -2.273, 	 phi -2.266, 	 m 79.50, 	 pdgId 24, 	 genPartIdxMother 8, 	 status 44, 	 statusFlags 257
+genPart 10: pt  26.5, 	 eta -2.273, 	 phi -2.289, 	 m 79.50, 	 pdgId 24, 	 genPartIdxMother 9, 	 status 44, 	 statusFlags 257
+genPart 11: pt   8.8, 	 eta -0.238, 	 phi -1.211, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 44, 	 statusFlags 8449
+genPart 12: pt   7.7, 	 eta 2.469, 	 phi 0.502, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 44, 	 statusFlags 8449
+genPart 13: pt   0.1, 	 eta -0.291, 	 phi 3.133, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 51, 	 statusFlags 8449
+genPart 14: pt  26.5, 	 eta -2.273, 	 phi -2.289, 	 m 79.50, 	 pdgId 24, 	 genPartIdxMother 10, 	 status 62, 	 statusFlags 10497
+genPart 15: pt  30.1, 	 eta -1.559, 	 phi 1.789, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 14, 	 status 23, 	 statusFlags 22913
+genPart 16: pt  50.6, 	 eta -0.998, 	 phi -1.785, 	 m  0.00, 	 pdgId 12, 	 genPartIdxMother 14, 	 status 23, 	 statusFlags 4481
+genPart 17: pt  50.6, 	 eta -0.998, 	 phi -1.785, 	 m  0.00, 	 pdgId 12, 	 genPartIdxMother 16, 	 status 1, 	 statusFlags 8449
+genPart 18: pt  29.2, 	 eta -1.555, 	 phi 1.789, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 15, 	 status 1, 	 statusFlags 8449
+genPart 19: pt   0.1, 	 eta -1.559, 	 phi 1.781, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 15, 	 status 1, 	 statusFlags 12289
+genPart 20: pt   0.7, 	 eta -1.645, 	 phi 1.758, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 15, 	 status 1, 	 statusFlags 8193
+genPart 21: pt  66.0, 	 eta 0.510, 	 phi 0.015, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 22: pt   6.0, 	 eta 0.768, 	 phi -0.177, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 23: pt   5.3, 	 eta 0.926, 	 phi 0.205, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 24: pt   0.7, 	 eta 1.617, 	 phi -0.936, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 25: pt  13.1, 	 eta 0.527, 	 phi -0.013, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 12, 	 status 2, 	 statusFlags 28675
+genPart 26: pt   2.8, 	 eta 2.273, 	 phi 0.348, 	 m  2.29, 	 pdgId -4122, 	 genPartIdxMother 12, 	 status 2, 	 statusFlags 12291
+genPart 27: pt 123.2, 	 eta 0.321, 	 phi 2.555, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8449
+genPart 28: pt   1.8, 	 eta 0.654, 	 phi 3.062, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 29: pt   0.6, 	 eta 1.578, 	 phi -2.883, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 30: pt   4.5, 	 eta 0.645, 	 phi -2.516, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 31: pt   6.1, 	 eta 0.721, 	 phi -2.328, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 32: pt  17.0, 	 eta 0.717, 	 phi -2.516, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 33: pt   5.8, 	 eta 0.331, 	 phi -2.359, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 34: pt   1.5, 	 eta 0.939, 	 phi -1.125, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 35: pt   0.6, 	 eta -0.652, 	 phi -1.816, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 36: pt  10.2, 	 eta -1.059, 	 phi -0.758, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 37: pt   0.6, 	 eta -0.537, 	 phi -0.957, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 38: pt   0.5, 	 eta 0.026, 	 phi 2.438, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 39: pt   2.4, 	 eta -0.470, 	 phi 1.422, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 40: pt   5.3, 	 eta 0.475, 	 phi 0.363, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 41: pt   0.4, 	 eta 1.453, 	 phi 1.418, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 42: pt   8.8, 	 eta 0.454, 	 phi 0.468, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 43: pt   4.0, 	 eta 0.607, 	 phi 0.388, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 44: pt   3.4, 	 eta 0.458, 	 phi 0.621, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 45: pt  10.8, 	 eta 0.531, 	 phi 0.527, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 46: pt  16.1, 	 eta 0.459, 	 phi 0.426, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 47: pt   2.3, 	 eta 0.783, 	 phi 0.578, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 48: pt   1.0, 	 eta 0.471, 	 phi -0.266, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 49: pt   9.0, 	 eta 0.210, 	 phi 0.308, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 50: pt  27.8, 	 eta 0.320, 	 phi 2.555, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 6, 	 status 2, 	 statusFlags 28675
+genPart 51: pt   5.9, 	 eta -1.574, 	 phi -0.615, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 52: pt   1.7, 	 eta -1.078, 	 phi -2.375, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 53: pt   0.8, 	 eta -1.629, 	 phi -1.969, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 54: pt   5.2, 	 eta -1.469, 	 phi -1.277, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 55: pt  17.1, 	 eta -1.609, 	 phi -1.020, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 56: pt   2.5, 	 eta -1.457, 	 phi -1.262, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 57: pt   7.9, 	 eta -1.820, 	 phi -1.488, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 58: pt   1.5, 	 eta 2.039, 	 phi -2.227, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 59: pt   0.2, 	 eta 1.559, 	 phi 1.230, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 60: pt   0.7, 	 eta 3.133, 	 phi -3.023, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 61: pt   0.8, 	 eta 3.586, 	 phi -1.273, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 62: pt   0.3, 	 eta 4.438, 	 phi -0.179, 	 m  2.01, 	 pdgId 413, 	 genPartIdxMother 12, 	 status 2, 	 statusFlags 12291
+genPart 63: pt  87.0, 	 eta 0.320, 	 phi 2.555, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 6, 	 status 2, 	 statusFlags 28738
+genPart 64: pt   7.6, 	 eta 0.617, 	 phi -2.555, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 6, 	 status 2, 	 statusFlags 28738
+genPart 65: pt  10.7, 	 eta 0.531, 	 phi -0.010, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 25, 	 status 1, 	 statusFlags 12352
+genPart 66: pt  22.9, 	 eta 0.318, 	 phi 2.555, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 50, 	 status 1, 	 statusFlags 12352
+genPart 67: pt   0.3, 	 eta 4.516, 	 phi -0.136, 	 m  0.00, 	 pdgId 421, 	 genPartIdxMother 62, 	 status 2, 	 statusFlags 12354
+genPart 68: pt   1.2, 	 eta 0.313, 	 phi 2.562, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 63, 	 status 1, 	 statusFlags 12352
+genPart 69: pt  79.2, 	 eta 0.320, 	 phi 2.555, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 63, 	 status 1, 	 statusFlags 12352
+genPart 70: pt   1.9, 	 eta 0.615, 	 phi -2.555, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 64, 	 status 1, 	 statusFlags 12352
+genPart 71: pt   5.6, 	 eta 0.615, 	 phi -2.555, 	 m  0.00, 	 pdgId -11, 	 genPartIdxMother 64, 	 status 1, 	 statusFlags 12352
+
+
+ printFamilyTree: 
+
+ 0 (21) [0, 23040.00, 0.000]
+	 2 (24) [27, -2.27, -2.188]
+		 7 (24) [26, -2.28, -2.188]
+			 8 (24) [26, -2.28, -2.172]
+				 9 (24) [27, -2.27, -2.266]
+					 10 (24) [26, -2.27, -2.289]
+						 14 (24) [26, -2.27, -2.289]
+							 15 (-11) [30, -1.56, 1.789]
+								 18 (-11) [29, -1.55, 1.789]
+								 19 (22) [0, -1.56, 1.781]
+								 20 (22) [1, -1.64, 1.758]
+							 16 (12) [51, -1.00, -1.785]
+								 17 (12) [51, -1.00, -1.785]
+	 3 (21) [44, -1.34, -1.223]
+		 11 (21) [9, -0.24, -1.211]
+		 51 (21) [6, -1.57, -0.615]
+		 52 (21) [2, -1.08, -2.375]
+		 53 (21) [1, -1.63, -1.969]
+		 54 (21) [5, -1.47, -1.277]
+		 55 (21) [17, -1.61, -1.020]
+		 56 (21) [3, -1.46, -1.262]
+		 57 (21) [8, -1.82, -1.488]
+	 4 (21) [48, 0.67, -2.484]
+		 28 (21) [2, 0.65, 3.062]
+		 29 (21) [1, 1.58, -2.883]
+		 30 (21) [4, 0.64, -2.516]
+		 31 (21) [6, 0.72, -2.328]
+		 32 (21) [17, 0.72, -2.516]
+	 5 (21) [154, 0.32, 0.142]
+		 12 (21) [8, 2.47, 0.502]
+			 25 (111) [13, 0.53, -0.013]
+				 65 (22) [11, 0.53, -0.010]
+			 26 (-4122) [3, 2.27, 0.348]
+			 62 (413) [0, 4.44, -0.179]
+				 67 (421) [0, 4.52, -0.136]
+		 13 (21) [0, -0.29, 3.133]
+		 21 (21) [66, 0.51, 0.015]
+		 22 (21) [6, 0.77, -0.177]
+		 23 (21) [5, 0.93, 0.205]
+		 24 (21) [1, 1.62, -0.936]
+		 33 (21) [6, 0.33, -2.359]
+		 34 (21) [1, 0.94, -1.125]
+		 35 (21) [1, -0.65, -1.816]
+		 36 (21) [10, -1.06, -0.758]
+		 37 (21) [1, -0.54, -0.957]
+		 38 (21) [1, 0.03, 2.438]
+		 39 (21) [2, -0.47, 1.422]
+		 40 (21) [5, 0.47, 0.363]
+		 41 (21) [0, 1.45, 1.418]
+		 42 (21) [9, 0.45, 0.468]
+		 43 (21) [4, 0.61, 0.388]
+		 44 (21) [3, 0.46, 0.621]
+		 45 (21) [11, 0.53, 0.527]
+		 46 (21) [16, 0.46, 0.426]
+		 47 (21) [2, 0.78, 0.578]
+		 48 (21) [1, 0.47, -0.266]
+		 49 (21) [9, 0.21, 0.308]
+		 58 (21) [2, 2.04, -2.227]
+		 59 (21) [0, 1.56, 1.230]
+		 60 (21) [1, 3.13, -3.023]
+		 61 (21) [1, 3.59, -1.273]
+	 6 (1) [134, 0.29, 2.594]
+		 27 (1) [123, 0.32, 2.555]
+		 50 (111) [28, 0.32, 2.555]
+			 66 (22) [23, 0.32, 2.555]
+		 63 (111) [87, 0.32, 2.555]
+			 68 (11) [1, 0.31, 2.562]
+			 69 (-11) [79, 0.32, 2.555]
+		 64 (111) [8, 0.62, -2.555]
+			 70 (11) [2, 0.62, -2.555]
+			 71 (-11) [6, 0.62, -2.555]
+Processed   470000/ 1078955 entries, 43.56% (elapsed time    67.4s, curr speed    3.459 kHz, avg speed    6.973 kHz), accepted   470001/  470001 events (100.00%)
+
+
+
+1:48490:200505064
+ event  found in listOfSelectedEvent. Analyze this event
+genPart 0: pt   0.0, 	 eta 23040.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 2433
+genPart 1: pt   0.0, 	 eta -23168.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 10625
+genPart 2: pt 169.5, 	 eta -1.129, 	 phi 2.836, 	 m 80.50, 	 pdgId -24, 	 genPartIdxMother 0, 	 status 22, 	 statusFlags 4481
+genPart 3: pt 127.5, 	 eta -0.105, 	 phi -0.936, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 22913
+genPart 4: pt  44.2, 	 eta -0.629, 	 phi 1.676, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 22913
+genPart 5: pt 100.0, 	 eta 1.395, 	 phi -0.037, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 385
+genPart 6: pt  14.9, 	 eta -1.102, 	 phi 2.242, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 385
+genPart 7: pt 170.0, 	 eta -1.070, 	 phi 2.836, 	 m 80.50, 	 pdgId -24, 	 genPartIdxMother 2, 	 status 44, 	 statusFlags 257
+genPart 8: pt 171.0, 	 eta -1.070, 	 phi 2.844, 	 m 80.50, 	 pdgId -24, 	 genPartIdxMother 7, 	 status 44, 	 statusFlags 257
+genPart 9: pt 170.0, 	 eta -1.082, 	 phi 2.906, 	 m 80.50, 	 pdgId -24, 	 genPartIdxMother 8, 	 status 44, 	 statusFlags 257
+genPart 10: pt  88.0, 	 eta 1.582, 	 phi -0.115, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother 5, 	 status 44, 	 statusFlags 2305
+genPart 11: pt 175.0, 	 eta -1.055, 	 phi 2.906, 	 m 80.50, 	 pdgId -24, 	 genPartIdxMother 9, 	 status 44, 	 statusFlags 257
+genPart 12: pt 175.5, 	 eta -1.059, 	 phi 2.906, 	 m 80.50, 	 pdgId -24, 	 genPartIdxMother 11, 	 status 44, 	 statusFlags 257
+genPart 13: pt 175.5, 	 eta -1.059, 	 phi 2.906, 	 m 80.50, 	 pdgId -24, 	 genPartIdxMother 12, 	 status 44, 	 statusFlags 257
+genPart 14: pt 175.0, 	 eta -1.059, 	 phi 2.906, 	 m 80.50, 	 pdgId -24, 	 genPartIdxMother 13, 	 status 44, 	 statusFlags 257
+genPart 15: pt  13.5, 	 eta -1.066, 	 phi 2.320, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother 6, 	 status 52, 	 statusFlags 2305
+genPart 16: pt 174.0, 	 eta -1.062, 	 phi 2.906, 	 m 80.50, 	 pdgId -24, 	 genPartIdxMother 14, 	 status 62, 	 statusFlags 10497
+genPart 17: pt  35.2, 	 eta 2.008, 	 phi 0.021, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 10, 	 status 1, 	 statusFlags 8193
+genPart 18: pt   4.3, 	 eta -1.129, 	 phi 2.430, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 15, 	 status 1, 	 statusFlags 8193
+genPart 19: pt 177.5, 	 eta -1.020, 	 phi 2.984, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 16, 	 status 23, 	 statusFlags 22913
+genPart 20: pt  13.5, 	 eta -0.590, 	 phi 1.148, 	 m  0.00, 	 pdgId -12, 	 genPartIdxMother 16, 	 status 23, 	 statusFlags 4481
+genPart 21: pt 176.5, 	 eta -1.020, 	 phi 2.984, 	 m  0.00, 	 pdgId 11, 	 genPartIdxMother 19, 	 status 1, 	 statusFlags 8449
+genPart 22: pt   0.9, 	 eta -1.020, 	 phi 2.984, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 19, 	 status 1, 	 statusFlags 12289
+genPart 23: pt  13.5, 	 eta -0.590, 	 phi 1.148, 	 m  0.00, 	 pdgId -12, 	 genPartIdxMother 20, 	 status 1, 	 statusFlags 8449
+genPart 24: pt  33.2, 	 eta 1.293, 	 phi -0.284, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother 10, 	 status 71, 	 statusFlags 8449
+genPart 25: pt   9.2, 	 eta -1.035, 	 phi 2.266, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother 15, 	 status 71, 	 statusFlags 8449
+genPart 26: pt   0.4, 	 eta 0.010, 	 phi 2.797, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 27: pt  18.6, 	 eta -0.658, 	 phi 2.344, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 28: pt   0.5, 	 eta -0.187, 	 phi 0.302, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 29: pt   1.2, 	 eta -1.598, 	 phi 0.670, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 30: pt   2.2, 	 eta -0.863, 	 phi 1.602, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 31: pt   0.4, 	 eta 0.699, 	 phi 0.099, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 32: pt   5.6, 	 eta -0.405, 	 phi 1.223, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 33: pt  18.4, 	 eta -0.449, 	 phi 1.305, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 71, 	 statusFlags 8449
+genPart 34: pt   0.7, 	 eta -0.604, 	 phi -1.426, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 35: pt  60.0, 	 eta -0.022, 	 phi -1.004, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 36: pt  59.9, 	 eta -0.020, 	 phi -0.969, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 37: pt  13.8, 	 eta -0.011, 	 phi -1.008, 	 m  0.55, 	 pdgId 221, 	 genPartIdxMother 25, 	 status 2, 	 statusFlags 28675
+genPart 38: pt  12.2, 	 eta -0.002, 	 phi -1.020, 	 m  0.00, 	 pdgId 22, 	 genPartIdxMother 37, 	 status 1, 	 statusFlags 12352
+
+
+ printFamilyTree: 
+
+ 0 (2) [0, 23040.00, 0.000]
+	 2 (-24) [170, -1.13, 2.836]
+		 7 (-24) [170, -1.07, 2.836]
+			 8 (-24) [171, -1.07, 2.844]
+				 9 (-24) [170, -1.08, 2.906]
+					 11 (-24) [175, -1.05, 2.906]
+						 12 (-24) [176, -1.06, 2.906]
+							 13 (-24) [176, -1.06, 2.906]
+								 14 (-24) [175, -1.06, 2.906]
+									 16 (-24) [174, -1.06, 2.906]
+										 19 (11) [178, -1.02, 2.984]
+											 21 (11) [176, -1.02, 2.984]
+											 22 (22) [1, -1.02, 2.984]
+										 20 (-12) [14, -0.59, 1.148]
+											 23 (-12) [14, -0.59, 1.148]
+	 3 (21) [128, -0.10, -0.936]
+		 34 (21) [1, -0.60, -1.426]
+		 35 (21) [60, -0.02, -1.004]
+		 36 (21) [60, -0.02, -0.969]
+	 4 (21) [44, -0.63, 1.676]
+		 26 (21) [0, 0.01, 2.797]
+		 27 (21) [19, -0.66, 2.344]
+		 28 (21) [1, -0.19, 0.302]
+		 29 (21) [1, -1.60, 0.670]
+		 30 (21) [2, -0.86, 1.602]
+		 31 (21) [0, 0.70, 0.099]
+		 32 (21) [6, -0.41, 1.223]
+		 33 (21) [18, -0.45, 1.305]
+	 5 (2) [100, 1.39, -0.037]
+		 10 (2) [88, 1.58, -0.115]
+			 17 (22) [35, 2.01, 0.021]
+			 24 (2) [33, 1.29, -0.284]
+	 6 (2) [15, -1.10, 2.242]
+		 15 (2) [14, -1.07, 2.320]
+			 18 (22) [4, -1.13, 2.430]
+			 25 (2) [9, -1.04, 2.266]
+				 37 (221) [14, -0.01, -1.008]
+					 38 (22) [12, -0.00, -1.020]
+
+
+
+1:34040:140753330
+ event  found in listOfSelectedEvent. Analyze this event
+genPart 0: pt   0.0, 	 eta 23232.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 2433
+genPart 1: pt   0.0, 	 eta -23296.000, 	 phi 0.000, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 21, 	 statusFlags 2433
+genPart 2: pt  55.1, 	 eta -1.277, 	 phi 1.961, 	 m 80.00, 	 pdgId 24, 	 genPartIdxMother 0, 	 status 22, 	 statusFlags 4481
+genPart 3: pt  27.9, 	 eta 3.258, 	 phi -1.430, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 4: pt  46.9, 	 eta 0.859, 	 phi -1.871, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 2433
+genPart 5: pt 103.2, 	 eta -1.648, 	 phi 1.094, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 4481
+genPart 6: pt  72.2, 	 eta -1.316, 	 phi -1.801, 	 m  0.00, 	 pdgId -2, 	 genPartIdxMother 0, 	 status 23, 	 statusFlags 4481
+genPart 7: pt  55.9, 	 eta -1.223, 	 phi 1.949, 	 m 80.00, 	 pdgId 24, 	 genPartIdxMother 2, 	 status 44, 	 statusFlags 257
+genPart 8: pt  46.2, 	 eta 1.676, 	 phi 0.773, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 44, 	 statusFlags 8449
+genPart 9: pt  60.6, 	 eta -1.145, 	 phi 1.891, 	 m 80.00, 	 pdgId 24, 	 genPartIdxMother 7, 	 status 44, 	 statusFlags 257
+genPart 10: pt  61.6, 	 eta -1.145, 	 phi 1.902, 	 m 80.00, 	 pdgId 24, 	 genPartIdxMother 9, 	 status 44, 	 statusFlags 257
+genPart 11: pt  42.9, 	 eta 0.965, 	 phi -1.938, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 4, 	 status 44, 	 statusFlags 8449
+genPart 12: pt  61.1, 	 eta -1.152, 	 phi 1.902, 	 m 80.00, 	 pdgId 24, 	 genPartIdxMother 10, 	 status 44, 	 statusFlags 257
+genPart 13: pt  61.1, 	 eta -1.152, 	 phi 1.902, 	 m 80.00, 	 pdgId 24, 	 genPartIdxMother 12, 	 status 44, 	 statusFlags 257
+genPart 14: pt  61.1, 	 eta -1.152, 	 phi 1.902, 	 m 80.00, 	 pdgId 24, 	 genPartIdxMother 13, 	 status 44, 	 statusFlags 257
+genPart 15: pt  61.1, 	 eta -1.152, 	 phi 1.902, 	 m 80.00, 	 pdgId 24, 	 genPartIdxMother 14, 	 status 62, 	 statusFlags 10497
+genPart 16: pt  25.6, 	 eta 0.352, 	 phi 1.230, 	 m  0.00, 	 pdgId -13, 	 genPartIdxMother 15, 	 status 1, 	 statusFlags 12673
+genPart 17: pt  44.1, 	 eta -1.523, 	 phi 2.273, 	 m  0.00, 	 pdgId 14, 	 genPartIdxMother 15, 	 status 1, 	 statusFlags 12673
+genPart 18: pt  16.4, 	 eta 1.258, 	 phi -1.492, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 11, 	 status 72, 	 statusFlags 8193
+genPart 19: pt  27.1, 	 eta -1.344, 	 phi -1.785, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8193
+genPart 20: pt  27.4, 	 eta -1.410, 	 phi -1.781, 	 m  0.00, 	 pdgId -2, 	 genPartIdxMother 6, 	 status 71, 	 statusFlags 8449
+genPart 21: pt  34.2, 	 eta -1.352, 	 phi -1.789, 	 m  0.00, 	 pdgId 111, 	 genPartIdxMother 19, 	 status 2, 	 statusFlags 28675
+genPart 22: pt  21.9, 	 eta -1.496, 	 phi 1.121, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother 5, 	 status 71, 	 statusFlags 8449
+genPart 23: pt  16.3, 	 eta -1.527, 	 phi 1.113, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 24: pt  75.8, 	 eta -1.484, 	 phi 1.133, 	 m  0.00, 	 pdgId -3, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 25: pt  22.8, 	 eta -4.500, 	 phi -1.758, 	 m  0.00, 	 pdgId 1, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 26: pt   0.3, 	 eta -3.977, 	 phi -2.734, 	 m  0.00, 	 pdgId 2, 	 genPartIdxMother -1, 	 status 71, 	 statusFlags 8193
+genPart 27: pt  24.9, 	 eta 0.574, 	 phi -2.234, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 11, 	 status 71, 	 statusFlags 8193
+genPart 28: pt   2.7, 	 eta 0.432, 	 phi -2.062, 	 m  0.00, 	 pdgId -1, 	 genPartIdxMother 11, 	 status 71, 	 statusFlags 8193
+genPart 29: pt  13.3, 	 eta 3.484, 	 phi -0.121, 	 m  5.28, 	 pdgId -521, 	 genPartIdxMother 6, 	 status 2, 	 statusFlags 12291
+genPart 30: pt   1.4, 	 eta 2.070, 	 phi -1.082, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 31: pt   2.9, 	 eta 2.773, 	 phi -1.531, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 32: pt   2.8, 	 eta 2.562, 	 phi -2.023, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 33: pt   4.0, 	 eta 2.352, 	 phi -2.555, 	 m  0.00, 	 pdgId 21, 	 genPartIdxMother 3, 	 status 71, 	 statusFlags 8449
+genPart 34: pt   2.2, 	 eta 2.04
