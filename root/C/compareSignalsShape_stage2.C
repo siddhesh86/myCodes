@@ -19,7 +19,7 @@ void getHistogramsYRange(std::vector<TH1*> histograms, double &yMin, double &yMa
     double yMax_tmp = histogram->GetMaximum();
     double yMin_tmp = histogram->GetMinimum();
     if (yMax_tmp > yMax) yMax = yMax_tmp;
-    if (yMin_tmp < yMin) yMin = yMin_tmp;
+    if (yMin_tmp < yMin && yMin_tmp > -9990.) yMin = yMin_tmp;
   }
 }
 
@@ -45,7 +45,33 @@ void plotHistograms(std::vector<TH1*> histograms,
   gStyle->SetOptStat(0);
   gStyle->SetOptTitle(0);
 
+  gStyle->SetPadTickX(1);
+  gStyle->SetPadTickY(1);
 
+  // use large Times-Roman fonts
+  gStyle->SetTextFont(132);
+  gStyle->SetTextSize(0.05);
+	
+  gStyle->SetLabelFont(132,"x");
+  gStyle->SetLabelFont(132,"y");
+  gStyle->SetLabelFont(132,"z");
+	
+  gStyle->SetLabelSize(0.05,"x");
+  gStyle->SetLabelSize(0.05,"y");
+  gStyle->SetLabelSize(0.05,"z");
+	
+  gStyle->SetTitleSize(0.06,"x");
+  gStyle->SetTitleSize(0.06,"y");
+  gStyle->SetTitleSize(0.06,"z");
+
+  gStyle->SetTitleOffset(0.85,"x");
+  gStyle->SetTitleOffset(1.0,"y");
+
+  gStyle->SetNdivisions(505, "x");
+  gStyle->SetNdivisions(505, "y");
+
+
+	
 
   //TCanvas *c1 = new TCanvas("c1","c1", 550, 450);
   TCanvas *c1 = new TCanvas();
@@ -58,9 +84,9 @@ void plotHistograms(std::vector<TH1*> histograms,
   pad2->Draw();
   //gPad->SetLogy(setLogY);
   
-  pad1->SetBottomMargin(0.02);
+  pad1->SetBottomMargin(0.01);
     
-  pad2->SetTopMargin(0.05);
+  pad2->SetTopMargin(0.03);
   pad2->SetBottomMargin(0.3);
   
  
@@ -113,7 +139,8 @@ void plotHistograms(std::vector<TH1*> histograms,
       for (int i = 1; i <= histoRatio->GetNbinsX(); i++)
       {
 	double binContent = histoRatio->GetBinContent(i);
-	histoRatio->SetBinContent(i, binContent - 1.);
+	if (std::abs(binContent - 0.) < 1e-6) histoRatio->SetBinContent(i, -9999.);
+	else                                  histoRatio->SetBinContent(i, binContent - 1.);
       }
       vHistosRatio.push_back(histoRatio);
     }
@@ -130,6 +157,8 @@ void plotHistograms(std::vector<TH1*> histograms,
   yMin_ratio = yMin_ratio * 1.3;
   if (yMax_ratio >  1.5 ) yMax_ratio =  1.5;
   if (yMin_ratio < -1.5 ) yMin_ratio = -1.5;
+  if (yMax_ratio <  0.5 ) yMax_ratio =  0.5;
+  if (yMin_ratio > -0.5 ) yMin_ratio = -0.5;
   
   
   
@@ -143,6 +172,14 @@ void plotHistograms(std::vector<TH1*> histograms,
     h->SetLineColor(histo_line_color[iHisto]);
     h->SetMarkerColor(histo_line_color[iHisto]);
     h->SetMarkerStyle(histo_marker_style[iHisto]);
+    
+    h->GetXaxis()->SetTitleSize(0.06);
+    h->GetXaxis()->SetLabelSize(0.05);
+    h->GetXaxis()->SetTitleOffset(0.85);
+
+    h->GetYaxis()->SetTitleSize(0.06);
+    h->GetYaxis()->SetLabelSize(0.05);
+    h->GetYaxis()->SetTitleOffset(0.85);
 
     h->GetYaxis()->SetRangeUser(yMin, yMax);
 
@@ -179,18 +216,19 @@ void plotHistograms(std::vector<TH1*> histograms,
       
       auto xLabSize = hRatio->GetXaxis()->GetLabelSize();
       auto xTitleSize = hRatio->GetXaxis()->GetTitleSize();
+      auto xOffSet = hRatio->GetXaxis()->GetTitleOffset();
       auto yLabSize = hRatio->GetYaxis()->GetLabelSize();
       auto yTitleSize = hRatio->GetYaxis()->GetTitleSize();
-      auto yOffSet = hRatio->GetYaxis()->GetTitleOffset();
+      //auto yOffSet = hRatio->GetYaxis()->GetTitleOffset();
 
-      hRatio->GetXaxis()->SetTitleSize(0.7*xTitleSize/0.3);
-      hRatio->GetXaxis()->SetLabelSize(0.7*xLabSize/0.3);
+      hRatio->GetXaxis()->SetTitleSize(4.0*xTitleSize);
+      hRatio->GetXaxis()->SetLabelSize(3.0*xLabSize);
+      hRatio->GetXaxis()->SetTitleOffset(0.8*xOffSet);
 
-      hRatio->GetYaxis()->SetTitleSize(0.7*yTitleSize/0.3);
-      hRatio->GetYaxis()->SetLabelSize(0.7*yLabSize/0.3);
+      hRatio->GetYaxis()->SetTitleSize(4.0*yTitleSize);
+      hRatio->GetYaxis()->SetLabelSize(3.0*yLabSize);
 
-      //hRatio->GetYaxis()->SetTitleOffset(0.3*yOffSet/0.7);
-      hRatio->GetYaxis()->SetTitleOffset(0.6);
+      hRatio->GetYaxis()->SetTitleOffset(0.35);
 
       hRatio->GetYaxis()->SetNdivisions(505);
       
@@ -251,7 +289,7 @@ void compareSignalsShape_stage2()
   //std::string sInFile = "addSystFakeRates_hh_2lss_hh_2lss_SS_MVAOutput_SM_RUN2_2021Feb10_2lss0tau_2017datacards_wLFRFullSysts.root";
 
 
-  std::string sInFile = "/hdfs/local/ram/hhAnalysis/2017/2021Feb12_hh_multilepton_3ldatacards_era2017/histograms/hh_3l/Tight_OS/hadd/hadd_stage2_Tight_OS_RUN2.root";
+  //std::string sInFile = "/hdfs/local/ram/hhAnalysis/2017/2021Feb12_hh_multilepton_3ldatacards_era2017/histograms/hh_3l/Tight_OS/hadd/hadd_stage2_Tight_OS_RUN2.root";
 
 
     /*
@@ -315,9 +353,7 @@ void compareSignalsShape_stage2()
     );
   */
 
-
-
-  
+  /*
   std::string sSaveAs = "MVAOutput_SM_BMs_NLO_3l";
   sHistos_signals.Insert(
     "NLO_SM",
@@ -346,30 +382,90 @@ void compareSignalsShape_stage2()
       "hh_3l_OS_Tight/sel/datacard/signal_ggf_nonresonant_cHHH1_hh/MVAOutput_BM9"
     }
     );
-  
+   
   sHistos_signals.Insert(
     "NLO_BM12",
     {
       "hh_3l_OS_Tight/sel/datacard/signal_ggf_nonresonant_cHHH1_hh/MVAOutput_BM12"
     }
     );
-  
-
-
+  */
 
   
+  // 'm3l', 'diHiggsVisMass', 'mSFOS2l_closestToZ', 'dr_LeptonIdx3_AK4jNear_Approach2', 'dr_LeptonIdx3_2j_inclusive1j_Approach2', 'dr_los_min', 'dr_los_max', 'nSFOS_3l', 'met_LD',
+  std::string sInFile = "/hdfs/local/ram/hhAnalysis/2017/2021Feb12_hh_multilepton_3ldatacards_era2017/histograms/hh_3l/Tight_OS/hadd/hadd_stage2_Tight_OS_RUN2.root";
+  //std::string sInFile = "/hdfs/local/ram/hhAnalysis/2017/2021Feb12_hh_multilepton_3ldatacards_era2017/histograms/hh_3l/Tight_OS/hadd/hadd_stage2_Tight_OS_RUN2.root";
+  //std::string sVariable = "m3l";  int rebin = 4;
+  //std::string sVariable = "dihiggsVisMass_sel"; int rebin = 4;
+  //std::string sVariable = "mSFOS2l_closestToZ"; int rebin = 1;
+  //std::string sVariable = "dr_LeptonIdx3_AK4jNear_Approach2"; int rebin = 4;
+  //std::string sVariable = "dr_LeptonIdx3_2j_inclusive1j_Approach2"; int rebin = 4;
+  //std::string sVariable = "dr_los_min"; int rebin = 4;
+  //std::string sVariable = "dr_los_max"; int rebin = 4;
+  std::string sVariable = "numSameFlavor_OS_3l"; int rebin = 1;
+  //std::string sVariable = "met_LD"; int rebin = 4;
+  //std::string sVariable = "";
   
-  std::string xaxis_label = "MVAOutput_SM";
+  std::string sSaveAs = Form("ggHH_SM_LO_vs_NLO_3l_%s",sVariable.c_str());
+  sHistos_signals.Insert(
+    "ggHH SM LO (1 pb)",
+    {
+      Form("hh_3l_OS_Tight/sel/evt/signal_ggf_nonresonant_hh/%s",sVariable.c_str())
+    }
+    );
+
+  sHistos_signals.Insert(
+    "ggHH SM NLO (1 pb)",
+    {
+      Form("hh_3l_OS_Tight/sel/evt/signal_ggf_nonresonant_cHHH1_hh/%s",sVariable.c_str())
+    }
+    );
+  
+
+  /*
+  //'leptonPairMass_sel', 'dihiggsVisMass_sel', 'met_LD', 'dR_ll', 'dR_l_Wjets_min', 'dR_l_leadWjet_min', 'dR_l_Wjets_max', 'dR_l_leadWjet_max', 'dR_2j_fromW1', 'mT_lep1', 
+  std::string sInFile = "/hdfs/local/ssawant/hhAnalysis/2017/20210213_hh_2lss_leq1tau_2017_Datacards_XGammaNonFakeFix/histograms/hh_2lss_leq1tau/Tight_SS/hadd/hadd_stage2_Tight_SS_RUN2.root";
+  //std::string sVariable = "leptonPairMass"; int rebin = 4;
+  //std::string sVariable = "dihiggsVisMass"; int rebin = 4;
+  //std::string sVariable = "met_LD"; int rebin = 4;
+  //std::string sVariable = "dR_ll"; int rebin = 4;
+  //std::string sVariable = "dR_l_Wjets_min"; int rebin = 4;
+  //std::string sVariable = "dR_l_leadWjet_min"; int rebin = 4;
+  //std::string sVariable = "dR_l_Wjets_max"; int rebin = 4;
+  //std::string sVariable = "dR_l_leadWjet_max"; int rebin = 4;
+  //std::string sVariable = "dR_2j_fromW1"; int rebin = 4;
+  std::string sVariable = "mT_lep1_met"; int rebin = 4;
+
+  std::string sSaveAs = Form("ggHH_SM_LO_vs_NLO_2lss_leq1tau_%s",sVariable.c_str());
+  sHistos_signals.Insert(
+    "ggHH SM LO (1 pb)",
+    {
+      Form("hh_2lss_leq1tau_SS_Tight/sel/evt/signal_ggf_nonresonant_hh/%s",sVariable.c_str())
+    }
+    );
+
+  sHistos_signals.Insert(
+    "ggHH SM NLO (1 pb)",
+    {
+      Form("hh_2lss_leq1tau_SS_Tight/sel/evt/signal_ggf_nonresonant_cHHH1_hh/%s",sVariable.c_str())
+    }
+    );
+  */
+
+  
+
+  std::string xaxis_label = sVariable;
   std::string yaxis_label = "Events"; 
 
   bool setLogY = false;
   bool printHistogramIntegrals = true;
   double xsection_HH_SM_NLO = 31.05; // fb
+  std::string sKey_HH_SM_NLO = "ggHH SM NLO (1 pb)";
 
   std::vector<std::string> histogram_labels;
 
-  int rebin = 4;
-  double      normalizeHistos[2] = {0, 1}; // normalizeHistos[0]: mode, normalizeHistos[1]: norm. value
+  //int rebin = 4;
+  double      normalizeHistos[2] = {1, 1}; // normalizeHistos[0]: mode, normalizeHistos[1]: norm. value
                                              // mode 0: don't scale/normalize histograms
                                              // mode 1: normalize w.r.t. area under histo
                                              // mode 2: normalize w.r.t. height of the histo
@@ -422,7 +518,7 @@ void compareSignalsShape_stage2()
     getHistoIntegral(hSignalTotal, histoIntegral, histoIntegralError);
     printf("sSignal: %s \t %f +- %f \n",sSignal.c_str(),histoIntegral, histoIntegralError);
 
-    if (sSignal.compare("HH_SM_NLO") == 0)
+    if (sSignal.compare(sKey_HH_SM_NLO) == 0)
     {
       double scale = 1000. / xsection_HH_SM_NLO;
       hSignalTotal->Scale(scale);
