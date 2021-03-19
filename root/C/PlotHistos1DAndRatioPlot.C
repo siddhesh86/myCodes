@@ -213,7 +213,7 @@ void PlotHistos1DAndRatioPlot() {
   
   std::string sXaxisName = "gen m_{HH} [GeV]";
   std::string sYaxisName = "No. of events";
-  std::string sSaveAs = Form("gen_mHH_SM_LO_vs_NLO_%s_%s_%s_20210317_2_logX",sEra.c_str(),sVersion0.c_str(),sExt1.c_str());
+  std::string sSaveAs = Form("gen_mHH_SM_LO_vs_NLO_%s_%s_%s_20210317_3_logX",sEra.c_str(),sVersion0.c_str(),sExt1.c_str());
   double      rangeXaxis[3] = {0, 250, 1200}; // rangeXaxis[0]: set axis range flag
   double      rangeYaxis[3] = {1, 1e-7, 1e-2}; // rangeYaxis[0]: set axis range flag
   double      rangeYaxisRatioPlot[3] = {1, -1, 1}; // rangeYaxis[0]: set axis range flag
@@ -360,10 +360,10 @@ void PlotHistos1DAndRatioPlot() {
 
 
  
-  TLegend *leg = new TLegend(0.4,0.7,0.99,0.99);
+  TLegend *leg = new TLegend(0.5,0.75,1.0,1.0);
   leg->SetBorderSize(0);
   leg->SetFillColor(0);
-
+  leg->SetMargin(0.1);
   
   for (size_t iHisto=0; iHisto < vHistoDetails.size(); iHisto++) {
     std::map<std::string, std::string> iHistoDetails = vHistoDetails[iHisto];
