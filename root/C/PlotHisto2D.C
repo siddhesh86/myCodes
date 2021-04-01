@@ -24,77 +24,15 @@ void PlotHisto2D() {
   
 
   std::string sipFile, sHistoName, sLegend, sXaxis, sYaxis, sSaveAs;
-  int setLogZ;
+  int setLogZ; 
 
-  // muon
-  if (1==0) {
-  sipFile = "leptonCutEffi_FR_runIndividually_QCD_mu_20200906_5_TEST4_wTTToHadronic_test.root";
-  sHistoName = "QCD/muon_mvaTTH0p85_CriteriaDefault/hmvaTTH_vs_pt_mu_mvaTTH0p85_CriteriaDefault_genMatchedToFake";
+  
+  sipFile = "denominator_histos_PetrBinning/denom_2017.root";
+  sHistoName = "signal_ggf_nonresonant_node_sm_hh_4v_private";
   sLegend = "#mu QCD  (mvaTTH cut 0.85)";
   sXaxis = "reco p_{T} [GeV]";
   sYaxis = "mvaTTH";
-  sSaveAs = "mvaTTH_vs_reco_pt_mu_mvaTTH0p85_QCD";
-  }
-  if (1==0) {
-  sipFile = "leptonCutEffi_FR_runIndividually_QCD_mu_20200906_5_TEST4_wTTToHadronic_test.root";
-  sHistoName = "QCD/muon_mvaTTH0p85_CriteriaDefault/hmvaTTH_vs_cone_pt_mu_mvaTTH0p85_CriteriaDefault_genMatchedToFake";
-  sLegend = "#mu QCD  (mvaTTH cut 0.85)";
-  sXaxis = "cone p_{T} [GeV]";
-  sYaxis = "mvaTTH";
-  sSaveAs = "mvaTTH_vs_cone_pt_mu_mvaTTH0p85_QCD";
-  }
-  if (1==0) {
-  sipFile = "leptonCutEffi_FR_runIndividually_QCD_mu_20200906_5_TEST4_wTTToHadronic_test.root";
-  sHistoName = "QCD/muon_mvaTTH0p5_POGWPL_DeepJetWPI_JetRelIso0p5/hmvaTTH_vs_pt_mu_mvaTTH0p5_POGWPL_DeepJetWPI_JetRelIso0p5_genMatchedToFake";
-  sLegend = "#mu QCD  (mvaTTH cut 0.5)";
-  sXaxis = "reco p_{T} [GeV]";
-  sYaxis = "mvaTTH";
-  sSaveAs = "mvaTTH_vs_reco_pt_mu_mvaTTH0p5_QCD";
-  }
-  if (1==1) {
-  sipFile = "leptonCutEffi_FR_runIndividually_QCD_mu_20200906_5_TEST4_wTTToHadronic_test.root";
-  sHistoName = "QCD/muon_mvaTTH0p5_POGWPL_DeepJetWPI_JetRelIso0p5/hmvaTTH_vs_cone_pt_mu_mvaTTH0p5_POGWPL_DeepJetWPI_JetRelIso0p5_genMatchedToFake";
-  sLegend = "#mu QCD  (mvaTTH cut 0.5)";
-  sXaxis = "cone p_{T} [GeV]";
-  sYaxis = "mvaTTH";
-  sSaveAs = "mvaTTH_vs_cone_pt_mu_mvaTTH0p5_QCD";
-  }
-
-
-
-  // electron
-  if (1==0) {
-  sipFile = "leptonCutEffi_FR_runIndividually_QCD_e_20200906_5_TEST4_wTTToHadronic_test.root";
-  sHistoName = "QCD/electron_mvaTTH0p8_CriteriaDefault/hmvaTTH_vs_pt_e_mvaTTH0p8_CriteriaDefault_genMatchedToFake";
-  sLegend = "e QCD  (mvaTTH cut 0.8)";
-  sXaxis = "reco p_{T} [GeV]";
-  sYaxis = "mvaTTH";
-  sSaveAs = "mvaTTH_vs_reco_pt_e_mvaTTH0p8_QCD";
-  }
-  if (1==0) {
-  sipFile = "leptonCutEffi_FR_runIndividually_QCD_e_20200906_5_TEST4_wTTToHadronic_test.root";
-  sHistoName = "QCD/electron_mvaTTH0p8_CriteriaDefault/hmvaTTH_vs_cone_pt_e_mvaTTH0p8_CriteriaDefault_genMatchedToFake";
-  sLegend = "e QCD  (mvaTTH cut 0.8)";
-  sXaxis = "cone p_{T} [GeV]";
-  sYaxis = "mvaTTH";
-  sSaveAs = "mvaTTH_vs_cone_pt_e_mvaTTH0p8_QCD";
-  }
-  if (1==0) {
-  sipFile = "leptonCutEffi_FR_runIndividually_QCD_e_20200906_5_TEST4_wTTToHadronic_test.root";
-  sHistoName = "QCD/electron_mvaTTH0p3_POGWPL_DeepJetWPT_JetRelIso0p7/hmvaTTH_vs_pt_e_mvaTTH0p3_POGWPL_DeepJetWPT_JetRelIso0p7_genMatchedToFake";
-  sLegend = "e QCD  (mvaTTH cut 0.3)";
-  sXaxis = "reco p_{T} [GeV]";
-  sYaxis = "mvaTTH";
-  sSaveAs = "mvaTTH_vs_reco_pt_e_mvaTTH0p3_QCD";
-  }
-  if (1==0) {
-  sipFile = "leptonCutEffi_FR_runIndividually_QCD_e_20200906_5_TEST4_wTTToHadronic_test.root";
-  sHistoName = "QCD/electron_mvaTTH0p3_POGWPL_DeepJetWPT_JetRelIso0p7/hmvaTTH_vs_cone_pt_e_mvaTTH0p3_POGWPL_DeepJetWPT_JetRelIso0p7_genMatchedToFake";
-  sLegend = "e QCD  (mvaTTH cut 0.3)";
-  sXaxis = "cone p_{T} [GeV]";
-  sYaxis = "mvaTTH";
-  sSaveAs = "mvaTTH_vs_cone_pt_e_mvaTTH0p3_QCD";
-  }
+  sSaveAs = "test";
 
 
   
@@ -113,8 +51,28 @@ void PlotHisto2D() {
   if ( ! h) {
     printf("Couldn't fetch histogram %s from file %s  \t\t\t *** ERROR **** \n",sHistoName.data(),sipFile.data());
     return;
-  }  
+  }
 
+
+  TAxis *axis;
+
+  axis = h->GetXaxis();
+  printf("\nX-axis binning:: %i [",axis->GetNbins());
+  for (int i=1; i<=axis->GetNbins(); i++)
+  {
+    printf(" %g,",axis->GetBinLowEdge(i));
+    if (i == axis->GetNbins()) printf(" %g] \n",axis->GetBinUpEdge(i));
+  }
+  
+  axis = h->GetYaxis();
+  printf("\nY-axis binning:: %i [",axis->GetNbins());
+  for (int i=1; i<=axis->GetNbins(); i++)
+  {
+    printf(" %g,",axis->GetBinLowEdge(i));
+    if (i == axis->GetNbins()) printf(" %g] \n",axis->GetBinUpEdge(i));
+  }
+
+  
   TCanvas *c1 = new TCanvas("c1","c1", 600, 450);
   c1->cd();
 
