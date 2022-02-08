@@ -16,7 +16,11 @@ void GetListOfDirectoriesFromFile() {
     printf("Couldn't fetch %s directory.. \t *** ERROR *** \nTerminating..\n",sDirectory.Data());
   }
 
-  TIter next(dir1->GetListOfKeys());
+  TIter next0(fIpFile->GetListOfKeys());
+  TIter next1(dir1->GetListOfKeys());
+  TIter next;
+  if (sDirectory.IsNull()) next = next0;
+  else                     next = next1;
   TKey key;
   while (TObject *obj = next()) {
     /*
